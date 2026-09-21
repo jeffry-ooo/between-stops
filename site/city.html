@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sightseeing by Bus</title>
+<meta name="description" content="See a city's must-visit sights from ordinary public buses — one regular ticket, no hop-on-hop-off tour.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+
+<div class="site-shell">
+<header class="topnav">
+  <a class="topnav-brand" href="index.html">PTT</a>
+  <nav class="topnav-links">
+    <a href="index.html" aria-current="page">Cities</a>
+    <a href="about.html">About</a>
+    <a href="support.html">Support</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="app" id="app">
+
+  <aside class="panel">
+    <header class="panel-head">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 16V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10"/>
+            <path d="M3 16h18"/><path d="M6 16v2"/><path d="M18 16v2"/>
+            <path d="M5 9h14"/><circle cx="7.5" cy="13" r="1"/><circle cx="16.5" cy="13" r="1"/>
+          </svg>
+        </span>
+        <div>
+          <h1>Sightseeing by Bus</h1>
+          <p class="brand-sub" id="brandSub">on one ordinary ticket</p>
+        </div>
+      </div>
+      <nav class="cities" id="cities" aria-label="City"></nav>
+      <p class="pitch" id="pitch"></p>
+    </header>
+
+    <nav class="loops" id="loops" aria-label="Suggested bus loops"></nav>
+
+    <div class="loop-meta" id="loopMeta"></div>
+
+    <div class="controls">
+      <label class="switch">
+        <input type="checkbox" id="onlySights" checked>
+        <span>Only stops with sights</span>
+      </label>
+      <span class="count" id="stopCount"></span>
+    </div>
+
+    <ol class="itinerary" id="itinerary"></ol>
+
+    <details class="why" id="why">
+      <summary>Why these lines?</summary>
+      <div class="why-body" id="whyBody"></div>
+    </details>
+
+    <footer class="panel-foot" id="foot"></footer>
+  </aside>
+
+  <main class="map-wrap">
+    <div id="map"></div>
+    <div class="legend" id="legend">
+      <span class="lg"><i class="dot poi"></i> Sight</span>
+      <span class="lg"><i class="dot must"></i> Must-see</span>
+      <span class="lg"><i class="dot stop"></i> Bus stop</span>
+      <span class="lg"><i class="dot walk"></i> 300 m walk</span>
+    </div>
+  </main>
+
+</div>
+</div>
+
+<div class="loading" id="loading"><span class="spinner"></span> Loading routes…</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="app.js?v=3"></script>
+</body>
+</html>

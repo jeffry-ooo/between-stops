@@ -1,0 +1,202 @@
+/* Curator tool — internal use only, not part of the tourist-facing site.
+   Reuses styles.css's CSS variables and topnav; everything else is its own,
+   denser layout since this is a working tool, not a marketing page. */
+
+.cur-citypick {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 420px;
+}
+#citySelect {
+  font: inherit;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+}
+.cur-counts { font-size: 12px; color: var(--ink-3); white-space: nowrap; }
+.cur-tag {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--ink-3);
+  background: var(--chip);
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.cur-app {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 300px 1fr 340px;
+}
+
+/* ---- left: searchable list ---- */
+
+.cur-list {
+  border-right: 1px solid var(--line);
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.cur-search {
+  margin: 12px;
+  padding: 8px 10px;
+  font: inherit;
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--ink);
+}
+.cur-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  padding: 0 12px 10px;
+  font-size: 11.5px;
+  color: var(--ink-2);
+  border-bottom: 1px solid var(--line-2);
+}
+.cur-filters label { display: flex; align-items: center; gap: 4px; cursor: pointer; }
+
+.cur-rows { list-style: none; margin: 0; padding: 4px 0; overflow-y: auto; flex: 1; min-height: 0; }
+.cur-row {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  font-size: 12.5px;
+}
+.cur-row:hover { background: var(--line-2); }
+.cur-row.is-active { background: var(--chip); border-left-color: var(--accent); }
+.cur-row-name { font-weight: 560; color: var(--ink); }
+.cur-row-name .star { color: #e8a33d; margin-right: 3px; }
+.cur-row-name .gem { color: #2f9e6e; margin-right: 3px; }
+.cur-row-meta { color: var(--ink-3); font-size: 11px; margin-top: 1px; }
+.cur-row.is-curated .cur-row-name::after {
+  content: "curated";
+  margin-left: 6px;
+  font-size: 9.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* ---- centre: map ---- */
+
+.cur-map-wrap { position: relative; }
+.cur-map-wrap #map { position: absolute; inset: 0; background: var(--bg); }
+.cur-legend {
+  position: absolute; left: 12px; bottom: 14px; z-index: 500;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 11px;
+  display: flex; flex-wrap: wrap; gap: 10px;
+  font-size: 11px; color: var(--ink-2);
+  box-shadow: var(--shadow);
+  max-width: 260px;
+}
+.cur-legend span { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
+.dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.dot.raw { background: #b8bfc9; }
+.dot.curated { background: #1c7ed6; }
+.dot.must { background: #e8a33d; }
+.dot.gem { background: #2f9e6e; }
+.dot.stopdot { background: #fff; border: 2px solid #8a94a6; }
+
+/* ---- right: edit + export ---- */
+
+.cur-edit {
+  border-left: 1px solid var(--line);
+  background: var(--panel);
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.cur-empty { color: var(--ink-3); font-size: 13px; padding-top: 20px; text-align: center; }
+
+.cur-edit h3 { margin: 0; font-size: 15px; letter-spacing: -.01em; }
+.cur-tagdump {
+  font-size: 11px;
+  color: var(--ink-3);
+  background: var(--line-2);
+  border-radius: 8px;
+  padding: 8px 10px;
+  line-height: 1.6;
+  word-break: break-word;
+}
+.cur-tagdump a { color: var(--accent); }
+.cur-nearest { font-size: 12px; color: var(--ink-2); }
+.cur-nearest b { color: var(--ink); }
+.cur-nearest.is-far { color: #c92a2a; }
+
+.cur-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--ink-2);
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+.cur-field input, .cur-field textarea, .cur-field select {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--ink);
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--bg);
+  resize: vertical;
+}
+
+.cur-checks { display: flex; gap: 16px; font-size: 13px; color: var(--ink); }
+.cur-checks label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+
+.cur-actions { display: flex; gap: 8px; }
+.cur-btn {
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--ink);
+  cursor: pointer;
+}
+.cur-btn:hover { border-color: var(--ink-3); }
+.cur-btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+.cur-export { border-top: 1px solid var(--line-2); padding-top: 12px; }
+.cur-export summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--ink); }
+.cur-hint { font-size: 11.5px; color: var(--ink-3); margin: 8px 0; }
+#exportBox {
+  width: 100%;
+  font: 11.5px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line-2);
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1100px) {
+  .cur-app { grid-template-columns: 260px 1fr; }
+  .cur-edit { display: none; }
+}

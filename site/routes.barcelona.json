@@ -1,0 +1,9469 @@
+{
+ "city": {
+  "slug": "barcelona",
+  "name": "Barcelona",
+  "country": "Spain",
+  "operator": "TMB",
+  "operator_url": "https://www.tmb.cat",
+  "tour_price_eur": 33,
+  "ticket_note": "a T-casual gives 10 rides for about €12.55"
+ },
+ "generated_from": {
+  "gtfs_publisher": "TMB",
+  "gtfs_version": "084410042026002",
+  "gtfs_valid_from": "20260410",
+  "gtfs_valid_to": "20261205",
+  "pois": "OpenStreetMap via Overpass API (ODbL)"
+ },
+ "bbox": {
+  "south": 41.35,
+  "west": 2.11,
+  "north": 41.43,
+  "east": 2.22
+ },
+ "walk_radius_m": 300,
+ "service_hours": 18,
+ "min_trips_per_day": 120,
+ "scoring": "score = sum of POI weights (must-see sights count 2.5x) + 1.5 x distinct 700 m district cells those POIs fall in, so both geographic spread and headline sights can outrank raw count",
+ "stats": {
+  "bus_routes": 105,
+  "bbox_stops": 2185,
+  "bbox_bus_stops": 1638,
+  "pois_total": 45,
+  "pois_bus_reachable": 43
+ },
+ "all_pois": [
+  {
+   "id": "way/377875377",
+   "name": "Arc de Triomf",
+   "osm_name": "Arc de Triomf",
+   "description": "Red-brick arch built as the gateway to the 1888 World Fair — Moorish, not Roman.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 41.391042,
+   "lon": 2.180645,
+   "wikidata": "Q631075",
+   "website": null,
+   "nearest_stop_m": 51,
+   "nearest_bus_stop_m": 51,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/4551543970",
+   "name": "Arenas de Barcelona",
+   "osm_name": "Arenas de Barcelona",
+   "description": "A Moorish-revival bullring turned shopping centre, with a free rooftop walkway.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 41.376343,
+   "lon": 2.149044,
+   "wikidata": "Q11913814",
+   "website": null,
+   "nearest_stop_m": 45,
+   "nearest_bus_stop_m": 45,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/3298476",
+   "name": "Barcelona Cathedral",
+   "osm_name": "Catedral de la Santa Creu i Santa Eulàlia",
+   "description": "The Gothic cathedral of Santa Eulàlia, with 13 white geese in its cloister — one per year of her life.",
+   "category": "church",
+   "must_see": true,
+   "lat": 41.383927,
+   "lon": 2.176346,
+   "wikidata": "Q17155",
+   "website": "https://www.catedralbcn.org/",
+   "nearest_stop_m": 139,
+   "nearest_bus_stop_m": 139,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/8319795250",
+   "name": "Barcelona Zoo",
+   "osm_name": "Zoo de Barcelona",
+   "description": "Inside the Ciutadella park; once home to Snowflake, the only known albino gorilla.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 41.387905,
+   "lon": 2.191166,
+   "wikidata": null,
+   "website": "https://zoobarcelona.cat",
+   "nearest_stop_m": 160,
+   "nearest_bus_stop_m": 217,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/7333373",
+   "name": "Barceloneta Beach",
+   "osm_name": "Platja de la Barceloneta",
+   "description": "The city beach that did not exist before 1992, when the Olympics opened the seafront.",
+   "category": "beach",
+   "must_see": false,
+   "lat": 41.379381,
+   "lon": 2.193398,
+   "wikidata": "Q1053014",
+   "website": null,
+   "nearest_stop_m": 95,
+   "nearest_bus_stop_m": 95,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/61892111",
+   "name": "Botanical Garden",
+   "osm_name": "Jardí Botànic de Barcelona",
+   "description": "Mediterranean-climate plants from five continents, terraced down the Montjuïc slope.",
+   "category": "park",
+   "must_see": false,
+   "lat": 41.362271,
+   "lon": 2.158046,
+   "wikidata": "Q2605209",
+   "website": "https://museuciencies.cat/el-nat/les-seus/jardi-botanic-de-barcelona/",
+   "nearest_stop_m": 124,
+   "nearest_bus_stop_m": 124,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/2873579",
+   "name": "CCCB",
+   "osm_name": "Centre de Cultura Contemporània de Barcelona",
+   "description": "A former workhouse turned exhibition hall, with a mirrored wall reflecting the skyline.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 41.383715,
+   "lon": 2.166578,
+   "wikidata": "Q2945260",
+   "website": "https://www.cccb.org/",
+   "nearest_stop_m": 36,
+   "nearest_bus_stop_m": 36,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/5337055959",
+   "name": "Camp Nou",
+   "osm_name": "Camp Nou Experience",
+   "description": "Europe's largest football stadium, rebuilt around the club's museum.",
+   "category": "museum",
+   "must_see": true,
+   "lat": 41.38039,
+   "lon": 2.120636,
+   "wikidata": "Q616238",
+   "website": "https://www.fcbarcelona.com/tour/buy-tickets",
+   "nearest_stop_m": 128,
+   "nearest_bus_stop_m": 128,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/9427552",
+   "name": "Casa Amatller",
+   "osm_name": "Casa Amatller",
+   "description": "Puig i Cadafalch's stepped Flemish gable, next door to Casa Batlló in the Block of Discord.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 41.391339,
+   "lon": 2.164773,
+   "wikidata": "Q506814",
+   "website": null,
+   "nearest_stop_m": 56,
+   "nearest_bus_stop_m": 63,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/9427554",
+   "name": "Casa Batlló",
+   "osm_name": "Casa Batlló",
+   "description": "The dragon-backed house on Passeig de Gràcia — no straight lines, bone-like balconies.",
+   "category": "historic",
+   "must_see": true,
+   "lat": 41.391541,
+   "lon": 2.164761,
+   "wikidata": "Q461371",
+   "website": "https://www.casabatllo.es/",
+   "nearest_stop_m": 39,
+   "nearest_bus_stop_m": 52,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/8974896",
+   "name": "Casa Milà (La Pedrera)",
+   "osm_name": "Casa Milà",
+   "description": "Gaudí's wave-fronted apartment block; the roof is a garden of chimney warriors.",
+   "category": "historic",
+   "must_see": true,
+   "lat": 41.395399,
+   "lon": 2.161878,
+   "wikidata": "Q207870",
+   "website": "https://www.lapedrera.com/ca/home",
+   "nearest_stop_m": 93,
+   "nearest_bus_stop_m": 120,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/132514125",
+   "name": "Casa Vicens",
+   "osm_name": "Casa Vicens",
+   "description": "Gaudí's first house — green tiles and Moorish geometry, opened to visitors only in 2017.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 41.403499,
+   "lon": 2.150627,
+   "wikidata": "Q746333",
+   "website": "https://casavicens.org/",
+   "nearest_stop_m": 48,
+   "nearest_bus_stop_m": 48,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/126451774",
+   "name": "Columbus Monument",
+   "osm_name": "Monument a Colom",
+   "description": "A 60 m column at the foot of the Rambla; the lift to the top is the cheapest view in town.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 41.375802,
+   "lon": 2.177774,
+   "wikidata": "Q2288815",
+   "website": "https://thisisbarcelona.com/ca/tickets/monumento-mirador-colom",
+   "nearest_stop_m": 114,
+   "nearest_bus_stop_m": 114,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/14022328893",
+   "name": "El Born CCM",
+   "osm_name": "El Born",
+   "description": "A market hall built over the streets flattened in 1714, now excavated beneath your feet.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 41.385712,
+   "lon": 2.183637,
+   "wikidata": "Q18695772",
+   "website": "https://www.barcelona.cat/museuhistoria/ca/patrimonis-i-recerca/els-espais-del-museu/el-born",
+   "nearest_stop_m": 147,
+   "nearest_bus_stop_m": 147,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/3347844",
+   "name": "Fundació Joan Miró",
+   "osm_name": "Fundació Joan Miró",
+   "description": "Miró's own foundation in a white Sert building full of Mediterranean light.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 41.36865,
+   "lon": 2.159848,
+   "wikidata": "Q45275033",
+   "website": "https://www.fmirobcn.org/",
+   "nearest_stop_m": 90,
+   "nearest_bus_stop_m": 90,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/6288735",
+   "name": "La Boqueria",
+   "osm_name": "Mercat de Sant Josep - La Boqueria",
+   "description": "The Rambla's cathedral of food, under a wrought-iron roof of 1914.",
+   "category": "market",
+   "must_see": true,
+   "lat": 41.381735,
+   "lon": 2.171578,
+   "wikidata": "Q1334899",
+   "website": "https://www.boqueria.barcelona/",
+   "nearest_stop_m": 81,
+   "nearest_bus_stop_m": 126,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/1117840338",
+   "name": "La Rambla",
+   "osm_name": "La Rambla",
+   "description": "The 1.2 km promenade down a filled-in stream bed, from Catalunya to the sea.",
+   "category": "attraction",
+   "must_see": true,
+   "lat": 41.383478,
+   "lon": 2.171564,
+   "wikidata": "Q850593",
+   "website": null,
+   "nearest_stop_m": 179,
+   "nearest_bus_stop_m": 230,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/36930946",
+   "name": "MACBA",
+   "osm_name": "Museu d'Art Contemporani de Barcelona",
+   "description": "Richard Meier's white box of contemporary art, its plaza colonised by skateboarders.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 41.383102,
+   "lon": 2.166746,
+   "wikidata": "Q1067140",
+   "website": "https://www.macba.cat/",
+   "nearest_stop_m": 100,
+   "nearest_bus_stop_m": 100,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/14075577293",
+   "name": "MNAC",
+   "osm_name": "Museu Nacional d'Art de Catalunya",
+   "description": "Romanesque frescoes rescued from Pyrenean churches, in a palace above the Magic Fountain.",
+   "category": "museum",
+   "must_see": true,
+   "lat": 41.368602,
+   "lon": 2.153462,
+   "wikidata": "Q861252",
+   "website": "https://www.museunacional.cat/",
+   "nearest_stop_m": 218,
+   "nearest_bus_stop_m": 218,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/35816134",
+   "name": "Magic Fountain",
+   "osm_name": "Font Màgica de Montjuïc",
+   "description": "The 1929 fountain that still does its light-and-water show below the MNAC steps.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 41.371157,
+   "lon": 2.151738,
+   "wikidata": "Q1414600",
+   "website": null,
+   "nearest_stop_m": 136,
+   "nearest_bus_stop_m": 136,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/14080861534",
+   "name": "Maritime Museum",
+   "osm_name": "Museu Marítim de Barcelona",
+   "description": "The medieval royal shipyards, where galleys were built indoors under stone arches.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 41.3755,
+   "lon": 2.176427,
+   "wikidata": "Q1286354",
+   "website": "https://www.mmb.cat/",
+   "nearest_stop_m": 59,
+   "nearest_bus_stop_m": 59,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/249401797",
+   "name": "Mercat de Sant Antoni",
+   "osm_name": "Mercat de Sant Antoni",
+   "description": "A cast-iron market on a Greek-cross plan, reopened in 2018 over Roman road remains.",
+   "category": "market",
+   "must_see": false,
+   "lat": 41.378623,
+   "lon": 2.162049,
+   "wikidata": "Q3753734",
+   "website": null,
+   "nearest_stop_m": 90,
+   "nearest_bus_stop_m": 110,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/67917935",
+   "name": "Mies van der Rohe Pavilion",
+   "osm_name": "Pavelló Mies van der Rohe",
+   "description": "The Barcelona Pavilion — travertine, onyx and a chair that defined a century.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 41.370552,
+   "lon": 2.149964,
+   "wikidata": "Q807915",
+   "website": "https://miesbcn.com/ca/el-pavello/",
+   "nearest_stop_m": 56,
+   "nearest_bus_stop_m": 56,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/19658818",
+   "name": "Montjuïc Castle",
+   "osm_name": "Castell de Montjuïc",
+   "description": "The fortress that shelled the city more than it defended it; now the best 360° viewpoint.",
+   "category": "castle",
+   "must_see": true,
+   "lat": 41.362705,
+   "lon": 2.164785,
+   "wikidata": "Q2500125",
+   "website": "https://ajuntament.barcelona.cat/castelldemontjuic/ca",
+   "nearest_stop_m": 296,
+   "nearest_bus_stop_m": 296,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/188938001",
+   "name": "Museu Picasso",
+   "osm_name": "Museu Picasso",
+   "description": "Five medieval palaces holding the painter's youth — the work before he became Picasso.",
+   "category": "museum",
+   "must_see": true,
+   "lat": 41.385097,
+   "lon": 2.181236,
+   "wikidata": "Q1050032",
+   "website": "https://museupicassobcn.cat",
+   "nearest_stop_m": 81,
+   "nearest_bus_stop_m": 81,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/35764760",
+   "name": "Olympic Stadium",
+   "osm_name": "Estadi Olímpic Lluís Companys",
+   "description": "The 1929 stadium reworked for 1992; the Anella Olímpica around it is free to wander.",
+   "category": "stadium",
+   "must_see": false,
+   "lat": 41.364765,
+   "lon": 2.15567,
+   "wikidata": "Q275715",
+   "website": "https://estadiolimpic.barcelona/",
+   "nearest_stop_m": 158,
+   "nearest_bus_stop_m": 158,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/166565579",
+   "name": "Palau Güell",
+   "osm_name": "Palau Güell",
+   "description": "Gaudí's early mansion off the Rambla, with a parabolic hall and 20 tiled roof chimneys.",
+   "category": "castle",
+   "must_see": false,
+   "lat": 41.378813,
+   "lon": 2.174234,
+   "wikidata": "Q597051",
+   "website": "https://inici.palauguell.cat/",
+   "nearest_stop_m": 116,
+   "nearest_bus_stop_m": 116,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/2874767",
+   "name": "Palau de la Generalitat",
+   "osm_name": "Palau de la Generalitat de Catalunya",
+   "description": "Seat of Catalan government since 1400 — one of the oldest working government buildings anywhere.",
+   "category": "castle",
+   "must_see": false,
+   "lat": 41.38311,
+   "lon": 2.176318,
+   "wikidata": "Q599118",
+   "website": null,
+   "nearest_stop_m": 193,
+   "nearest_bus_stop_m": 221,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/377216661",
+   "name": "Palau de la Música Catalana",
+   "osm_name": "Palau de la Música Catalana",
+   "description": "Domènech i Montaner's concert hall: an inverted stained-glass skylight over the stalls.",
+   "category": "attraction",
+   "must_see": true,
+   "lat": 41.387584,
+   "lon": 2.17522,
+   "wikidata": "Q327940",
+   "website": "https://www.palaumusica.cat/",
+   "nearest_stop_m": 72,
+   "nearest_bus_stop_m": 72,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/271463",
+   "name": "Parc de la Ciutadella",
+   "osm_name": "Parc de la Ciutadella",
+   "description": "The city's central park, with a cascade the young Gaudí helped design.",
+   "category": "park",
+   "must_see": false,
+   "lat": 41.388258,
+   "lon": 2.186379,
+   "wikidata": "Q301135",
+   "website": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/parc-de-la-ciutadella-92086011921",
+   "nearest_stop_m": 221,
+   "nearest_bus_stop_m": 221,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/2493147023",
+   "name": "Park Güell",
+   "osm_name": "Park Güell",
+   "description": "Gaudí's failed housing estate turned mosaic terrace, with the whole city laid out below.",
+   "category": "landmark",
+   "must_see": true,
+   "lat": 41.413395,
+   "lon": 2.153049,
+   "wikidata": null,
+   "website": null,
+   "nearest_stop_m": 9,
+   "nearest_bus_stop_m": 401,
+   "bus_reachable": false
+  },
+  {
+   "id": "node/5362838962",
+   "name": "Passeig de Gràcia",
+   "osm_name": "Passeig de Gràcia",
+   "description": "The boulevard where the bourgeoisie competed by architect; Gaudí won twice.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 41.389443,
+   "lon": 2.168277,
+   "wikidata": "Q800446",
+   "website": "https://www.tmb.cat/ca/barcelona/metro/-/lineametro/L2/estacion/213",
+   "nearest_stop_m": 4,
+   "nearest_bus_stop_m": 82,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/7842902",
+   "name": "Plaça Reial",
+   "osm_name": "Plaça Reial",
+   "description": "Palm-shaded arcaded square off the Rambla; the lampposts are an early Gaudí commission.",
+   "category": "attraction",
+   "must_see": false,
+   "lat": 41.38009,
+   "lon": 2.175274,
+   "wikidata": "Q1519964",
+   "website": null,
+   "nearest_stop_m": 154,
+   "nearest_bus_stop_m": 154,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/245676679",
+   "name": "Plaça d'Espanya",
+   "osm_name": "Plaça d'Espanya",
+   "description": "The Venetian-towered gateway to Montjuïc, and one of the city's great traffic circles.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 41.375285,
+   "lon": 2.149591,
+   "wikidata": "Q2013874",
+   "website": null,
+   "nearest_stop_m": 30,
+   "nearest_bus_stop_m": 45,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/1732345",
+   "name": "Plaça de Catalunya",
+   "osm_name": "Plaça de Catalunya",
+   "description": "The hinge between the old city and the Eixample grid, and everyone's meeting point.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 41.386874,
+   "lon": 2.16994,
+   "wikidata": "Q822881",
+   "website": null,
+   "nearest_stop_m": 50,
+   "nearest_bus_stop_m": 50,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/18708575",
+   "name": "Plaça de Sant Jaume",
+   "osm_name": "Plaça de Sant Jaume",
+   "description": "Where the city hall faces the Catalan government across the old Roman crossroads.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 41.38266,
+   "lon": 2.177023,
+   "wikidata": "Q2082605",
+   "website": null,
+   "nearest_stop_m": 175,
+   "nearest_bus_stop_m": 230,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/40547571",
+   "name": "Poble Espanyol",
+   "osm_name": "Poble Espanyol de Barcelona",
+   "description": "An open-air village of replica Spanish architecture, built for the 1929 Expo and never removed.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 41.368648,
+   "lon": 2.148502,
+   "wikidata": "Q1062480",
+   "website": "https://poble-espanyol.com/",
+   "nearest_stop_m": 152,
+   "nearest_bus_stop_m": 152,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/618268543",
+   "name": "Port Vell",
+   "osm_name": "Port Vell",
+   "description": "The old harbour, reclaimed from container yards into a marina and boardwalk.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 41.370155,
+   "lon": 2.183662,
+   "wikidata": "Q1114612",
+   "website": "https://portvellbcn.cat/",
+   "nearest_stop_m": 334,
+   "nearest_bus_stop_m": 334,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/265391701",
+   "name": "Recinte Modernista de Sant Pau",
+   "osm_name": "Hospital de la Santa Creu i Sant Pau",
+   "description": "A hospital built as a garden village of mosaic pavilions — the largest art nouveau site in Europe.",
+   "category": "landmark",
+   "must_see": true,
+   "lat": 41.415066,
+   "lon": 2.174312,
+   "wikidata": "Q507282",
+   "website": null,
+   "nearest_stop_m": 68,
+   "nearest_bus_stop_m": 68,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/9194723",
+   "name": "Sagrada Família",
+   "osm_name": "Basílica de la Sagrada Família",
+   "description": "Gaudí's unfinished basilica — a forest of stone columns under stained glass, topped out in 2026.",
+   "category": "church",
+   "must_see": true,
+   "lat": 41.403505,
+   "lon": 2.17428,
+   "wikidata": "Q48435",
+   "website": "https://sagradafamilia.org/",
+   "nearest_stop_m": 66,
+   "nearest_bus_stop_m": 147,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/51260215",
+   "name": "Santa Maria del Mar",
+   "osm_name": "Basílica de Santa Maria del Mar",
+   "description": "Catalan Gothic at its purest — built in 55 years by the porters of the Born, and it shows.",
+   "category": "church",
+   "must_see": true,
+   "lat": 41.383803,
+   "lon": 2.182003,
+   "wikidata": "Q908802",
+   "website": "https://www.santamariadelmarbarcelona.org/",
+   "nearest_stop_m": 156,
+   "nearest_bus_stop_m": 156,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/625295824",
+   "name": "Santa Maria del Pi",
+   "osm_name": "Parròquia Basílica de Santa Maria del Pi",
+   "description": "One vast nave and a rose window the size of a room, on a square of the same name.",
+   "category": "church",
+   "must_see": false,
+   "lat": 41.382042,
+   "lon": 2.173917,
+   "wikidata": "Q2293331",
+   "website": "https://www.basilicadelpi.cat",
+   "nearest_stop_m": 85,
+   "nearest_bus_stop_m": 85,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/486759610",
+   "name": "Tibidabo — Sagrat Cor",
+   "osm_name": "Temple Expiatori del Sagrat Cor",
+   "description": "The church crowning the city's highest hill, beside a working 1901 funfair.",
+   "category": "church",
+   "must_see": false,
+   "lat": 41.422088,
+   "lon": 2.118751,
+   "wikidata": "Q1189293",
+   "website": "https://tibidabo.salesianos.edu/",
+   "nearest_stop_m": 64,
+   "nearest_bus_stop_m": 64,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/106403806",
+   "name": "Torre Bellesguard",
+   "osm_name": "Torre Bellesguard",
+   "description": "A little-visited Gaudí castle on the slope of Tibidabo, built over a medieval royal ruin.",
+   "category": "attraction",
+   "must_see": false,
+   "lat": 41.409565,
+   "lon": 2.126844,
+   "wikidata": "Q815935",
+   "website": "https://bellesguardgaudi.com/",
+   "nearest_stop_m": 63,
+   "nearest_bus_stop_m": 63,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/44213122",
+   "name": "Torre Glòries",
+   "osm_name": "Torre Glòries",
+   "description": "Nouvel's iridescent bullet over the Diagonal — a lift to the viewing deck opened in 2022.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 41.403515,
+   "lon": 2.18952,
+   "wikidata": "Q336246",
+   "website": null,
+   "nearest_stop_m": 42,
+   "nearest_bus_stop_m": 42,
+   "bus_reachable": true
+  }
+ ],
+ "unreachable_pois": [
+  {
+   "name": "Port Vell",
+   "description": "The old harbour, reclaimed from container yards into a marina and boardwalk.",
+   "category": "historic",
+   "lat": 41.370155,
+   "lon": 2.183662,
+   "nearest_bus_stop_m": 334
+  },
+  {
+   "name": "Park Güell",
+   "description": "Gaudí's failed housing estate turned mosaic terrace, with the whole city laid out below.",
+   "category": "landmark",
+   "lat": 41.413395,
+   "lon": 2.153049,
+   "nearest_bus_stop_m": 401
+  }
+ ],
+ "ranking": [
+  {
+   "line": "59",
+   "variants": [
+    "59"
+   ],
+   "trips_per_day": 137.6,
+   "frequent_enough": true,
+   "score": 36.5,
+   "poi_count": 17,
+   "must_see_count": 6,
+   "districts": 7,
+   "spread_km": 2.29,
+   "bbox_stops": 62,
+   "pois": [
+    "Barcelona Cathedral",
+    "Barcelona Zoo",
+    "Barceloneta Beach",
+    "CCCB",
+    "Columbus Monument",
+    "La Boqueria",
+    "La Rambla",
+    "Maritime Museum",
+    "Museu Picasso",
+    "Palau Güell",
+    "Palau de la Generalitat",
+    "Palau de la Música Catalana",
+    "Plaça Reial",
+    "Plaça de Catalunya",
+    "Plaça de Sant Jaume",
+    "Santa Maria del Mar",
+    "Santa Maria del Pi"
+   ]
+  },
+  {
+   "line": "120",
+   "variants": [
+    "120"
+   ],
+   "trips_per_day": 38.7,
+   "frequent_enough": false,
+   "score": 33.0,
+   "poi_count": 15,
+   "must_see_count": 5,
+   "districts": 7,
+   "spread_km": 2.08,
+   "bbox_stops": 37,
+   "pois": [
+    "Arc de Triomf",
+    "Barcelona Cathedral",
+    "CCCB",
+    "Columbus Monument",
+    "El Born CCM",
+    "La Boqueria",
+    "MACBA",
+    "Maritime Museum",
+    "Mercat de Sant Antoni",
+    "Museu Picasso",
+    "Palau Güell",
+    "Palau de la Generalitat",
+    "Palau de la Música Catalana",
+    "Plaça de Sant Jaume",
+    "Santa Maria del Mar"
+   ]
+  },
+  {
+   "line": "47",
+   "variants": [
+    "47"
+   ],
+   "trips_per_day": 172.5,
+   "frequent_enough": true,
+   "score": 30.0,
+   "poi_count": 12,
+   "must_see_count": 6,
+   "districts": 6,
+   "spread_km": 3.18,
+   "bbox_stops": 56,
+   "pois": [
+    "Barcelona Cathedral",
+    "Barceloneta Beach",
+    "Casa Amatller",
+    "Casa Batlló",
+    "Casa Milà (La Pedrera)",
+    "Museu Picasso",
+    "Palau de la Generalitat",
+    "Palau de la Música Catalana",
+    "Passeig de Gràcia",
+    "Plaça de Catalunya",
+    "Plaça de Sant Jaume",
+    "Santa Maria del Mar"
+   ]
+  },
+  {
+   "line": "V17",
+   "variants": [
+    "V17"
+   ],
+   "trips_per_day": 138.7,
+   "frequent_enough": true,
+   "score": 27.5,
+   "poi_count": 11,
+   "must_see_count": 5,
+   "districts": 6,
+   "spread_km": 3.43,
+   "bbox_stops": 65,
+   "pois": [
+    "Arc de Triomf",
+    "Casa Amatller",
+    "Casa Batlló",
+    "Casa Milà (La Pedrera)",
+    "Casa Vicens",
+    "El Born CCM",
+    "Museu Picasso",
+    "Palau de la Música Catalana",
+    "Parc de la Ciutadella",
+    "Passeig de Gràcia",
+    "Santa Maria del Mar"
+   ]
+  },
+  {
+   "line": "V15",
+   "variants": [
+    "V15"
+   ],
+   "trips_per_day": 159.8,
+   "frequent_enough": true,
+   "score": 27.5,
+   "poi_count": 11,
+   "must_see_count": 6,
+   "districts": 5,
+   "spread_km": 2.12,
+   "bbox_stops": 48,
+   "pois": [
+    "Barcelona Cathedral",
+    "Casa Amatller",
+    "Casa Batlló",
+    "Casa Milà (La Pedrera)",
+    "Museu Picasso",
+    "Palau de la Generalitat",
+    "Palau de la Música Catalana",
+    "Passeig de Gràcia",
+    "Plaça de Catalunya",
+    "Plaça de Sant Jaume",
+    "Santa Maria del Mar"
+   ]
+  },
+  {
+   "line": "H16",
+   "variants": [
+    "H16"
+   ],
+   "trips_per_day": 208.5,
+   "frequent_enough": true,
+   "score": 26.0,
+   "poi_count": 11,
+   "must_see_count": 1,
+   "districts": 9,
+   "spread_km": 3.74,
+   "bbox_stops": 69,
+   "pois": [
+    "Arc de Triomf",
+    "Arenas de Barcelona",
+    "Barcelona Zoo",
+    "CCCB",
+    "MACBA",
+    "Mercat de Sant Antoni",
+    "Palau de la Música Catalana",
+    "Parc de la Ciutadella",
+    "Passeig de Gràcia",
+    "Plaça d'Espanya",
+    "Plaça de Catalunya"
+   ]
+  },
+  {
+   "line": "D50",
+   "variants": [
+    "D50"
+   ],
+   "trips_per_day": 186.1,
+   "frequent_enough": true,
+   "score": 20.0,
+   "poi_count": 8,
+   "must_see_count": 2,
+   "districts": 6,
+   "spread_km": 2.95,
+   "bbox_stops": 53,
+   "pois": [
+    "Arc de Triomf",
+    "CCCB",
+    "MACBA",
+    "Mercat de Sant Antoni",
+    "Palau de la Música Catalana",
+    "Passeig de Gràcia",
+    "Plaça de Catalunya",
+    "Sagrada Família"
+   ]
+  },
+  {
+   "line": "55",
+   "variants": [
+    "55"
+   ],
+   "trips_per_day": 129.9,
+   "frequent_enough": true,
+   "score": 19.5,
+   "poi_count": 9,
+   "must_see_count": 2,
+   "districts": 5,
+   "spread_km": 3.02,
+   "bbox_stops": 37,
+   "pois": [
+    "CCCB",
+    "Fundació Joan Miró",
+    "MACBA",
+    "MNAC",
+    "Mercat de Sant Antoni",
+    "Olympic Stadium",
+    "Palau de la Música Catalana",
+    "Passeig de Gràcia",
+    "Plaça de Catalunya"
+   ]
+  },
+  {
+   "line": "150",
+   "variants": [
+    "150"
+   ],
+   "trips_per_day": 120.6,
+   "frequent_enough": true,
+   "score": 19.5,
+   "poi_count": 9,
+   "must_see_count": 2,
+   "districts": 5,
+   "spread_km": 1.89,
+   "bbox_stops": 27,
+   "pois": [
+    "Botanical Garden",
+    "Fundació Joan Miró",
+    "MNAC",
+    "Magic Fountain",
+    "Mies van der Rohe Pavilion",
+    "Montjuïc Castle",
+    "Olympic Stadium",
+    "Plaça d'Espanya",
+    "Poble Espanyol"
+   ]
+  },
+  {
+   "line": "19",
+   "variants": [
+    "19"
+   ],
+   "trips_per_day": 126.0,
+   "frequent_enough": true,
+   "score": 15.5,
+   "poi_count": 5,
+   "must_see_count": 2,
+   "districts": 5,
+   "spread_km": 1.88,
+   "bbox_stops": 63,
+   "pois": [
+    "Arc de Triomf",
+    "Palau de la Música Catalana",
+    "Passeig de Gràcia",
+    "Plaça de Catalunya",
+    "Sagrada Família"
+   ]
+  },
+  {
+   "line": "13",
+   "variants": [
+    "13"
+   ],
+   "trips_per_day": 65.9,
+   "frequent_enough": false,
+   "score": 15.5,
+   "poi_count": 8,
+   "must_see_count": 0,
+   "districts": 5,
+   "spread_km": 1.74,
+   "bbox_stops": 40,
+   "pois": [
+    "Arenas de Barcelona",
+    "Botanical Garden",
+    "Fundació Joan Miró",
+    "Magic Fountain",
+    "Mies van der Rohe Pavilion",
+    "Olympic Stadium",
+    "Plaça d'Espanya",
+    "Poble Espanyol"
+   ]
+  },
+  {
+   "line": "D20",
+   "variants": [
+    "D20"
+   ],
+   "trips_per_day": 241.9,
+   "frequent_enough": true,
+   "score": 15.0,
+   "poi_count": 6,
+   "must_see_count": 1,
+   "districts": 5,
+   "spread_km": 3.72,
+   "bbox_stops": 77,
+   "pois": [
+    "Arenas de Barcelona",
+    "Barceloneta Beach",
+    "Columbus Monument",
+    "Maritime Museum",
+    "Plaça d'Espanya",
+    "Santa Maria del Mar"
+   ]
+  },
+  {
+   "line": "22",
+   "variants": [
+    "22"
+   ],
+   "trips_per_day": 245.1,
+   "frequent_enough": true,
+   "score": 15.0,
+   "poi_count": 6,
+   "must_see_count": 2,
+   "districts": 4,
+   "spread_km": 2.45,
+   "bbox_stops": 47,
+   "pois": [
+    "Casa Amatller",
+    "Casa Batlló",
+    "Casa Milà (La Pedrera)",
+    "Casa Vicens",
+    "Passeig de Gràcia",
+    "Plaça de Catalunya"
+   ]
+  },
+  {
+   "line": "24",
+   "variants": [
+    "24"
+   ],
+   "trips_per_day": 267.1,
+   "frequent_enough": true,
+   "score": 15.0,
+   "poi_count": 6,
+   "must_see_count": 2,
+   "districts": 4,
+   "spread_km": 2.45,
+   "bbox_stops": 49,
+   "pois": [
+    "Casa Amatller",
+    "Casa Batlló",
+    "Casa Milà (La Pedrera)",
+    "Casa Vicens",
+    "Passeig de Gràcia",
+    "Plaça de Catalunya"
+   ]
+  },
+  {
+   "line": "H14",
+   "variants": [
+    "H14"
+   ],
+   "trips_per_day": 158.9,
+   "frequent_enough": true,
+   "score": 14.5,
+   "poi_count": 7,
+   "must_see_count": 2,
+   "districts": 3,
+   "spread_km": 3.3,
+   "bbox_stops": 46,
+   "pois": [
+    "Columbus Monument",
+    "El Born CCM",
+    "Maritime Museum",
+    "Museu Picasso",
+    "Parc de la Ciutadella",
+    "Santa Maria del Mar",
+    "Torre Glòries"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "line": "59",
+   "variants": [
+    "59"
+   ],
+   "trips_per_day": 137.6,
+   "route_id": "2.59.2860",
+   "shape_id": "2.59.84.1.1",
+   "headsign": "Pl. Reina Maria Cristina",
+   "long_name": "Poblenou / Pl. Reina Maria Cristina",
+   "color": "#DA291C",
+   "url": "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/59",
+   "score": 36.5,
+   "marginal_score": 36.5,
+   "new_pois": [
+    "Barcelona Cathedral",
+    "Barcelona Zoo",
+    "Barceloneta Beach",
+    "CCCB",
+    "Columbus Monument",
+    "La Boqueria",
+    "La Rambla",
+    "Maritime Museum",
+    "Museu Picasso",
+    "Palau Güell",
+    "Palau de la Generalitat",
+    "Palau de la Música Catalana",
+    "Plaça Reial",
+    "Plaça de Catalunya",
+    "Plaça de Sant Jaume",
+    "Santa Maria del Mar",
+    "Santa Maria del Pi"
+   ],
+   "poi_count": 17,
+   "districts": 7,
+   "spread_km": 2.29,
+   "stops": [
+    {
+     "stop_id": "2.3445.691951",
+     "stop_name": "Cementiri de l'Est - Carmen Amaya - Final trajecte",
+     "lat": 41.394136,
+     "lon": 2.201957,
+     "pois": []
+    },
+    {
+     "stop_id": "2.2.680249",
+     "stop_name": "Av Icària - Àlaba",
+     "lat": 41.393104,
+     "lon": 2.198985,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1764.689724",
+     "stop_name": "Av Icària - Joan Miró",
+     "lat": 41.390328,
+     "lon": 2.195773,
+     "pois": []
+    },
+    {
+     "stop_id": "2.915.689711",
+     "stop_name": "Vila Olímpica",
+     "lat": 41.388445,
+     "lon": 2.193668,
+     "pois": [
+      {
+       "name": "Barcelona Zoo",
+       "walk_m": 217,
+       "description": "Inside the Ciutadella park; once home to Snowflake, the only known albino gorilla.",
+       "category": "landmark",
+       "lat": 41.387905,
+       "lon": 2.191166
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1285.691950",
+     "stop_name": "Ramon Trias Fargas - Ronda Litoral",
+     "lat": 41.386274,
+     "lon": 2.195852,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1284.675156",
+     "stop_name": "Hospital del Mar",
+     "lat": 41.383169,
+     "lon": 2.194609,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1282.676540",
+     "stop_name": "Platja de la Barceloneta",
+     "lat": 41.380308,
+     "lon": 2.192841,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1604.676843",
+     "stop_name": "Pg Marítim - Pepe Rubianes",
+     "lat": 41.379151,
+     "lon": 2.192132,
+     "pois": [
+      {
+       "name": "Barceloneta Beach",
+       "walk_m": 109,
+       "description": "The city beach that did not exist before 1992, when the Olympics opened the seafront.",
+       "category": "beach",
+       "lat": 41.379381,
+       "lon": 2.193398
+      }
+     ]
+    },
+    {
+     "stop_id": "2.3348.689612",
+     "stop_name": "Pepe Rubianes",
+     "lat": 41.378432,
+     "lon": 2.189691,
+     "pois": []
+    },
+    {
+     "stop_id": "2.955.697006",
+     "stop_name": "Pg Joan de Borbó",
+     "lat": 41.379995,
+     "lon": 2.187433,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1164.689738",
+     "stop_name": "Pla de Palau - Pl Pau Vila",
+     "lat": 41.38255,
+     "lon": 2.185005,
+     "pois": [
+      {
+       "name": "Santa Maria del Mar",
+       "walk_m": 287,
+       "description": "Catalan Gothic at its purest — built in 55 years by the porters of the Born, and it shows.",
+       "category": "church",
+       "lat": 41.383803,
+       "lon": 2.182003
+      }
+     ]
+    },
+    {
+     "stop_id": "2.255.700350",
+     "stop_name": "Pg Colom - Via Laietana",
+     "lat": 41.380746,
+     "lon": 2.181715,
+     "pois": []
+    },
+    {
+     "stop_id": "2.256.674574",
+     "stop_name": "Moll de la Fusta",
+     "lat": 41.379098,
+     "lon": 2.180379,
+     "pois": []
+    },
+    {
+     "stop_id": "2.257.674576",
+     "stop_name": "Portal de la Pau",
+     "lat": 41.3767,
+     "lon": 2.178442,
+     "pois": [
+      {
+       "name": "Columbus Monument",
+       "walk_m": 114,
+       "description": "A 60 m column at the foot of the Rambla; the lift to the top is the cheapest view in town.",
+       "category": "historic",
+       "lat": 41.375802,
+       "lon": 2.177774
+      },
+      {
+       "name": "Maritime Museum",
+       "walk_m": 215,
+       "description": "The medieval royal shipyards, where galleys were built indoors under stone arches.",
+       "category": "museum",
+       "lat": 41.3755,
+       "lon": 2.176427
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1289.700020",
+     "stop_name": "La Rambla - Pl del Teatre",
+     "lat": 41.378726,
+     "lon": 2.175618,
+     "pois": [
+      {
+       "name": "Palau Güell",
+       "walk_m": 116,
+       "description": "Gaudí's early mansion off the Rambla, with a parabolic hall and 20 tiled roof chimneys.",
+       "category": "castle",
+       "lat": 41.378813,
+       "lon": 2.174234
+      },
+      {
+       "name": "Plaça Reial",
+       "walk_m": 154,
+       "description": "Palm-shaded arcaded square off the Rambla; the lampposts are an early Gaudí commission.",
+       "category": "attraction",
+       "lat": 41.38009,
+       "lon": 2.175274
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1290.700019",
+     "stop_name": "La Rambla - Liceu",
+     "lat": 41.381611,
+     "lon": 2.173076,
+     "pois": [
+      {
+       "name": "Santa Maria del Pi",
+       "walk_m": 85,
+       "description": "One vast nave and a rose window the size of a room, on a square of the same name.",
+       "category": "church",
+       "lat": 41.382042,
+       "lon": 2.173917
+      },
+      {
+       "name": "La Boqueria",
+       "walk_m": 126,
+       "description": "The Rambla's cathedral of food, under a wrought-iron roof of 1914.",
+       "category": "market",
+       "lat": 41.381735,
+       "lon": 2.171578
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1258.700017",
+     "stop_name": "La Rambla - Pl Catalunya",
+     "lat": 41.38536,
+     "lon": 2.170423,
+     "pois": [
+      {
+       "name": "Plaça de Catalunya",
+       "walk_m": 173,
+       "description": "The hinge between the old city and the Eixample grid, and everyone's meeting point.",
+       "category": "landmark",
+       "lat": 41.386874,
+       "lon": 2.16994
+      },
+      {
+       "name": "La Rambla",
+       "walk_m": 230,
+       "description": "The 1.2 km promenade down a filled-in stream bed, from Catalunya to the sea.",
+       "category": "attraction",
+       "lat": 41.383478,
+       "lon": 2.171564
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1124.697162",
+     "stop_name": "Ronda Universitat - Pl Universitat",
+     "lat": 41.386262,
+     "lon": 2.165264,
+     "pois": []
+    },
+    {
+     "stop_id": "2.167.688173",
+     "stop_name": "Gran Via - Casanova",
+     "lat": 41.38425,
+     "lon": 2.160999,
+     "pois": []
+    },
+    {
+     "stop_id": "2.56.674585",
+     "stop_name": "Casanova - Aragó",
+     "lat": 41.386039,
+     "lon": 2.158017,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1137.674586",
+     "stop_name": "Casanova - Mercat del Ninot",
+     "lat": 41.388597,
+     "lon": 2.154626,
+     "pois": []
+    },
+    {
+     "stop_id": "2.214.676830",
+     "stop_name": "Casanova - Hospital Clínic",
+     "lat": 41.390439,
+     "lon": 2.152571,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1466.692781",
+     "stop_name": "Còrsega - Hospital Clínic",
+     "lat": 41.389297,
+     "lon": 2.149643,
+     "pois": []
+    },
+    {
+     "stop_id": "2.630.681507",
+     "stop_name": "Av de Sarrià - Josep Tarradellas",
+     "lat": 41.390403,
+     "lon": 2.144807,
+     "pois": []
+    },
+    {
+     "stop_id": "2.376.692695",
+     "stop_name": "Les Corts - Pl Dr Ignasi Barraquer",
+     "lat": 41.390115,
+     "lon": 2.140634,
+     "pois": []
+    },
+    {
+     "stop_id": "2.3242.698162",
+     "stop_name": "Les Corts - Prat d'En Rull",
+     "lat": 41.388739,
+     "lon": 2.138246,
+     "pois": []
+    },
+    {
+     "stop_id": "2.991.679468",
+     "stop_name": "Les Corts - Numància",
+     "lat": 41.387311,
+     "lon": 2.135795,
+     "pois": []
+    },
+    {
+     "stop_id": "2.484.674676",
+     "stop_name": "Les Corts - Vallespir",
+     "lat": 41.385515,
+     "lon": 2.132725,
+     "pois": []
+    },
+    {
+     "stop_id": "2.485.674677",
+     "stop_name": "Mercat de Les Corts",
+     "lat": 41.383691,
+     "lon": 2.129908,
+     "pois": []
+    },
+    {
+     "stop_id": "2.291.689805",
+     "stop_name": "Carles III - Mejía Lequerica",
+     "lat": 41.38524,
+     "lon": 2.127519,
+     "pois": []
+    },
+    {
+     "stop_id": "2.2530.676514",
+     "stop_name": "G V Carles III - Pl Reina M C - Final de trajecte",
+     "lat": 41.386861,
+     "lon": 2.126875,
+     "pois": []
+    }
+   ],
+   "shape": [
+    [
+     41.394154,
+     2.20198
+    ],
+    [
+     41.394083,
+     2.202075
+    ],
+    [
+     41.394063,
+     2.202095
+    ],
+    [
+     41.394039,
+     2.202107
+    ],
+    [
+     41.394014,
+     2.20211
+    ],
+    [
+     41.393988,
+     2.202104
+    ],
+    [
+     41.393969,
+     2.202091
+    ],
+    [
+     41.39384,
+     2.201928
+    ],
+    [
+     41.393829,
+     2.201894
+    ],
+    [
+     41.393824,
+     2.201858
+    ],
+    [
+     41.393827,
+     2.201821
+    ],
+    [
+     41.393836,
+     2.201786
+    ],
+    [
+     41.393853,
+     2.201755
+    ],
+    [
+     41.394064,
+     2.201482
+    ],
+    [
+     41.394472,
+     2.20095
+    ],
+    [
+     41.394496,
+     2.200914
+    ],
+    [
+     41.394514,
+     2.200873
+    ],
+    [
+     41.394526,
+     2.200828
+    ],
+    [
+     41.39453,
+     2.200781
+    ],
+    [
+     41.394528,
+     2.200733
+    ],
+    [
+     41.394518,
+     2.200687
+    ],
+    [
+     41.394502,
+     2.200645
+    ],
+    [
+     41.394479,
+     2.200607
+    ],
+    [
+     41.393244,
+     2.199186
+    ],
+    [
+     41.392115,
+     2.197892
+    ],
+    [
+     41.390989,
+     2.196587
+    ],
+    [
+     41.389927,
+     2.195352
+    ],
+    [
+     41.389214,
+     2.194528
+    ],
+    [
+     41.389158,
+     2.194475
+    ],
+    [
+     41.389115,
+     2.194442
+    ],
+    [
+     41.389059,
+     2.194407
+    ],
+    [
+     41.389005,
+     2.194363
+    ],
+    [
+     41.388956,
+     2.194311
+    ],
+    [
+     41.388935,
+     2.194285
+    ],
+    [
+     41.388304,
+     2.193557
+    ],
+    [
+     41.38827,
+     2.19353
+    ],
+    [
+     41.388233,
+     2.193512
+    ],
+    [
+     41.388194,
+     2.193503
+    ],
+    [
+     41.388154,
+     2.193503
+    ],
+    [
+     41.388115,
+     2.193513
+    ],
+    [
+     41.388078,
+     2.193532
+    ],
+    [
+     41.388044,
+     2.193559
+    ],
+    [
+     41.388015,
+     2.193595
+    ],
+    [
+     41.387997,
+     2.193624
+    ],
+    [
+     41.387217,
+     2.194652
+    ],
+    [
+     41.387178,
+     2.194714
+    ],
+    [
+     41.387145,
+     2.194782
+    ],
+    [
+     41.387106,
+     2.194869
+    ],
+    [
+     41.38707,
+     2.19493
+    ],
+    [
+     41.38682,
+     2.195258
+    ],
+    [
+     41.386781,
+     2.195302
+    ],
+    [
+     41.386738,
+     2.195339
+    ],
+    [
+     41.38671,
+     2.195357
+    ],
+    [
+     41.386655,
+     2.195403
+    ],
+    [
+     41.386604,
+     2.195457
+    ],
+    [
+     41.385641,
+     2.19673
+    ],
+    [
+     41.385619,
+     2.196749
+    ],
+    [
+     41.385594,
+     2.19676
+    ],
+    [
+     41.385568,
+     2.196761
+    ],
+    [
+     41.385543,
+     2.196753
+    ],
+    [
+     41.38552,
+     2.196736
+    ],
+    [
+     41.385507,
+     2.196721
+    ],
+    [
+     41.385261,
+     2.196392
+    ],
+    [
+     41.384961,
+     2.195986
+    ],
+    [
+     41.384824,
+     2.195805
+    ],
+    [
+     41.384794,
+     2.195758
+    ],
+    [
+     41.384754,
+     2.195678
+    ],
+    [
+     41.384724,
+     2.195634
+    ],
+    [
+     41.384693,
+     2.195598
+    ],
+    [
+     41.384676,
+     2.19558
+    ],
+    [
+     41.384656,
+     2.195565
+    ],
+    [
+     41.384476,
+     2.195449
+    ],
+    [
+     41.383691,
+     2.194971
+    ],
+    [
+     41.383158,
+     2.194638
+    ],
+    [
+     41.380505,
+     2.193003
+    ],
+    [
+     41.378998,
+     2.192082
+    ],
+    [
+     41.378967,
+     2.192059
+    ],
+    [
+     41.37894,
+     2.192029
+    ],
+    [
+     41.378918,
+     2.191992
+    ],
+    [
+     41.378903,
+     2.19195
+    ],
+    [
+     41.378896,
+     2.191921
+    ],
+    [
+     41.37884,
+     2.19166
+    ],
+    [
+     41.378085,
+     2.188257
+    ],
+    [
+     41.378081,
+     2.188226
+    ],
+    [
+     41.378084,
+     2.188196
+    ],
+    [
+     41.378094,
+     2.188168
+    ],
+    [
+     41.37811,
+     2.188145
+    ],
+    [
+     41.37813,
+     2.18813
+    ],
+    [
+     41.378136,
+     2.188128
+    ],
+    [
+     41.380967,
+     2.187005
+    ],
+    [
+     41.381268,
+     2.186894
+    ],
+    [
+     41.381617,
+     2.186757
+    ],
+    [
+     41.381721,
+     2.186706
+    ],
+    [
+     41.381823,
+     2.186646
+    ],
+    [
+     41.381889,
+     2.186589
+    ],
+    [
+     41.381951,
+     2.186524
+    ],
+    [
+     41.381974,
+     2.186497
+    ],
+    [
+     41.382014,
+     2.186457
+    ],
+    [
+     41.382048,
+     2.18641
+    ],
+    [
+     41.382116,
+     2.186279
+    ],
+    [
+     41.382147,
+     2.186202
+    ],
+    [
+     41.382171,
+     2.186121
+    ],
+    [
+     41.382189,
+     2.186037
+    ],
+    [
+     41.382201,
+     2.185935
+    ],
+    [
+     41.382209,
+     2.185814
+    ],
+    [
+     41.382224,
+     2.18571
+    ],
+    [
+     41.382255,
+     2.185558
+    ],
+    [
+     41.382278,
+     2.185475
+    ],
+    [
+     41.382313,
+     2.185385
+    ],
+    [
+     41.382334,
+     2.185351
+    ],
+    [
+     41.382364,
+     2.185321
+    ],
+    [
+     41.382389,
+     2.18529
+    ],
+    [
+     41.382408,
+     2.185253
+    ],
+    [
+     41.382763,
+     2.184498
+    ],
+    [
+     41.383032,
+     2.183934
+    ],
+    [
+     41.383051,
+     2.183886
+    ],
+    [
+     41.383064,
+     2.183834
+    ],
+    [
+     41.38307,
+     2.18378
+    ],
+    [
+     41.383068,
+     2.183726
+    ],
+    [
+     41.383059,
+     2.183672
+    ],
+    [
+     41.383044,
+     2.183622
+    ],
+    [
+     41.383022,
+     2.183576
+    ],
+    [
+     41.382994,
+     2.183536
+    ],
+    [
+     41.382976,
+     2.183516
+    ],
+    [
+     41.382745,
+     2.183324
+    ],
+    [
+     41.382698,
+     2.183289
+    ],
+    [
+     41.382648,
+     2.183263
+    ],
+    [
+     41.382608,
+     2.183249
+    ],
+    [
+     41.382564,
+     2.183238
+    ],
+    [
+     41.382522,
+     2.183219
+    ],
+    [
+     41.382483,
+     2.183191
+    ],
+    [
+     41.382465,
+     2.183173
+    ],
+    [
+     41.381455,
+     2.18233
+    ],
+    [
+     41.380444,
+     2.181498
+    ],
+    [
+     41.379081,
+     2.180399
+    ],
+    [
+     41.376687,
+     2.178461
+    ],
+    [
+     41.376265,
+     2.178118
+    ],
+    [
+     41.376238,
+     2.17809
+    ],
+    [
+     41.376216,
+     2.178056
+    ],
+    [
+     41.3762,
+     2.178016
+    ],
+    [
+     41.376191,
+     2.177973
+    ],
+    [
+     41.376188,
+     2.177928
+    ],
+    [
+     41.376193,
+     2.177887
+    ],
+    [
+     41.376205,
+     2.177841
+    ],
+    [
+     41.376223,
+     2.1778
+    ],
+    [
+     41.376307,
+     2.17765
+    ],
+    [
+     41.376373,
+     2.177548
+    ],
+    [
+     41.376518,
+     2.177347
+    ],
+    [
+     41.376628,
+     2.177208
+    ],
+    [
+     41.376695,
+     2.177125
+    ],
+    [
+     41.376755,
+     2.177066
+    ],
+    [
+     41.376819,
+     2.177014
+    ],
+    [
+     41.377998,
+     2.176124
+    ],
+    [
+     41.378606,
+     2.175677
+    ],
+    [
+     41.378815,
+     2.17552
+    ],
+    [
+     41.378872,
+     2.175464
+    ],
+    [
+     41.379048,
+     2.175259
+    ],
+    [
+     41.379103,
+     2.175207
+    ],
+    [
+     41.379659,
+     2.174754
+    ],
+    [
+     41.380272,
+     2.174234
+    ],
+    [
+     41.380382,
+     2.174143
+    ],
+    [
+     41.382174,
+     2.172552
+    ],
+    [
+     41.382991,
+     2.171845
+    ],
+    [
+     41.38303,
+     2.171813
+    ],
+    [
+     41.383072,
+     2.171789
+    ],
+    [
+     41.383088,
+     2.171783
+    ],
+    [
+     41.383349,
+     2.171653
+    ],
+    [
+     41.383424,
+     2.171613
+    ],
+    [
+     41.384515,
+     2.170916
+    ],
+    [
+     41.385529,
+     2.170289
+    ],
+    [
+     41.38597,
+     2.169995
+    ],
+    [
+     41.387357,
+     2.168794
+    ],
+    [
+     41.387413,
+     2.168747
+    ],
+    [
+     41.387435,
+     2.168723
+    ],
+    [
+     41.387451,
+     2.168693
+    ],
+    [
+     41.387462,
+     2.168658
+    ],
+    [
+     41.387465,
+     2.168621
+    ],
+    [
+     41.38746,
+     2.168582
+    ],
+    [
+     41.38734,
+     2.168277
+    ],
+    [
+     41.386669,
+     2.166487
+    ],
+    [
+     41.38663,
+     2.166387
+    ],
+    [
+     41.386596,
+     2.166282
+    ],
+    [
+     41.38656,
+     2.166136
+    ],
+    [
+     41.38653,
+     2.166043
+    ],
+    [
+     41.386504,
+     2.165979
+    ],
+    [
+     41.386094,
+     2.164895
+    ],
+    [
+     41.38602,
+     2.164706
+    ],
+    [
+     41.38601,
+     2.164669
+    ],
+    [
+     41.386006,
+     2.164629
+    ],
+    [
+     41.38601,
+     2.16459
+    ],
+    [
+     41.386021,
+     2.164553
+    ],
+    [
+     41.386036,
+     2.164522
+    ],
+    [
+     41.386355,
+     2.164096
+    ],
+    [
+     41.386369,
+     2.164073
+    ],
+    [
+     41.386377,
+     2.164046
+    ],
+    [
+     41.386378,
+     2.164017
+    ],
+    [
+     41.386372,
+     2.16399
+    ],
+    [
+     41.386359,
+     2.163966
+    ],
+    [
+     41.38572,
+     2.163109
+    ],
+    [
+     41.385688,
+     2.163064
+    ],
+    [
+     41.385662,
+     2.163013
+    ],
+    [
+     41.385642,
+     2.162957
+    ],
+    [
+     41.385636,
+     2.162935
+    ],
+    [
+     41.385611,
+     2.162873
+    ],
+    [
+     41.38558,
+     2.162816
+    ],
+    [
+     41.385544,
+     2.162765
+    ],
+    [
+     41.38446,
+     2.161319
+    ],
+    [
+     41.384094,
+     2.160835
+    ],
+    [
+     41.384073,
+     2.1608
+    ],
+    [
+     41.384059,
+     2.160761
+    ],
+    [
+     41.384051,
+     2.160718
+    ],
+    [
+     41.38405,
+     2.160674
+    ],
+    [
+     41.384057,
+     2.16063
+    ],
+    [
+     41.38407,
+     2.16059
+    ],
+    [
+     41.38409,
+     2.160555
+    ],
+    [
+     41.384658,
+     2.159792
+    ],
+    [
+     41.386019,
+     2.157992
+    ],
+    [
+     41.38857,
+     2.154591
+    ],
+    [
+     41.388922,
+     2.15413
+    ],
+    [
+     41.388963,
+     2.154087
+    ],
+    [
+     41.389007,
+     2.154052
+    ],
+    [
+     41.389108,
+     2.153994
+    ],
+    [
+     41.38915,
+     2.153967
+    ],
+    [
+     41.389192,
+     2.153937
+    ],
+    [
+     41.389364,
+     2.153791
+    ],
+    [
+     41.389505,
+     2.15366
+    ],
+    [
+     41.389642,
+     2.153528
+    ],
+    [
+     41.389817,
+     2.153337
+    ],
+    [
+     41.389909,
+     2.15323
+    ],
+    [
+     41.389985,
+     2.153135
+    ],
+    [
+     41.390129,
+     2.152947
+    ],
+    [
+     41.390254,
+     2.152769
+    ],
+    [
+     41.390332,
+     2.152653
+    ],
+    [
+     41.390407,
+     2.152534
+    ],
+    [
+     41.39054,
+     2.152307
+    ],
+    [
+     41.390611,
+     2.152166
+    ],
+    [
+     41.390741,
+     2.151898
+    ],
+    [
+     41.390745,
+     2.151886
+    ],
+    [
+     41.390757,
+     2.15185
+    ],
+    [
+     41.390763,
+     2.151822
+    ],
+    [
+     41.390767,
+     2.151793
+    ],
+    [
+     41.390768,
+     2.151751
+    ],
+    [
+     41.390764,
+     2.151706
+    ],
+    [
+     41.390753,
+     2.151662
+    ],
+    [
+     41.390736,
+     2.151619
+    ],
+    [
+     41.390716,
+     2.151587
+    ],
+    [
+     41.389576,
+     2.150063
+    ],
+    [
+     41.389219,
+     2.1496
+    ],
+    [
+     41.389196,
+     2.149562
+    ],
+    [
+     41.389178,
+     2.149518
+    ],
+    [
+     41.389168,
+     2.149471
+    ],
+    [
+     41.389164,
+     2.149422
+    ],
+    [
+     41.389168,
+     2.149373
+    ],
+    [
+     41.389178,
+     2.149326
+    ],
+    [
+     41.389196,
+     2.149282
+    ],
+    [
+     41.389215,
+     2.149249
+    ],
+    [
+     41.389744,
+     2.148548
+    ],
+    [
+     41.389782,
+     2.148492
+    ],
+    [
+     41.389814,
+     2.14843
+    ],
+    [
+     41.38984,
+     2.148362
+    ],
+    [
+     41.389859,
+     2.148291
+    ],
+    [
+     41.389871,
+     2.148222
+    ],
+    [
+     41.389905,
+     2.147891
+    ],
+    [
+     41.390044,
+     2.14695
+    ],
+    [
+     41.390118,
+     2.146466
+    ],
+    [
+     41.390586,
+     2.143339
+    ],
+    [
+     41.390688,
+     2.142637
+    ],
+    [
+     41.390713,
+     2.142427
+    ],
+    [
+     41.39073,
+     2.142215
+    ],
+    [
+     41.390736,
+     2.142105
+    ],
+    [
+     41.390731,
+     2.141971
+    ],
+    [
+     41.390733,
+     2.141837
+    ],
+    [
+     41.390743,
+     2.141704
+    ],
+    [
+     41.390759,
+     2.141572
+    ],
+    [
+     41.390774,
+     2.141494
+    ],
+    [
+     41.390777,
+     2.141469
+    ],
+    [
+     41.390779,
+     2.141443
+    ],
+    [
+     41.390779,
+     2.14141
+    ],
+    [
+     41.390776,
+     2.141374
+    ],
+    [
+     41.390768,
+     2.141337
+    ],
+    [
+     41.390755,
+     2.141302
+    ],
+    [
+     41.390735,
+     2.141272
+    ],
+    [
+     41.390706,
+     2.141249
+    ],
+    [
+     41.390668,
+     2.141236
+    ],
+    [
+     41.390444,
+     2.14117
+    ],
+    [
+     41.390419,
+     2.141159
+    ],
+    [
+     41.390381,
+     2.141135
+    ],
+    [
+     41.390358,
+     2.141117
+    ],
+    [
+     41.390334,
+     2.141094
+    ],
+    [
+     41.39031,
+     2.141067
+    ],
+    [
+     41.390286,
+     2.141034
+    ],
+    [
+     41.390263,
+     2.140996
+    ],
+    [
+     41.390081,
+     2.140667
+    ],
+    [
+     41.388989,
+     2.138714
+    ],
+    [
+     41.388148,
+     2.137299
+    ],
+    [
+     41.387349,
+     2.135914
+    ],
+    [
+     41.386968,
+     2.135259
+    ],
+    [
+     41.3866,
+     2.13458
+    ],
+    [
+     41.386266,
+     2.133952
+    ],
+    [
+     41.386107,
+     2.133682
+    ],
+    [
+     41.385943,
+     2.133418
+    ],
+    [
+     41.385773,
+     2.13316
+    ],
+    [
+     41.385612,
+     2.132928
+    ],
+    [
+     41.384356,
+     2.131023
+    ],
+    [
+     41.383662,
+     2.129924
+    ],
+    [
+     41.382728,
+     2.128518
+    ],
+    [
+     41.38271,
+     2.128485
+    ],
+    [
+     41.382698,
+     2.128448
+    ],
+    [
+     41.382693,
+     2.128408
+    ],
+    [
+     41.382695,
+     2.128368
+    ],
+    [
+     41.382704,
+     2.128329
+    ],
+    [
+     41.38272,
+     2.128295
+    ],
+    [
+     41.382741,
+     2.128266
+    ],
+    [
+     41.38277,
+     2.128242
+    ],
+    [
+     41.383775,
+     2.127904
+    ],
+    [
+     41.38395,
+     2.127847
+    ],
+    [
+     41.38455,
+     2.12767
+    ],
+    [
+     41.384823,
+     2.127593
+    ],
+    [
+     41.385446,
+     2.127457
+    ],
+    [
+     41.386041,
+     2.127383
+    ],
+    [
+     41.386227,
+     2.127367
+    ],
+    [
+     41.386413,
+     2.12736
+    ],
+    [
+     41.386599,
+     2.127363
+    ],
+    [
+     41.386785,
+     2.127375
+    ],
+    [
+     41.38687,
+     2.127384
+    ],
+    [
+     41.387013,
+     2.127388
+    ],
+    [
+     41.387156,
+     2.127401
+    ],
+    [
+     41.387298,
+     2.127424
+    ],
+    [
+     41.387355,
+     2.127436
+    ],
+    [
+     41.387419,
+     2.127434
+    ],
+    [
+     41.387522,
+     2.127418
+    ],
+    [
+     41.387567,
+     2.127422
+    ],
+    [
+     41.387717,
+     2.12745
+    ],
+    [
+     41.387747,
+     2.127449
+    ],
+    [
+     41.387776,
+     2.127439
+    ],
+    [
+     41.387802,
+     2.12742
+    ],
+    [
+     41.387824,
+     2.127394
+    ],
+    [
+     41.387841,
+     2.127361
+    ],
+    [
+     41.387852,
+     2.127318
+    ],
+    [
+     41.387855,
+     2.12727
+    ],
+    [
+     41.387851,
+     2.127222
+    ],
+    [
+     41.387841,
+     2.127176
+    ],
+    [
+     41.387823,
+     2.127134
+    ],
+    [
+     41.3878,
+     2.127098
+    ],
+    [
+     41.387771,
+     2.127063
+    ],
+    [
+     41.387744,
+     2.127042
+    ],
+    [
+     41.387712,
+     2.127029
+    ],
+    [
+     41.387398,
+     2.126969
+    ],
+    [
+     41.387169,
+     2.126938
+    ],
+    [
+     41.386939,
+     2.126918
+    ],
+    [
+     41.386862,
+     2.126914
+    ]
+   ]
+  },
+  {
+   "line": "150",
+   "variants": [
+    "150"
+   ],
+   "trips_per_day": 120.6,
+   "route_id": "2.150.2993",
+   "shape_id": "2.150.66.1.1",
+   "headsign": "Castell de Montjuïc",
+   "long_name": "Pl. Espanya / Castell de Montjuïc",
+   "color": "#DA291C",
+   "url": "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/150",
+   "score": 19.5,
+   "marginal_score": 19.5,
+   "new_pois": [
+    "Botanical Garden",
+    "Fundació Joan Miró",
+    "MNAC",
+    "Magic Fountain",
+    "Mies van der Rohe Pavilion",
+    "Montjuïc Castle",
+    "Olympic Stadium",
+    "Plaça d'Espanya",
+    "Poble Espanyol"
+   ],
+   "poi_count": 9,
+   "districts": 5,
+   "spread_km": 1.89,
+   "stops": [
+    {
+     "stop_id": "2.3793.697312",
+     "stop_name": "Fira Barcelona",
+     "lat": 41.373612,
+     "lon": 2.150248,
+     "pois": [
+      {
+       "name": "Plaça d'Espanya",
+       "walk_m": 194,
+       "description": "The Venetian-towered gateway to Montjuïc, and one of the city's great traffic circles.",
+       "category": "landmark",
+       "lat": 41.375285,
+       "lon": 2.149591
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1369.692808",
+     "stop_name": "Lleida - Av Paral·lel",
+     "lat": 41.374508,
+     "lon": 2.154201,
+     "pois": []
+    },
+    {
+     "stop_id": "2.264.674565",
+     "stop_name": "Av Ferrer i Guàrdia - Mèxic",
+     "lat": 41.371168,
+     "lon": 2.149875,
+     "pois": [
+      {
+       "name": "Mies van der Rohe Pavilion",
+       "walk_m": 69,
+       "description": "The Barcelona Pavilion — travertine, onyx and a chair that defined a century.",
+       "category": "historic",
+       "lat": 41.370552,
+       "lon": 2.149964
+      },
+      {
+       "name": "Magic Fountain",
+       "walk_m": 155,
+       "description": "The 1929 fountain that still does its light-and-water show below the MNAC steps.",
+       "category": "historic",
+       "lat": 41.371157,
+       "lon": 2.151738
+      }
+     ]
+    },
+    {
+     "stop_id": "2.265.679658",
+     "stop_name": "Poble Espanyol",
+     "lat": 41.369413,
+     "lon": 2.146283,
+     "pois": [
+      {
+       "name": "Poble Espanyol",
+       "walk_m": 204,
+       "description": "An open-air village of replica Spanish architecture, built for the 1929 Expo and never removed.",
+       "category": "museum",
+       "lat": 41.368648,
+       "lon": 2.148502
+      }
+     ]
+    },
+    {
+     "stop_id": "2.343.675198",
+     "stop_name": "Pl de Sant Jordi",
+     "lat": 41.366328,
+     "lon": 2.144752,
+     "pois": []
+    },
+    {
+     "stop_id": "2.348.676588",
+     "stop_name": "Av Estadi - INEFC",
+     "lat": 41.365477,
+     "lon": 2.147373,
+     "pois": []
+    },
+    {
+     "stop_id": "2.344.676581",
+     "stop_name": "Piscines Picornell - Museu Nacional",
+     "lat": 41.366472,
+     "lon": 2.151358,
+     "pois": [
+      {
+       "name": "MNAC",
+       "walk_m": 295,
+       "description": "Romanesque frescoes rescued from Pyrenean churches, in a palace above the Magic Fountain.",
+       "category": "museum",
+       "lat": 41.368602,
+       "lon": 2.153462
+      }
+     ]
+    },
+    {
+     "stop_id": "2.345.675194",
+     "stop_name": "Av de l'Estadi - Estadi Olímpic",
+     "lat": 41.366002,
+     "lon": 2.154544,
+     "pois": [
+      {
+       "name": "Olympic Stadium",
+       "walk_m": 167,
+       "description": "The 1929 stadium reworked for 1992; the Anella Olímpica around it is free to wander.",
+       "category": "stadium",
+       "lat": 41.364765,
+       "lon": 2.15567
+      }
+     ]
+    },
+    {
+     "stop_id": "2.2581.676647",
+     "stop_name": "Vivers Tres Pins",
+     "lat": 41.366374,
+     "lon": 2.158748,
+     "pois": []
+    },
+    {
+     "stop_id": "2.654.675192",
+     "stop_name": "Av Miramar - Fundació Joan Miró",
+     "lat": 41.36777,
+     "lon": 2.159774,
+     "pois": [
+      {
+       "name": "Fundació Joan Miró",
+       "walk_m": 98,
+       "description": "Miró's own foundation in a white Sert building full of Mediterranean light.",
+       "category": "museum",
+       "lat": 41.36865,
+       "lon": 2.159848
+      }
+     ]
+    },
+    {
+     "stop_id": "2.655.683046",
+     "stop_name": "Av Miramar - Estació del Funicular",
+     "lat": 41.368876,
+     "lon": 2.162943,
+     "pois": []
+    },
+    {
+     "stop_id": "2.2307.676301",
+     "stop_name": "Doctor Font i Quer - Tarongers",
+     "lat": 41.367155,
+     "lon": 2.162499,
+     "pois": []
+    },
+    {
+     "stop_id": "2.2308.688718",
+     "stop_name": "Doctor Font i Quer - Can Valero",
+     "lat": 41.36584,
+     "lon": 2.160554,
+     "pois": []
+    },
+    {
+     "stop_id": "2.3774.697081",
+     "stop_name": "Can Valero - Doctor Font i Quer",
+     "lat": 41.364741,
+     "lon": 2.160045,
+     "pois": []
+    },
+    {
+     "stop_id": "2.2325.681473",
+     "stop_name": "Can Valero - Pg del Migdia",
+     "lat": 41.362708,
+     "lon": 2.161237,
+     "pois": [
+      {
+       "name": "Botanical Garden",
+       "walk_m": 271,
+       "description": "Mediterranean-climate plants from five continents, terraced down the Montjuïc slope.",
+       "category": "park",
+       "lat": 41.362271,
+       "lon": 2.158046
+      },
+      {
+       "name": "Montjuïc Castle",
+       "walk_m": 296,
+       "description": "The fortress that shelled the city more than it defended it; now the best 360° viewpoint.",
+       "category": "castle",
+       "lat": 41.362705,
+       "lon": 2.164785
+      }
+     ]
+    },
+    {
+     "stop_id": "2.2315.676305",
+     "stop_name": "Castell",
+     "lat": 41.36507,
+     "lon": 2.167015,
+     "pois": []
+    }
+   ],
+   "shape": [
+    [
+     41.373589,
+     2.150188
+    ],
+    [
+     41.373832,
+     2.150029
+    ],
+    [
+     41.374433,
+     2.149615
+    ],
+    [
+     41.374473,
+     2.149596
+    ],
+    [
+     41.37448,
+     2.149595
+    ],
+    [
+     41.374512,
+     2.149597
+    ],
+    [
+     41.374544,
+     2.149608
+    ],
+    [
+     41.374572,
+     2.149628
+    ],
+    [
+     41.374597,
+     2.149656
+    ],
+    [
+     41.37481,
+     2.149922
+    ],
+    [
+     41.374847,
+     2.149991
+    ],
+    [
+     41.374878,
+     2.150066
+    ],
+    [
+     41.374902,
+     2.150144
+    ],
+    [
+     41.374915,
+     2.150201
+    ],
+    [
+     41.37493,
+     2.150369
+    ],
+    [
+     41.374937,
+     2.150489
+    ],
+    [
+     41.374938,
+     2.150989
+    ],
+    [
+     41.374934,
+     2.151159
+    ],
+    [
+     41.374921,
+     2.153942
+    ],
+    [
+     41.374913,
+     2.153977
+    ],
+    [
+     41.374899,
+     2.154008
+    ],
+    [
+     41.374879,
+     2.154034
+    ],
+    [
+     41.374855,
+     2.154051
+    ],
+    [
+     41.374576,
+     2.154205
+    ],
+    [
+     41.374283,
+     2.154362
+    ],
+    [
+     41.373089,
+     2.155021
+    ],
+    [
+     41.37307,
+     2.155022
+    ],
+    [
+     41.373052,
+     2.155014
+    ],
+    [
+     41.373037,
+     2.154997
+    ],
+    [
+     41.373028,
+     2.154976
+    ],
+    [
+     41.372707,
+     2.154125
+    ],
+    [
+     41.372535,
+     2.15369
+    ],
+    [
+     41.372523,
+     2.153634
+    ],
+    [
+     41.372518,
+     2.153576
+    ],
+    [
+     41.372515,
+     2.153507
+    ],
+    [
+     41.372504,
+     2.153458
+    ],
+    [
+     41.37249,
+     2.153417
+    ],
+    [
+     41.371847,
+     2.15175
+    ],
+    [
+     41.37165,
+     2.151214
+    ],
+    [
+     41.37151,
+     2.150858
+    ],
+    [
+     41.371347,
+     2.150432
+    ],
+    [
+     41.371319,
+     2.15034
+    ],
+    [
+     41.371285,
+     2.150251
+    ],
+    [
+     41.371236,
+     2.150154
+    ],
+    [
+     41.37117,
+     2.149979
+    ],
+    [
+     41.37111,
+     2.149835
+    ],
+    [
+     41.37105,
+     2.149724
+    ],
+    [
+     41.370973,
+     2.14962
+    ],
+    [
+     41.370922,
+     2.149565
+    ],
+    [
+     41.370868,
+     2.149518
+    ],
+    [
+     41.370809,
+     2.14948
+    ],
+    [
+     41.370748,
+     2.14945
+    ],
+    [
+     41.370691,
+     2.149431
+    ],
+    [
+     41.370118,
+     2.149312
+    ],
+    [
+     41.370044,
+     2.149291
+    ],
+    [
+     41.369973,
+     2.149261
+    ],
+    [
+     41.369903,
+     2.149222
+    ],
+    [
+     41.369837,
+     2.149175
+    ],
+    [
+     41.369775,
+     2.149119
+    ],
+    [
+     41.369717,
+     2.149056
+    ],
+    [
+     41.369663,
+     2.148985
+    ],
+    [
+     41.369615,
+     2.148909
+    ],
+    [
+     41.369573,
+     2.148826
+    ],
+    [
+     41.369537,
+     2.148738
+    ],
+    [
+     41.369508,
+     2.148647
+    ],
+    [
+     41.369485,
+     2.148552
+    ],
+    [
+     41.369469,
+     2.148454
+    ],
+    [
+     41.36946,
+     2.148355
+    ],
+    [
+     41.369458,
+     2.148255
+    ],
+    [
+     41.369462,
+     2.148176
+    ],
+    [
+     41.369535,
+     2.147542
+    ],
+    [
+     41.369546,
+     2.147402
+    ],
+    [
+     41.36955,
+     2.147261
+    ],
+    [
+     41.369547,
+     2.14712
+    ],
+    [
+     41.369536,
+     2.14698
+    ],
+    [
+     41.369519,
+     2.146841
+    ],
+    [
+     41.369494,
+     2.146704
+    ],
+    [
+     41.369462,
+     2.14657
+    ],
+    [
+     41.369424,
+     2.146439
+    ],
+    [
+     41.369372,
+     2.146275
+    ],
+    [
+     41.369359,
+     2.146234
+    ],
+    [
+     41.369316,
+     2.146117
+    ],
+    [
+     41.369266,
+     2.146004
+    ],
+    [
+     41.369211,
+     2.145896
+    ],
+    [
+     41.36915,
+     2.145794
+    ],
+    [
+     41.369083,
+     2.145698
+    ],
+    [
+     41.369011,
+     2.145609
+    ],
+    [
+     41.368935,
+     2.145527
+    ],
+    [
+     41.368854,
+     2.145453
+    ],
+    [
+     41.368769,
+     2.145387
+    ],
+    [
+     41.368681,
+     2.145329
+    ],
+    [
+     41.368653,
+     2.145313
+    ],
+    [
+     41.368316,
+     2.145179
+    ],
+    [
+     41.368055,
+     2.145085
+    ],
+    [
+     41.36764,
+     2.144906
+    ],
+    [
+     41.367564,
+     2.144865
+    ],
+    [
+     41.367486,
+     2.144833
+    ],
+    [
+     41.367437,
+     2.144819
+    ],
+    [
+     41.367381,
+     2.144795
+    ],
+    [
+     41.367328,
+     2.144762
+    ],
+    [
+     41.367278,
+     2.144721
+    ],
+    [
+     41.367232,
+     2.144672
+    ],
+    [
+     41.367185,
+     2.144609
+    ],
+    [
+     41.367151,
+     2.144577
+    ],
+    [
+     41.367114,
+     2.144552
+    ],
+    [
+     41.367074,
+     2.144537
+    ],
+    [
+     41.367032,
+     2.14453
+    ],
+    [
+     41.36699,
+     2.144534
+    ],
+    [
+     41.36695,
+     2.144547
+    ],
+    [
+     41.366911,
+     2.144568
+    ],
+    [
+     41.366876,
+     2.144599
+    ],
+    [
+     41.366845,
+     2.144636
+    ],
+    [
+     41.366816,
+     2.14468
+    ],
+    [
+     41.366794,
+     2.144698
+    ],
+    [
+     41.366769,
+     2.144708
+    ],
+    [
+     41.366742,
+     2.144709
+    ],
+    [
+     41.366725,
+     2.144705
+    ],
+    [
+     41.36665,
+     2.144705
+    ],
+    [
+     41.366581,
+     2.144714
+    ],
+    [
+     41.366448,
+     2.144742
+    ],
+    [
+     41.36633,
+     2.1448
+    ],
+    [
+     41.366241,
+     2.144848
+    ],
+    [
+     41.366156,
+     2.144905
+    ],
+    [
+     41.366073,
+     2.14497
+    ],
+    [
+     41.365973,
+     2.145057
+    ],
+    [
+     41.365905,
+     2.145127
+    ],
+    [
+     41.365841,
+     2.145204
+    ],
+    [
+     41.365783,
+     2.145288
+    ],
+    [
+     41.365731,
+     2.145378
+    ],
+    [
+     41.365635,
+     2.145572
+    ],
+    [
+     41.365586,
+     2.145688
+    ],
+    [
+     41.365543,
+     2.145808
+    ],
+    [
+     41.365508,
+     2.145932
+    ],
+    [
+     41.365479,
+     2.146059
+    ],
+    [
+     41.365446,
+     2.146226
+    ],
+    [
+     41.365428,
+     2.146354
+    ],
+    [
+     41.365416,
+     2.146483
+    ],
+    [
+     41.365413,
+     2.146612
+    ],
+    [
+     41.365413,
+     2.14665
+    ],
+    [
+     41.365422,
+     2.146815
+    ],
+    [
+     41.365439,
+     2.146978
+    ],
+    [
+     41.365462,
+     2.14714
+    ],
+    [
+     41.365493,
+     2.1473
+    ],
+    [
+     41.365531,
+     2.147457
+    ],
+    [
+     41.365547,
+     2.147518
+    ],
+    [
+     41.365602,
+     2.14768
+    ],
+    [
+     41.365663,
+     2.147838
+    ],
+    [
+     41.365756,
+     2.148058
+    ],
+    [
+     41.365826,
+     2.1482
+    ],
+    [
+     41.365902,
+     2.148338
+    ],
+    [
+     41.365986,
+     2.148474
+    ],
+    [
+     41.366124,
+     2.148714
+    ],
+    [
+     41.366256,
+     2.14896
+    ],
+    [
+     41.366316,
+     2.149077
+    ],
+    [
+     41.36636,
+     2.149183
+    ],
+    [
+     41.366399,
+     2.149294
+    ],
+    [
+     41.366431,
+     2.149408
+    ],
+    [
+     41.366456,
+     2.149525
+    ],
+    [
+     41.366463,
+     2.149566
+    ],
+    [
+     41.366498,
+     2.149729
+    ],
+    [
+     41.366527,
+     2.149895
+    ],
+    [
+     41.366548,
+     2.150062
+    ],
+    [
+     41.366563,
+     2.150231
+    ],
+    [
+     41.36657,
+     2.150401
+    ],
+    [
+     41.36657,
+     2.150571
+    ],
+    [
+     41.366565,
+     2.150773
+    ],
+    [
+     41.366554,
+     2.15095
+    ],
+    [
+     41.366536,
+     2.151126
+    ],
+    [
+     41.36651,
+     2.151301
+    ],
+    [
+     41.366481,
+     2.151461
+    ],
+    [
+     41.36641,
+     2.151778
+    ],
+    [
+     41.366193,
+     2.152706
+    ],
+    [
+     41.366136,
+     2.152999
+    ],
+    [
+     41.366119,
+     2.153156
+    ],
+    [
+     41.366087,
+     2.153426
+    ],
+    [
+     41.366067,
+     2.153657
+    ],
+    [
+     41.366062,
+     2.153735
+    ],
+    [
+     41.366044,
+     2.154151
+    ],
+    [
+     41.366035,
+     2.154537
+    ],
+    [
+     41.366032,
+     2.154772
+    ],
+    [
+     41.366037,
+     2.155007
+    ],
+    [
+     41.366049,
+     2.155241
+    ],
+    [
+     41.366068,
+     2.155475
+    ],
+    [
+     41.366083,
+     2.155615
+    ],
+    [
+     41.366117,
+     2.155841
+    ],
+    [
+     41.366159,
+     2.156065
+    ],
+    [
+     41.366207,
+     2.156287
+    ],
+    [
+     41.366263,
+     2.156505
+    ],
+    [
+     41.366291,
+     2.156609
+    ],
+    [
+     41.366335,
+     2.156794
+    ],
+    [
+     41.366385,
+     2.156976
+    ],
+    [
+     41.366442,
+     2.157154
+    ],
+    [
+     41.366509,
+     2.157339
+    ],
+    [
+     41.366578,
+     2.157536
+    ],
+    [
+     41.366652,
+     2.157726
+    ],
+    [
+     41.366657,
+     2.157753
+    ],
+    [
+     41.366655,
+     2.157781
+    ],
+    [
+     41.366646,
+     2.157807
+    ],
+    [
+     41.366631,
+     2.157827
+    ],
+    [
+     41.366578,
+     2.157881
+    ],
+    [
+     41.36653,
+     2.157941
+    ],
+    [
+     41.366487,
+     2.158008
+    ],
+    [
+     41.366479,
+     2.158024
+    ],
+    [
+     41.366451,
+     2.158081
+    ],
+    [
+     41.36642,
+     2.158159
+    ],
+    [
+     41.366396,
+     2.15824
+    ],
+    [
+     41.366378,
+     2.158325
+    ],
+    [
+     41.366368,
+     2.158412
+    ],
+    [
+     41.366365,
+     2.1585
+    ],
+    [
+     41.366369,
+     2.158587
+    ],
+    [
+     41.36638,
+     2.158674
+    ],
+    [
+     41.366398,
+     2.158758
+    ],
+    [
+     41.366423,
+     2.158839
+    ],
+    [
+     41.366455,
+     2.158917
+    ],
+    [
+     41.366492,
+     2.158989
+    ],
+    [
+     41.366536,
+     2.159055
+    ],
+    [
+     41.366584,
+     2.159115
+    ],
+    [
+     41.366637,
+     2.159167
+    ],
+    [
+     41.366694,
+     2.159211
+    ],
+    [
+     41.366755,
+     2.159247
+    ],
+    [
+     41.366818,
+     2.159274
+    ],
+    [
+     41.366883,
+     2.159292
+    ],
+    [
+     41.366948,
+     2.1593
+    ],
+    [
+     41.367014,
+     2.159299
+    ],
+    [
+     41.36708,
+     2.159288
+    ],
+    [
+     41.367144,
+     2.159268
+    ],
+    [
+     41.367207,
+     2.159238
+    ],
+    [
+     41.367266,
+     2.1592
+    ],
+    [
+     41.367358,
+     2.159122
+    ],
+    [
+     41.367376,
+     2.159118
+    ],
+    [
+     41.367394,
+     2.159124
+    ],
+    [
+     41.367409,
+     2.159139
+    ],
+    [
+     41.367567,
+     2.159381
+    ],
+    [
+     41.367797,
+     2.159752
+    ],
+    [
+     41.368097,
+     2.160224
+    ],
+    [
+     41.368256,
+     2.1605
+    ],
+    [
+     41.368409,
+     2.160781
+    ],
+    [
+     41.368572,
+     2.161098
+    ],
+    [
+     41.368634,
+     2.161246
+    ],
+    [
+     41.36869,
+     2.161399
+    ],
+    [
+     41.36874,
+     2.161556
+    ],
+    [
+     41.368783,
+     2.161716
+    ],
+    [
+     41.368819,
+     2.161879
+    ],
+    [
+     41.368848,
+     2.162045
+    ],
+    [
+     41.36888,
+     2.162256
+    ],
+    [
+     41.368896,
+     2.16241
+    ],
+    [
+     41.368904,
+     2.162564
+    ],
+    [
+     41.368905,
+     2.162718
+    ],
+    [
+     41.368911,
+     2.162925
+    ],
+    [
+     41.368906,
+     2.163345
+    ],
+    [
+     41.368894,
+     2.163432
+    ],
+    [
+     41.368876,
+     2.163516
+    ],
+    [
+     41.368851,
+     2.163597
+    ],
+    [
+     41.368819,
+     2.163674
+    ],
+    [
+     41.368781,
+     2.163746
+    ],
+    [
+     41.368067,
+     2.164924
+    ],
+    [
+     41.367998,
+     2.165024
+    ],
+    [
+     41.367923,
+     2.165118
+    ],
+    [
+     41.367844,
+     2.165205
+    ],
+    [
+     41.367761,
+     2.165284
+    ],
+    [
+     41.367673,
+     2.165355
+    ],
+    [
+     41.367582,
+     2.165418
+    ],
+    [
+     41.367488,
+     2.165472
+    ],
+    [
+     41.367391,
+     2.165517
+    ],
+    [
+     41.367293,
+     2.165553
+    ],
+    [
+     41.367192,
+     2.16558
+    ],
+    [
+     41.367073,
+     2.165599
+    ],
+    [
+     41.366956,
+     2.165602
+    ],
+    [
+     41.36684,
+     2.165595
+    ],
+    [
+     41.366724,
+     2.165579
+    ],
+    [
+     41.366588,
+     2.165548
+    ],
+    [
+     41.366555,
+     2.165542
+    ],
+    [
+     41.366496,
+     2.165507
+    ],
+    [
+     41.366442,
+     2.165464
+    ],
+    [
+     41.366391,
+     2.165413
+    ],
+    [
+     41.366344,
+     2.165355
+    ],
+    [
+     41.366303,
+     2.165291
+    ],
+    [
+     41.366268,
+     2.16522
+    ],
+    [
+     41.366239,
+     2.165145
+    ],
+    [
+     41.366216,
+     2.165065
+    ],
+    [
+     41.366201,
+     2.164983
+    ],
+    [
+     41.366192,
+     2.1649
+    ],
+    [
+     41.366191,
+     2.164815
+    ],
+    [
+     41.366196,
+     2.164731
+    ],
+    [
+     41.366209,
+     2.164648
+    ],
+    [
+     41.366229,
+     2.164567
+    ],
+    [
+     41.366256,
+     2.16449
+    ],
+    [
+     41.366289,
+     2.164418
+    ],
+    [
+     41.366328,
+     2.164351
+    ],
+    [
+     41.366372,
+     2.16429
+    ],
+    [
+     41.366421,
+     2.164236
+    ],
+    [
+     41.366475,
+     2.16419
+    ],
+    [
+     41.366514,
+     2.164162
+    ],
+    [
+     41.367001,
+     2.163882
+    ],
+    [
+     41.367054,
+     2.163842
+    ],
+    [
+     41.367103,
+     2.163795
+    ],
+    [
+     41.367148,
+     2.16374
+    ],
+    [
+     41.367187,
+     2.163678
+    ],
+    [
+     41.367221,
+     2.163611
+    ],
+    [
+     41.367248,
+     2.163539
+    ],
+    [
+     41.367269,
+     2.163463
+    ],
+    [
+     41.367283,
+     2.163384
+    ],
+    [
+     41.36729,
+     2.163304
+    ],
+    [
+     41.36729,
+     2.163223
+    ],
+    [
+     41.367276,
+     2.163063
+    ],
+    [
+     41.36726,
+     2.162963
+    ],
+    [
+     41.367237,
+     2.162865
+    ],
+    [
+     41.367137,
+     2.162511
+    ],
+    [
+     41.367067,
+     2.162291
+    ],
+    [
+     41.36699,
+     2.162076
+    ],
+    [
+     41.366906,
+     2.161865
+    ],
+    [
+     41.36686,
+     2.161755
+    ],
+    [
+     41.366738,
+     2.161495
+    ],
+    [
+     41.366697,
+     2.161412
+    ],
+    [
+     41.36665,
+     2.161335
+    ],
+    [
+     41.366598,
+     2.161264
+    ],
+    [
+     41.366541,
+     2.161199
+    ],
+    [
+     41.366502,
+     2.161163
+    ],
+    [
+     41.366426,
+     2.161083
+    ],
+    [
+     41.366345,
+     2.161012
+    ],
+    [
+     41.366261,
+     2.160949
+    ],
+    [
+     41.365822,
+     2.160584
+    ],
+    [
+     41.365735,
+     2.160487
+    ],
+    [
+     41.36561,
+     2.160343
+    ],
+    [
+     41.365436,
+     2.160103
+    ],
+    [
+     41.365314,
+     2.159927
+    ],
+    [
+     41.365173,
+     2.159737
+    ],
+    [
+     41.365153,
+     2.159723
+    ],
+    [
+     41.36513,
+     2.159719
+    ],
+    [
+     41.365108,
+     2.159724
+    ],
+    [
+     41.365087,
+     2.159737
+    ],
+    [
+     41.365073,
+     2.159756
+    ],
+    [
+     41.365057,
+     2.159863
+    ],
+    [
+     41.365043,
+     2.15991
+    ],
+    [
+     41.365022,
+     2.159952
+    ],
+    [
+     41.364996,
+     2.159989
+    ],
+    [
+     41.364965,
+     2.160018
+    ],
+    [
+     41.36493,
+     2.16004
+    ],
+    [
+     41.364893,
+     2.160052
+    ],
+    [
+     41.364869,
+     2.160055
+    ],
+    [
+     41.364784,
+     2.160075
+    ],
+    [
+     41.364314,
+     2.160221
+    ],
+    [
+     41.363955,
+     2.160358
+    ],
+    [
+     41.363427,
+     2.160603
+    ],
+    [
+     41.363014,
+     2.160836
+    ],
+    [
+     41.362841,
+     2.160959
+    ],
+    [
+     41.362808,
+     2.160996
+    ],
+    [
+     41.362781,
+     2.161039
+    ],
+    [
+     41.362759,
+     2.161088
+    ],
+    [
+     41.362744,
+     2.161141
+    ],
+    [
+     41.362736,
+     2.161197
+    ],
+    [
+     41.362734,
+     2.161254
+    ],
+    [
+     41.362735,
+     2.161264
+    ],
+    [
+     41.362751,
+     2.16131
+    ],
+    [
+     41.362773,
+     2.161352
+    ],
+    [
+     41.362801,
+     2.161388
+    ],
+    [
+     41.362833,
+     2.161416
+    ],
+    [
+     41.362869,
+     2.161435
+    ],
+    [
+     41.362907,
+     2.161446
+    ],
+    [
+     41.362945,
+     2.161447
+    ],
+    [
+     41.362964,
+     2.161444
+    ],
+    [
+     41.363397,
+     2.16131
+    ],
+    [
+     41.363477,
+     2.161294
+    ],
+    [
+     41.363557,
+     2.161288
+    ],
+    [
+     41.363637,
+     2.161292
+    ],
+    [
+     41.363717,
+     2.161305
+    ],
+    [
+     41.363795,
+     2.161327
+    ],
+    [
+     41.363872,
+     2.161359
+    ],
+    [
+     41.363946,
+     2.1614
+    ],
+    [
+     41.364017,
+     2.161449
+    ],
+    [
+     41.364084,
+     2.161507
+    ],
+    [
+     41.364148,
+     2.161572
+    ],
+    [
+     41.364206,
+     2.161645
+    ],
+    [
+     41.36424,
+     2.161693
+    ],
+    [
+     41.364288,
+     2.161797
+    ],
+    [
+     41.36433,
+     2.161905
+    ],
+    [
+     41.364366,
+     2.162017
+    ],
+    [
+     41.364395,
+     2.162133
+    ],
+    [
+     41.364416,
+     2.162251
+    ],
+    [
+     41.364431,
+     2.162372
+    ],
+    [
+     41.364438,
+     2.162463
+    ],
+    [
+     41.364556,
+     2.163838
+    ],
+    [
+     41.364558,
+     2.163941
+    ],
+    [
+     41.364552,
+     2.164044
+    ],
+    [
+     41.364538,
+     2.164145
+    ],
+    [
+     41.364533,
+     2.164176
+    ],
+    [
+     41.364488,
+     2.164556
+    ],
+    [
+     41.36448,
+     2.164643
+    ],
+    [
+     41.364478,
+     2.164731
+    ],
+    [
+     41.364484,
+     2.164818
+    ],
+    [
+     41.364493,
+     2.164885
+    ],
+    [
+     41.364564,
+     2.165502
+    ],
+    [
+     41.364579,
+     2.165613
+    ],
+    [
+     41.364602,
+     2.165721
+    ],
+    [
+     41.364632,
+     2.165827
+    ],
+    [
+     41.364668,
+     2.165929
+    ],
+    [
+     41.365094,
+     2.167006
+    ]
+   ]
+  },
+  {
+   "line": "V17",
+   "variants": [
+    "V17"
+   ],
+   "trips_per_day": 138.7,
+   "route_id": "2.217.3080",
+   "shape_id": "2.217.113.1.2",
+   "headsign": "Port Vell",
+   "long_name": "Port Vell / Vall d'Hebron",
+   "color": "#6AB023",
+   "url": "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/V17",
+   "score": 27.5,
+   "marginal_score": 18.5,
+   "new_pois": [
+    "Arc de Triomf",
+    "Casa Amatller",
+    "Casa Batlló",
+    "Casa Milà (La Pedrera)",
+    "Casa Vicens",
+    "El Born CCM",
+    "Parc de la Ciutadella",
+    "Passeig de Gràcia"
+   ],
+   "poi_count": 11,
+   "districts": 6,
+   "spread_km": 3.43,
+   "stops": [
+    {
+     "stop_id": "2.2890.680680",
+     "stop_name": "Pg Vall d'Hebron - Trueba - Final de trajecte",
+     "lat": 41.423414,
+     "lon": 2.141806,
+     "pois": []
+    },
+    {
+     "stop_id": "2.2725.680529",
+     "stop_name": "Coll i Alentorn - Basses d'Horta",
+     "lat": 41.424382,
+     "lon": 2.143261,
+     "pois": []
+    },
+    {
+     "stop_id": "2.2891.690744",
+     "stop_name": "Av Martí Codolar - Coll i Alentorn",
+     "lat": 41.424709,
+     "lon": 2.14784,
+     "pois": []
+    },
+    {
+     "stop_id": "2.2022.680533",
+     "stop_name": "Granja Vella - Av Martí i Codolar",
+     "lat": 41.426859,
+     "lon": 2.147947,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1857.686020",
+     "stop_name": "Granja Vella - Basses d'Horta",
+     "lat": 41.427134,
+     "lon": 2.144904,
+     "pois": []
+    },
+    {
+     "stop_id": "2.28.681469",
+     "stop_name": "Hospital Vall d'Hebron",
+     "lat": 41.426892,
+     "lon": 2.142992,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1019.681176",
+     "stop_name": "Pg Vall d'Hebron - Av Jordà",
+     "lat": 41.424328,
+     "lon": 2.14172,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1020.700177",
+     "stop_name": "Pg Vall d'Hebron - Natzaret",
+     "lat": 41.421576,
+     "lon": 2.140501,
+     "pois": []
+    },
+    {
+     "stop_id": "2.754.674761",
+     "stop_name": "Pg Vall d'Hebron - L'Arrabassada",
+     "lat": 41.418623,
+     "lon": 2.139062,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1776.696211",
+     "stop_name": "Pl Alfonso Comín - Isaac Newton",
+     "lat": 41.414644,
+     "lon": 2.136704,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1543.685617",
+     "stop_name": "Av República Argentina - Pl Alfonso Comín",
+     "lat": 41.413428,
+     "lon": 2.138571,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1509.695662",
+     "stop_name": "Av República Argentina - Mare de Déu del Carmel",
+     "lat": 41.411604,
+     "lon": 2.141516,
+     "pois": []
+    },
+    {
+     "stop_id": "2.22.674825",
+     "stop_name": "Av República Argentina - Vallcarca",
+     "lat": 41.411365,
+     "lon": 2.143973,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1119.689808",
+     "stop_name": "Av República Argentina - Escipió",
+     "lat": 41.408629,
+     "lon": 2.147061,
+     "pois": []
+    },
+    {
+     "stop_id": "2.557.694237",
+     "stop_name": "Pl Lesseps - Av Riera de Cassoles",
+     "lat": 41.406118,
+     "lon": 2.149836,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1533.674827",
+     "stop_name": "Av Riera de Cassoles - Guillem Tell",
+     "lat": 41.402807,
+     "lon": 2.15003,
+     "pois": [
+      {
+       "name": "Casa Vicens",
+       "walk_m": 92,
+       "description": "Gaudí's first house — green tiles and Moorish geometry, opened to visitors only in 2017.",
+       "category": "historic",
+       "lat": 41.403499,
+       "lon": 2.150627
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1522.674828",
+     "stop_name": "Av Riera de Cassoles - Via Augusta",
+     "lat": 41.401226,
+     "lon": 2.151112,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1387.690492",
+     "stop_name": "Gal·la Placídia",
+     "lat": 41.399203,
+     "lon": 2.152383,
+     "pois": []
+    },
+    {
+     "stop_id": "2.286.693860",
+     "stop_name": "Via Augusta - Diagonal",
+     "lat": 41.396421,
+     "lon": 2.155036,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1080.690454",
+     "stop_name": "Diagonal - Pau Claris",
+     "lat": 41.396737,
+     "lon": 2.160649,
+     "pois": [
+      {
+       "name": "Casa Milà (La Pedrera)",
+       "walk_m": 181,
+       "description": "Gaudí's wave-fronted apartment block; the roof is a garden of chimney warriors.",
+       "category": "historic",
+       "lat": 41.395399,
+       "lon": 2.161878
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1490.675121",
+     "stop_name": "Pau Claris - Mallorca",
+     "lat": 41.394548,
+     "lon": 2.164609,
+     "pois": []
+    },
+    {
+     "stop_id": "2.174.692851",
+     "stop_name": "Pau Claris - Aragó",
+     "lat": 41.392751,
+     "lon": 2.166989,
+     "pois": [
+      {
+       "name": "Casa Batlló",
+       "walk_m": 229,
+       "description": "The dragon-backed house on Passeig de Gràcia — no straight lines, bone-like balconies.",
+       "category": "historic",
+       "lat": 41.391541,
+       "lon": 2.164761
+      },
+      {
+       "name": "Casa Amatller",
+       "walk_m": 243,
+       "description": "Puig i Cadafalch's stepped Flemish gable, next door to Casa Batlló in the Block of Discord.",
+       "category": "historic",
+       "lat": 41.391339,
+       "lon": 2.164773
+      }
+     ]
+    },
+    {
+     "stop_id": "2.226.689795",
+     "stop_name": "Pau Claris - Gran Via",
+     "lat": 41.390946,
+     "lon": 2.169374,
+     "pois": [
+      {
+       "name": "Passeig de Gràcia",
+       "walk_m": 191,
+       "description": "The boulevard where the bourgeoisie competed by architect; Gaudí won twice.",
+       "category": "landmark",
+       "lat": 41.389443,
+       "lon": 2.168277
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1040.690732",
+     "stop_name": "Pl Urquinaona",
+     "lat": 41.388783,
+     "lon": 2.173322,
+     "pois": [
+      {
+       "name": "Palau de la Música Catalana",
+       "walk_m": 207,
+       "description": "Domènech i Montaner's concert hall: an inverted stained-glass skylight over the stalls.",
+       "category": "attraction",
+       "lat": 41.387584,
+       "lon": 2.17522
+      }
+     ]
+    },
+    {
+     "stop_id": "2.780.690730",
+     "stop_name": "Trafalgar - Bruc",
+     "lat": 41.389715,
+     "lon": 2.177001,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1127.675035",
+     "stop_name": "Pg Lluís Companys - Arc de Triomf",
+     "lat": 41.39069,
+     "lon": 2.180252,
+     "pois": [
+      {
+       "name": "Arc de Triomf",
+       "walk_m": 51,
+       "description": "Red-brick arch built as the gateway to the 1888 World Fair — Moorish, not Roman.",
+       "category": "historic",
+       "lat": 41.391042,
+       "lon": 2.180645
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1128.675036",
+     "stop_name": "Pg Lluís Companys - Parc de la Ciutadella",
+     "lat": 41.388838,
+     "lon": 2.182697,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1163.690802",
+     "stop_name": "Pg Picasso - Princesa",
+     "lat": 41.387133,
+     "lon": 2.183523,
+     "pois": [
+      {
+       "name": "Parc de la Ciutadella",
+       "walk_m": 269,
+       "description": "The city's central park, with a cascade the young Gaudí helped design.",
+       "category": "park",
+       "lat": 41.388258,
+       "lon": 2.186379
+      },
+      {
+       "name": "Museu Picasso",
+       "walk_m": 296,
+       "description": "Five medieval palaces holding the painter's youth — the work before he became Picasso.",
+       "category": "museum",
+       "lat": 41.385097,
+       "lon": 2.181236
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1108.675125",
+     "stop_name": "Av Marquès de l'Argentera - Pg Picasso",
+     "lat": 41.385091,
+     "lon": 2.185189,
+     "pois": [
+      {
+       "name": "El Born CCM",
+       "walk_m": 147,
+       "description": "A market hall built over the streets flattened in 1714, now excavated beneath your feet.",
+       "category": "museum",
+       "lat": 41.385712,
+       "lon": 2.183637
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1476.689885",
+     "stop_name": "Pla de Palau",
+     "lat": 41.382081,
+     "lon": 2.18413,
+     "pois": [
+      {
+       "name": "Santa Maria del Mar",
+       "walk_m": 261,
+       "description": "Catalan Gothic at its purest — built in 55 years by the porters of the Born, and it shows.",
+       "category": "church",
+       "lat": 41.383803,
+       "lon": 2.182003
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1479.698146",
+     "stop_name": "Port Vell",
+     "lat": 41.376597,
+     "lon": 2.182934,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1482.689799",
+     "stop_name": "Maremagnum - Final de trajecte",
+     "lat": 41.375717,
+     "lon": 2.182396,
+     "pois": []
+    }
+   ],
+   "shape": [
+    [
+     41.423426,
+     2.141762
+    ],
+    [
+     41.423592,
+     2.141843
+    ],
+    [
+     41.423744,
+     2.141921
+    ],
+    [
+     41.423871,
+     2.142016
+    ],
+    [
+     41.424014,
+     2.142138
+    ],
+    [
+     41.424433,
+     2.142509
+    ],
+    [
+     41.424557,
+     2.142575
+    ],
+    [
+     41.424575,
+     2.142606
+    ],
+    [
+     41.424587,
+     2.142641
+    ],
+    [
+     41.424591,
+     2.142679
+    ],
+    [
+     41.424589,
+     2.142718
+    ],
+    [
+     41.42458,
+     2.142754
+    ],
+    [
+     41.424517,
+     2.142923
+    ],
+    [
+     41.424473,
+     2.14306
+    ],
+    [
+     41.424437,
+     2.143201
+    ],
+    [
+     41.424408,
+     2.143344
+    ],
+    [
+     41.424385,
+     2.14349
+    ],
+    [
+     41.42437,
+     2.143637
+    ],
+    [
+     41.424362,
+     2.143786
+    ],
+    [
+     41.424361,
+     2.143934
+    ],
+    [
+     41.424369,
+     2.144115
+    ],
+    [
+     41.424392,
+     2.144287
+    ],
+    [
+     41.424407,
+     2.144459
+    ],
+    [
+     41.424415,
+     2.144633
+    ],
+    [
+     41.424416,
+     2.144807
+    ],
+    [
+     41.424412,
+     2.144929
+    ],
+    [
+     41.424403,
+     2.14504
+    ],
+    [
+     41.424383,
+     2.145174
+    ],
+    [
+     41.424335,
+     2.145322
+    ],
+    [
+     41.424295,
+     2.145474
+    ],
+    [
+     41.424261,
+     2.145629
+    ],
+    [
+     41.424234,
+     2.145786
+    ],
+    [
+     41.424214,
+     2.145944
+    ],
+    [
+     41.424202,
+     2.146104
+    ],
+    [
+     41.424196,
+     2.146265
+    ],
+    [
+     41.424198,
+     2.146426
+    ],
+    [
+     41.424207,
+     2.146586
+    ],
+    [
+     41.424223,
+     2.146746
+    ],
+    [
+     41.424229,
+     2.146782
+    ],
+    [
+     41.424278,
+     2.146933
+    ],
+    [
+     41.424334,
+     2.14708
+    ],
+    [
+     41.424397,
+     2.147223
+    ],
+    [
+     41.424466,
+     2.14736
+    ],
+    [
+     41.42454,
+     2.147492
+    ],
+    [
+     41.42462,
+     2.147618
+    ],
+    [
+     41.424706,
+     2.147738
+    ],
+    [
+     41.424797,
+     2.147851
+    ],
+    [
+     41.424892,
+     2.147957
+    ],
+    [
+     41.424987,
+     2.148051
+    ],
+    [
+     41.425089,
+     2.148146
+    ],
+    [
+     41.425195,
+     2.148233
+    ],
+    [
+     41.425305,
+     2.148312
+    ],
+    [
+     41.425418,
+     2.148382
+    ],
+    [
+     41.425534,
+     2.148444
+    ],
+    [
+     41.425652,
+     2.148497
+    ],
+    [
+     41.425772,
+     2.14854
+    ],
+    [
+     41.425895,
+     2.148574
+    ],
+    [
+     41.426018,
+     2.148599
+    ],
+    [
+     41.426142,
+     2.148614
+    ],
+    [
+     41.426267,
+     2.14862
+    ],
+    [
+     41.426391,
+     2.148616
+    ],
+    [
+     41.426516,
+     2.148603
+    ],
+    [
+     41.426632,
+     2.148584
+    ],
+    [
+     41.426676,
+     2.148554
+    ],
+    [
+     41.426716,
+     2.148517
+    ],
+    [
+     41.426752,
+     2.148472
+    ],
+    [
+     41.426782,
+     2.14842
+    ],
+    [
+     41.426806,
+     2.148363
+    ],
+    [
+     41.426824,
+     2.148302
+    ],
+    [
+     41.426835,
+     2.148238
+    ],
+    [
+     41.426838,
+     2.148173
+    ],
+    [
+     41.426835,
+     2.148108
+    ],
+    [
+     41.426827,
+     2.148057
+    ],
+    [
+     41.426795,
+     2.147802
+    ],
+    [
+     41.426766,
+     2.147515
+    ],
+    [
+     41.426744,
+     2.147228
+    ],
+    [
+     41.42673,
+     2.146939
+    ],
+    [
+     41.426723,
+     2.146663
+    ],
+    [
+     41.426729,
+     2.146477
+    ],
+    [
+     41.426742,
+     2.146291
+    ],
+    [
+     41.426763,
+     2.146106
+    ],
+    [
+     41.426791,
+     2.145923
+    ],
+    [
+     41.426825,
+     2.145742
+    ],
+    [
+     41.426867,
+     2.145564
+    ],
+    [
+     41.426915,
+     2.145381
+    ],
+    [
+     41.42697,
+     2.145214
+    ],
+    [
+     41.427032,
+     2.145051
+    ],
+    [
+     41.427101,
+     2.144892
+    ],
+    [
+     41.427138,
+     2.144813
+    ],
+    [
+     41.427187,
+     2.144699
+    ],
+    [
+     41.427229,
+     2.14458
+    ],
+    [
+     41.427281,
+     2.144405
+    ],
+    [
+     41.427323,
+     2.144245
+    ],
+    [
+     41.427359,
+     2.144082
+    ],
+    [
+     41.427389,
+     2.143909
+    ],
+    [
+     41.427398,
+     2.143843
+    ],
+    [
+     41.427411,
+     2.143768
+    ],
+    [
+     41.427423,
+     2.143719
+    ],
+    [
+     41.427489,
+     2.14347
+    ],
+    [
+     41.427492,
+     2.143436
+    ],
+    [
+     41.427491,
+     2.14341
+    ],
+    [
+     41.427485,
+     2.143381
+    ],
+    [
+     41.427475,
+     2.14335
+    ],
+    [
+     41.427457,
+     2.143319
+    ],
+    [
+     41.42743,
+     2.143289
+    ],
+    [
+     41.427393,
+     2.143261
+    ],
+    [
+     41.42734,
+     2.143235
+    ],
+    [
+     41.42544,
+     2.142358
+    ],
+    [
+     41.42534,
+     2.142298
+    ],
+    [
+     41.425243,
+     2.14223
+    ],
+    [
+     41.425158,
+     2.142162
+    ],
+    [
+     41.425074,
+     2.142105
+    ],
+    [
+     41.424991,
+     2.142059
+    ],
+    [
+     41.424884,
+     2.142008
+    ],
+    [
+     41.424749,
+     2.141975
+    ],
+    [
+     41.424503,
+     2.141851
+    ],
+    [
+     41.424196,
+     2.141719
+    ],
+    [
+     41.423759,
+     2.141563
+    ],
+    [
+     41.423447,
+     2.141437
+    ],
+    [
+     41.423025,
+     2.141238
+    ],
+    [
+     41.422559,
+     2.141009
+    ],
+    [
+     41.42196,
+     2.140719
+    ],
+    [
+     41.42065,
+     2.140092
+    ],
+    [
+     41.420292,
+     2.139913
+    ],
+    [
+     41.41914,
+     2.139365
+    ],
+    [
+     41.418609,
+     2.139099
+    ],
+    [
+     41.418016,
+     2.138759
+    ],
+    [
+     41.417534,
+     2.138494
+    ],
+    [
+     41.417313,
+     2.138366
+    ],
+    [
+     41.417182,
+     2.138294
+    ],
+    [
+     41.417093,
+     2.138236
+    ],
+    [
+     41.417008,
+     2.13817
+    ],
+    [
+     41.416927,
+     2.138095
+    ],
+    [
+     41.41685,
+     2.138013
+    ],
+    [
+     41.416765,
+     2.137907
+    ],
+    [
+     41.416697,
+     2.13781
+    ],
+    [
+     41.416634,
+     2.137706
+    ],
+    [
+     41.416577,
+     2.137597
+    ],
+    [
+     41.416529,
+     2.137492
+    ],
+    [
+     41.416095,
+     2.136516
+    ],
+    [
+     41.416062,
+     2.136436
+    ],
+    [
+     41.416024,
+     2.136361
+    ],
+    [
+     41.415979,
+     2.136292
+    ],
+    [
+     41.415929,
+     2.136229
+    ],
+    [
+     41.415875,
+     2.136174
+    ],
+    [
+     41.415816,
+     2.136126
+    ],
+    [
+     41.415757,
+     2.136089
+    ],
+    [
+     41.415688,
+     2.136062
+    ],
+    [
+     41.415617,
+     2.136044
+    ],
+    [
+     41.415546,
+     2.136036
+    ],
+    [
+     41.415474,
+     2.136037
+    ],
+    [
+     41.415402,
+     2.136048
+    ],
+    [
+     41.415332,
+     2.136068
+    ],
+    [
+     41.415317,
+     2.136073
+    ],
+    [
+     41.415253,
+     2.136108
+    ],
+    [
+     41.415192,
+     2.136152
+    ],
+    [
+     41.41517,
+     2.136171
+    ],
+    [
+     41.415104,
+     2.136233
+    ],
+    [
+     41.415042,
+     2.136303
+    ],
+    [
+     41.415004,
+     2.136352
+    ],
+    [
+     41.414688,
+     2.136702
+    ],
+    [
+     41.414509,
+     2.136902
+    ],
+    [
+     41.414456,
+     2.136969
+    ],
+    [
+     41.414408,
+     2.137043
+    ],
+    [
+     41.414374,
+     2.137104
+    ],
+    [
+     41.414264,
+     2.137342
+    ],
+    [
+     41.414175,
+     2.137541
+    ],
+    [
+     41.414133,
+     2.137629
+    ],
+    [
+     41.414063,
+     2.137768
+    ],
+    [
+     41.414006,
+     2.137871
+    ],
+    [
+     41.413976,
+     2.13792
+    ],
+    [
+     41.413379,
+     2.1387
+    ],
+    [
+     41.412767,
+     2.139484
+    ],
+    [
+     41.412529,
+     2.139791
+    ],
+    [
+     41.412283,
+     2.140069
+    ],
+    [
+     41.411835,
+     2.14064
+    ],
+    [
+     41.411788,
+     2.140714
+    ],
+    [
+     41.411746,
+     2.140794
+    ],
+    [
+     41.41171,
+     2.140874
+    ],
+    [
+     41.411692,
+     2.140934
+    ],
+    [
+     41.41168,
+     2.140996
+    ],
+    [
+     41.411625,
+     2.141517
+    ],
+    [
+     41.411432,
+     2.143393
+    ],
+    [
+     41.411385,
+     2.143975
+    ],
+    [
+     41.411338,
+     2.144581
+    ],
+    [
+     41.411328,
+     2.144649
+    ],
+    [
+     41.411308,
+     2.144749
+    ],
+    [
+     41.411293,
+     2.144808
+    ],
+    [
+     41.411276,
+     2.144871
+    ],
+    [
+     41.411256,
+     2.144935
+    ],
+    [
+     41.411233,
+     2.144998
+    ],
+    [
+     41.411206,
+     2.145057
+    ],
+    [
+     41.411174,
+     2.145112
+    ],
+    [
+     41.411119,
+     2.145195
+    ],
+    [
+     41.411042,
+     2.145301
+    ],
+    [
+     41.410995,
+     2.145358
+    ],
+    [
+     41.410944,
+     2.145416
+    ],
+    [
+     41.410878,
+     2.145485
+    ],
+    [
+     41.410827,
+     2.145533
+    ],
+    [
+     41.410777,
+     2.145577
+    ],
+    [
+     41.410718,
+     2.145622
+    ],
+    [
+     41.410686,
+     2.145643
+    ],
+    [
+     41.410266,
+     2.145851
+    ],
+    [
+     41.410181,
+     2.14589
+    ],
+    [
+     41.410098,
+     2.145938
+    ],
+    [
+     41.410018,
+     2.145994
+    ],
+    [
+     41.409592,
+     2.146331
+    ],
+    [
+     41.409109,
+     2.146719
+    ],
+    [
+     41.408458,
+     2.147238
+    ],
+    [
+     41.408241,
+     2.147404
+    ],
+    [
+     41.408071,
+     2.147546
+    ],
+    [
+     41.40798,
+     2.147635
+    ],
+    [
+     41.407905,
+     2.147718
+    ],
+    [
+     41.406773,
+     2.149149
+    ],
+    [
+     41.406453,
+     2.149508
+    ],
+    [
+     41.406061,
+     2.149958
+    ],
+    [
+     41.406035,
+     2.149977
+    ],
+    [
+     41.406016,
+     2.149988
+    ],
+    [
+     41.405992,
+     2.149999
+    ],
+    [
+     41.405963,
+     2.150008
+    ],
+    [
+     41.40593,
+     2.150014
+    ],
+    [
+     41.405892,
+     2.150017
+    ],
+    [
+     41.405851,
+     2.150013
+    ],
+    [
+     41.405806,
+     2.150002
+    ],
+    [
+     41.40577,
+     2.149989
+    ],
+    [
+     41.405729,
+     2.149972
+    ],
+    [
+     41.405656,
+     2.149935
+    ],
+    [
+     41.405626,
+     2.149924
+    ],
+    [
+     41.405591,
+     2.149914
+    ],
+    [
+     41.405516,
+     2.149902
+    ],
+    [
+     41.405462,
+     2.149903
+    ],
+    [
+     41.405378,
+     2.149916
+    ],
+    [
+     41.405308,
+     2.149937
+    ],
+    [
+     41.404464,
+     2.150265
+    ],
+    [
+     41.404409,
+     2.150285
+    ],
+    [
+     41.404352,
+     2.150296
+    ],
+    [
+     41.404294,
+     2.150297
+    ],
+    [
+     41.404237,
+     2.150288
+    ],
+    [
+     41.404181,
+     2.150271
+    ],
+    [
+     41.404128,
+     2.150244
+    ],
+    [
+     41.404077,
+     2.150208
+    ],
+    [
+     41.40403,
+     2.150164
+    ],
+    [
+     41.403989,
+     2.150115
+    ],
+    [
+     41.403954,
+     2.150066
+    ],
+    [
+     41.403913,
+     2.150024
+    ],
+    [
+     41.403873,
+     2.149988
+    ],
+    [
+     41.403829,
+     2.149961
+    ],
+    [
+     41.403783,
+     2.149943
+    ],
+    [
+     41.40346,
+     2.149888
+    ],
+    [
+     41.403267,
+     2.149863
+    ],
+    [
+     41.403199,
+     2.149863
+    ],
+    [
+     41.403131,
+     2.149874
+    ],
+    [
+     41.403064,
+     2.149894
+    ],
+    [
+     41.403,
+     2.149923
+    ],
+    [
+     41.402983,
+     2.149932
+    ],
+    [
+     41.402816,
+     2.150055
+    ],
+    [
+     41.402149,
+     2.150574
+    ],
+    [
+     41.401741,
+     2.150892
+    ],
+    [
+     41.401562,
+     2.15104
+    ],
+    [
+     41.401495,
+     2.15108
+    ],
+    [
+     41.401424,
+     2.151111
+    ],
+    [
+     41.401352,
+     2.151133
+    ],
+    [
+     41.401278,
+     2.151145
+    ],
+    [
+     41.401148,
+     2.15115
+    ],
+    [
+     41.401069,
+     2.151142
+    ],
+    [
+     41.40099,
+     2.151125
+    ],
+    [
+     41.400912,
+     2.151098
+    ],
+    [
+     41.400866,
+     2.15108
+    ],
+    [
+     41.400823,
+     2.151053
+    ],
+    [
+     41.400776,
+     2.151009
+    ],
+    [
+     41.400733,
+     2.150985
+    ],
+    [
+     41.400688,
+     2.150969
+    ],
+    [
+     41.400642,
+     2.150963
+    ],
+    [
+     41.400595,
+     2.150966
+    ],
+    [
+     41.400549,
+     2.150979
+    ],
+    [
+     41.400506,
+     2.151001
+    ],
+    [
+     41.400465,
+     2.151031
+    ],
+    [
+     41.40044,
+     2.151056
+    ],
+    [
+     41.400371,
+     2.151161
+    ],
+    [
+     41.400297,
+     2.15126
+    ],
+    [
+     41.400241,
+     2.151326
+    ],
+    [
+     41.400035,
+     2.151559
+    ],
+    [
+     41.399798,
+     2.151811
+    ],
+    [
+     41.399674,
+     2.151959
+    ],
+    [
+     41.399546,
+     2.152101
+    ],
+    [
+     41.399433,
+     2.152215
+    ],
+    [
+     41.398896,
+     2.152735
+    ],
+    [
+     41.398534,
+     2.153094
+    ],
+    [
+     41.398333,
+     2.153237
+    ],
+    [
+     41.397633,
+     2.153941
+    ],
+    [
+     41.396751,
+     2.154809
+    ],
+    [
+     41.396628,
+     2.154918
+    ],
+    [
+     41.396391,
+     2.155091
+    ],
+    [
+     41.396101,
+     2.155285
+    ],
+    [
+     41.39586,
+     2.155437
+    ],
+    [
+     41.395725,
+     2.155513
+    ],
+    [
+     41.395685,
+     2.155545
+    ],
+    [
+     41.395651,
+     2.155585
+    ],
+    [
+     41.395621,
+     2.155632
+    ],
+    [
+     41.395597,
+     2.155684
+    ],
+    [
+     41.39558,
+     2.15574
+    ],
+    [
+     41.395569,
+     2.1558
+    ],
+    [
+     41.395566,
+     2.155861
+    ],
+    [
+     41.39557,
+     2.155922
+    ],
+    [
+     41.395578,
+     2.155972
+    ],
+    [
+     41.396224,
+     2.158531
+    ],
+    [
+     41.396403,
+     2.159221
+    ],
+    [
+     41.396412,
+     2.159287
+    ],
+    [
+     41.396413,
+     2.159337
+    ],
+    [
+     41.396412,
+     2.159364
+    ],
+    [
+     41.396409,
+     2.159391
+    ],
+    [
+     41.396403,
+     2.159421
+    ],
+    [
+     41.3964,
+     2.159446
+    ],
+    [
+     41.396398,
+     2.15949
+    ],
+    [
+     41.396399,
+     2.159517
+    ],
+    [
+     41.396401,
+     2.159547
+    ],
+    [
+     41.396406,
+     2.159579
+    ],
+    [
+     41.396415,
+     2.159612
+    ],
+    [
+     41.396426,
+     2.159645
+    ],
+    [
+     41.396609,
+     2.160051
+    ],
+    [
+     41.396638,
+     2.160136
+    ],
+    [
+     41.396948,
+     2.161379
+    ],
+    [
+     41.396952,
+     2.161403
+    ],
+    [
+     41.396952,
+     2.161419
+    ],
+    [
+     41.396951,
+     2.161438
+    ],
+    [
+     41.396947,
+     2.161459
+    ],
+    [
+     41.39694,
+     2.16148
+    ],
+    [
+     41.396928,
+     2.161503
+    ],
+    [
+     41.396912,
+     2.161525
+    ],
+    [
+     41.396642,
+     2.161886
+    ],
+    [
+     41.396481,
+     2.162092
+    ],
+    [
+     41.395133,
+     2.163887
+    ],
+    [
+     41.394563,
+     2.16463
+    ],
+    [
+     41.393431,
+     2.166128
+    ],
+    [
+     41.392933,
+     2.166792
+    ],
+    [
+     41.391709,
+     2.168417
+    ],
+    [
+     41.390805,
+     2.169602
+    ],
+    [
+     41.390231,
+     2.170362
+    ],
+    [
+     41.389815,
+     2.170915
+    ],
+    [
+     41.389446,
+     2.171416
+    ],
+    [
+     41.389023,
+     2.171986
+    ],
+    [
+     41.388679,
+     2.172453
+    ],
+    [
+     41.388567,
+     2.172586
+    ],
+    [
+     41.388542,
+     2.172626
+    ],
+    [
+     41.388523,
+     2.172672
+    ],
+    [
+     41.388511,
+     2.172721
+    ],
+    [
+     41.388506,
+     2.172773
+    ],
+    [
+     41.388508,
+     2.172825
+    ],
+    [
+     41.388517,
+     2.172876
+    ],
+    [
+     41.388533,
+     2.172923
+    ],
+    [
+     41.388558,
+     2.172972
+    ],
+    [
+     41.388904,
+     2.173427
+    ],
+    [
+     41.38892,
+     2.173451
+    ],
+    [
+     41.38893,
+     2.173479
+    ],
+    [
+     41.388933,
+     2.173511
+    ],
+    [
+     41.388931,
+     2.17353
+    ],
+    [
+     41.38893,
+     2.173668
+    ],
+    [
+     41.388918,
+     2.174282
+    ],
+    [
+     41.388919,
+     2.17566
+    ],
+    [
+     41.388921,
+     2.175729
+    ],
+    [
+     41.388929,
+     2.175797
+    ],
+    [
+     41.388945,
+     2.175862
+    ],
+    [
+     41.388967,
+     2.175925
+    ],
+    [
+     41.388996,
+     2.175982
+    ],
+    [
+     41.389004,
+     2.175996
+    ],
+    [
+     41.389388,
+     2.176518
+    ],
+    [
+     41.389988,
+     2.177328
+    ],
+    [
+     41.390076,
+     2.177455
+    ],
+    [
+     41.390133,
+     2.177545
+    ],
+    [
+     41.390295,
+     2.177974
+    ],
+    [
+     41.390521,
+     2.178538
+    ],
+    [
+     41.390801,
+     2.179333
+    ],
+    [
+     41.390978,
+     2.179809
+    ],
+    [
+     41.390982,
+     2.179844
+    ],
+    [
+     41.390979,
+     2.179881
+    ],
+    [
+     41.39097,
+     2.179915
+    ],
+    [
+     41.390952,
+     2.179947
+    ],
+    [
+     41.389918,
+     2.181309
+    ],
+    [
+     41.388729,
+     2.182886
+    ],
+    [
+     41.38871,
+     2.182904
+    ],
+    [
+     41.388696,
+     2.182915
+    ],
+    [
+     41.388678,
+     2.182924
+    ],
+    [
+     41.388657,
+     2.182929
+    ],
+    [
+     41.388635,
+     2.182929
+    ],
+    [
+     41.388611,
+     2.182922
+    ],
+    [
+     41.388586,
+     2.182904
+    ],
+    [
+     41.388558,
+     2.182875
+    ],
+    [
+     41.38828,
+     2.182501
+    ],
+    [
+     41.388235,
+     2.182451
+    ],
+    [
+     41.388205,
+     2.182421
+    ],
+    [
+     41.388167,
+     2.182391
+    ],
+    [
+     41.388146,
+     2.182379
+    ],
+    [
+     41.388125,
+     2.182371
+    ],
+    [
+     41.388104,
+     2.182368
+    ],
+    [
+     41.388071,
+     2.18237
+    ],
+    [
+     41.388048,
+     2.182377
+    ],
+    [
+     41.388036,
+     2.182383
+    ],
+    [
+     41.388025,
+     2.182393
+    ],
+    [
+     41.385607,
+     2.185591
+    ],
+    [
+     41.385591,
+     2.185609
+    ],
+    [
+     41.38558,
+     2.185618
+    ],
+    [
+     41.385567,
+     2.185626
+    ],
+    [
+     41.385552,
+     2.185631
+    ],
+    [
+     41.385536,
+     2.185632
+    ],
+    [
+     41.385518,
+     2.185629
+    ],
+    [
+     41.385495,
+     2.185617
+    ],
+    [
+     41.385061,
+     2.185246
+    ],
+    [
+     41.383195,
+     2.183672
+    ],
+    [
+     41.383144,
+     2.183631
+    ],
+    [
+     41.38304,
+     2.18357
+    ],
+    [
+     41.382992,
+     2.183531
+    ],
+    [
+     41.382976,
+     2.183516
+    ],
+    [
+     41.382745,
+     2.183324
+    ],
+    [
+     41.382699,
+     2.18329
+    ],
+    [
+     41.382664,
+     2.183275
+    ],
+    [
+     41.382628,
+     2.183269
+    ],
+    [
+     41.382591,
+     2.183273
+    ],
+    [
+     41.382555,
+     2.183286
+    ],
+    [
+     41.382522,
+     2.183308
+    ],
+    [
+     41.382493,
+     2.183339
+    ],
+    [
+     41.382469,
+     2.183376
+    ],
+    [
+     41.382104,
+     2.184149
+    ],
+    [
+     41.381844,
+     2.184743
+    ],
+    [
+     41.381816,
+     2.184802
+    ],
+    [
+     41.381803,
+     2.18482
+    ],
+    [
+     41.381787,
+     2.18483
+    ],
+    [
+     41.381769,
+     2.18483
+    ],
+    [
+     41.381752,
+     2.184822
+    ],
+    [
+     41.381744,
+     2.184814
+    ],
+    [
+     41.381643,
+     2.184691
+    ],
+    [
+     41.381264,
+     2.184293
+    ],
+    [
+     41.381222,
+     2.184257
+    ],
+    [
+     41.381184,
+     2.184213
+    ],
+    [
+     41.381151,
+     2.184162
+    ],
+    [
+     41.381135,
+     2.184133
+    ],
+    [
+     41.381059,
+     2.183914
+    ],
+    [
+     41.380989,
+     2.183691
+    ],
+    [
+     41.380927,
+     2.183464
+    ],
+    [
+     41.38087,
+     2.183234
+    ],
+    [
+     41.380851,
+     2.183202
+    ],
+    [
+     41.380826,
+     2.183176
+    ],
+    [
+     41.380798,
+     2.183159
+    ],
+    [
+     41.380768,
+     2.18315
+    ],
+    [
+     41.380736,
+     2.183151
+    ],
+    [
+     41.380706,
+     2.183161
+    ],
+    [
+     41.380696,
+     2.183167
+    ],
+    [
+     41.379605,
+     2.183592
+    ],
+    [
+     41.379558,
+     2.183602
+    ],
+    [
+     41.379511,
+     2.183603
+    ],
+    [
+     41.379465,
+     2.183593
+    ],
+    [
+     41.37942,
+     2.183575
+    ],
+    [
+     41.379409,
+     2.183569
+    ],
+    [
+     41.378792,
+     2.183087
+    ],
+    [
+     41.378748,
+     2.18306
+    ],
+    [
+     41.378701,
+     2.183042
+    ],
+    [
+     41.378653,
+     2.183034
+    ],
+    [
+     41.378605,
+     2.183035
+    ],
+    [
+     41.378554,
+     2.183047
+    ],
+    [
+     41.377405,
+     2.183498
+    ],
+    [
+     41.377361,
+     2.183506
+    ],
+    [
+     41.377316,
+     2.183505
+    ],
+    [
+     41.377272,
+     2.183494
+    ],
+    [
+     41.37723,
+     2.183473
+    ],
+    [
+     41.377213,
+     2.183462
+    ],
+    [
+     41.37591,
+     2.182417
+    ],
+    [
+     41.37512,
+     2.181799
+    ],
+    [
+     41.37509,
+     2.181756
+    ],
+    [
+     41.375074,
+     2.181728
+    ],
+    [
+     41.375052,
+     2.181706
+    ],
+    [
+     41.375027,
+     2.181692
+    ],
+    [
+     41.375,
+     2.181688
+    ],
+    [
+     41.374972,
+     2.181693
+    ],
+    [
+     41.374943,
+     2.181711
+    ],
+    [
+     41.374917,
+     2.181758
+    ],
+    [
+     41.374916,
+     2.181788
+    ],
+    [
+     41.374922,
+     2.181817
+    ],
+    [
+     41.374935,
+     2.181842
+    ],
+    [
+     41.374952,
+     2.18186
+    ],
+    [
+     41.375311,
+     2.182013
+    ],
+    [
+     41.375416,
+     2.182094
+    ],
+    [
+     41.375737,
+     2.182353
+    ]
+   ]
+  },
+  {
+   "line": "D50",
+   "variants": [
+    "D50"
+   ],
+   "trips_per_day": 186.1,
+   "route_id": "2.250.3051",
+   "shape_id": "2.250.133.1.2",
+   "headsign": "Paral·lel",
+   "long_name": "Paral·lel / Ciutat Meridiana",
+   "color": "#93107E",
+   "url": "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/D50",
+   "score": 20.0,
+   "marginal_score": 9.0,
+   "new_pois": [
+    "MACBA",
+    "Mercat de Sant Antoni",
+    "Sagrada Família"
+   ],
+   "poi_count": 8,
+   "districts": 6,
+   "spread_km": 2.95,
+   "stops": [
+    {
+     "stop_id": "2.1958.676006",
+     "stop_name": "Av dels Quinze - Costa i Cuxart",
+     "lat": 41.428098,
+     "lon": 2.174701,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1095.674416",
+     "stop_name": "Av dels Quinze - Pg Maragall",
+     "lat": 41.4264,
+     "lon": 2.175874,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1232.681460",
+     "stop_name": "Pg Maragall - Rda Guinardó",
+     "lat": 41.424242,
+     "lon": 2.177086,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1345.694770",
+     "stop_name": "Pg Maragall - Segle XX",
+     "lat": 41.422076,
+     "lon": 2.179092,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1660.674419",
+     "stop_name": "Pl Maragall - Xiprer",
+     "lat": 41.41888,
+     "lon": 2.180476,
+     "pois": []
+    },
+    {
+     "stop_id": "2.859.674420",
+     "stop_name": "Sant Antoni Maria Claret - Rambla Volart",
+     "lat": 41.415269,
+     "lon": 2.179668,
+     "pois": []
+    },
+    {
+     "stop_id": "2.233.674421",
+     "stop_name": "Sant Antoni Maria Claret - Independència",
+     "lat": 41.413257,
+     "lon": 2.176982,
+     "pois": []
+    },
+    {
+     "stop_id": "2.635.674422",
+     "stop_name": "Dos de Maig - Sant Antoni Maria Claret",
+     "lat": 41.41157,
+     "lon": 2.175979,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1143.694774",
+     "stop_name": "Dos de Maig - Còrsega",
+     "lat": 41.409817,
+     "lon": 2.178277,
+     "pois": []
+    },
+    {
+     "stop_id": "2.234.674424",
+     "stop_name": "Mallorca - Dos de Maig",
+     "lat": 41.407311,
+     "lon": 2.180417,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1072.674425",
+     "stop_name": "Mallorca - Padilla",
+     "lat": 41.40559,
+     "lon": 2.178124,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1297.689817",
+     "stop_name": "Mallorca - Marina",
+     "lat": 41.403954,
+     "lon": 2.175937,
+     "pois": [
+      {
+       "name": "Sagrada Família",
+       "walk_m": 147,
+       "description": "Gaudí's unfinished basilica — a forest of stone columns under stained glass, topped out in 2026.",
+       "category": "church",
+       "lat": 41.403505,
+       "lon": 2.17428
+      }
+     ]
+    },
+    {
+     "stop_id": "2.3341.689734",
+     "stop_name": "Mallorca - Nàpols",
+     "lat": 41.401273,
+     "lon": 2.17235,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1492.690405",
+     "stop_name": "Pg de Sant Joan - Pl Mossèn Jacint Verdaguer",
+     "lat": 41.398624,
+     "lon": 2.170429,
+     "pois": []
+    },
+    {
+     "stop_id": "2.3391.690403",
+     "stop_name": "Pg Sant Joan - Consell de Cent",
+     "lat": 41.397042,
+     "lon": 2.172522,
+     "pois": []
+    },
+    {
+     "stop_id": "2.315.690407",
+     "stop_name": "Pg de Sant Joan - Diputació",
+     "lat": 41.395419,
+     "lon": 2.174671,
+     "pois": []
+    },
+    {
+     "stop_id": "2.3241.693540",
+     "stop_name": "Pg de St Joan - Ausiàs March",
+     "lat": 41.392401,
+     "lon": 2.178678,
+     "pois": [
+      {
+       "name": "Arc de Triomf",
+       "walk_m": 223,
+       "description": "Red-brick arch built as the gateway to the 1888 World Fair — Moorish, not Roman.",
+       "category": "historic",
+       "lat": 41.391042,
+       "lon": 2.180645
+      }
+     ]
+    },
+    {
+     "stop_id": "2.148.677961",
+     "stop_name": "Ronda Sant Pere - Girona",
+     "lat": 41.390249,
+     "lon": 2.175962,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1069.692556",
+     "stop_name": "Metro Urquinaona",
+     "lat": 41.38902,
+     "lon": 2.172786,
+     "pois": [
+      {
+       "name": "Palau de la Música Catalana",
+       "walk_m": 258,
+       "description": "Domènech i Montaner's concert hall: an inverted stained-glass skylight over the stalls.",
+       "category": "attraction",
+       "lat": 41.387584,
+       "lon": 2.17522
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1210.687701",
+     "stop_name": "Pl Catalunya - Pg de Gràcia",
+     "lat": 41.387757,
+     "lon": 2.169316,
+     "pois": [
+      {
+       "name": "Plaça de Catalunya",
+       "walk_m": 111,
+       "description": "The hinge between the old city and the Eixample grid, and everyone's meeting point.",
+       "category": "landmark",
+       "lat": 41.386874,
+       "lon": 2.16994
+      },
+      {
+       "name": "Passeig de Gràcia",
+       "walk_m": 207,
+       "description": "The boulevard where the bourgeoisie competed by architect; Gaudí won twice.",
+       "category": "landmark",
+       "lat": 41.389443,
+       "lon": 2.168277
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1124.697162",
+     "stop_name": "Ronda Universitat - Pl Universitat",
+     "lat": 41.386262,
+     "lon": 2.165264,
+     "pois": []
+    },
+    {
+     "stop_id": "2.3378.690183",
+     "stop_name": "Sepúlveda - Muntaner",
+     "lat": 41.383412,
+     "lon": 2.162684,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1366.692575",
+     "stop_name": "Villarroel - Sepúlveda",
+     "lat": 41.381507,
+     "lon": 2.161561,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1464.699548",
+     "stop_name": "Ronda Sant Antoni - Comte d'Urgell",
+     "lat": 41.37925,
+     "lon": 2.163068,
+     "pois": [
+      {
+       "name": "Mercat de Sant Antoni",
+       "walk_m": 110,
+       "description": "A cast-iron market on a Greek-cross plan, reopened in 2018 over Roman road remains.",
+       "category": "market",
+       "lat": 41.378623,
+       "lon": 2.162049
+      }
+     ]
+    },
+    {
+     "stop_id": "2.1058.674804",
+     "stop_name": "Viladomat - Manso",
+     "lat": 41.376481,
+     "lon": 2.16144,
+     "pois": []
+    },
+    {
+     "stop_id": "2.770.691011",
+     "stop_name": "Paral·lel - Margarit",
+     "lat": 41.374866,
+     "lon": 2.164506,
+     "pois": []
+    },
+    {
+     "stop_id": "2.1061.696215",
+     "stop_name": "Paral·lel - Vila i Vilà",
+     "lat": 41.374861,
+     "lon": 2.167041,
+     "pois": []
+    },
+    {
+     "stop_id": "2.3690.694679",
+     "stop_name": "Ronda Sant Pau - Folch i Torres - Final trajecte",
+     "lat": 41.376486,
+     "lon": 2.16616,
+     "pois": []
+    }
+   ],
+   "shape": [
+    [
+     41.459349,
+     2.176286
+    ],
+    [
+     41.45934,
+     2.176297
+    ],
+    [
+     41.459327,
+     2.176329
+    ],
+    [
+     41.45932,
+     2.176365
+    ],
+    [
+     41.45932,
+     2.176401
+    ],
+    [
+     41.459327,
+     2.176436
+    ],
+    [
+     41.459342,
+     2.176469
+    ],
+    [
+     41.459802,
+     2.177125
+    ],
+    [
+     41.460183,
+     2.177679
+    ],
+    [
+     41.46024,
+     2.177768
+    ],
+    [
+     41.460415,
+     2.178065
+    ],
+    [
+     41.460543,
+     2.178287
+    ],
+    [
+     41.46119,
+     2.179374
+    ],
+    [
+     41.46134,
+     2.179632
+    ],
+    [
+     41.461361,
+     2.179681
+    ],
+    [
+     41.461375,
+     2.179733
+    ],
+    [
+     41.461382,
+     2.179788
+    ],
+    [
+     41.461382,
+     2.179844
+    ],
+    [
+     41.461375,
+     2.179899
+    ],
+    [
+     41.461344,
+     2.180064
+    ],
+    [
+     41.461322,
+     2.180155
+    ],
+    [
+     41.461294,
+     2.180242
+    ],
+    [
+     41.46124,
+     2.180367
+    ],
+    [
+     41.461203,
+     2.180435
+    ],
+    [
+     41.461174,
+     2.180478
+    ],
+    [
+     41.461139,
+     2.180525
+    ],
+    [
+     41.461096,
+     2.180576
+    ],
+    [
+     41.461045,
+     2.180631
+    ],
+    [
+     41.460941,
+     2.180729
+    ],
+    [
+     41.460905,
+     2.180758
+    ],
+    [
+     41.460885,
+     2.180771
+    ],
+    [
+     41.460854,
+     2.180789
+    ],
+    [
+     41.460828,
+     2.180802
+    ],
+    [
+     41.460786,
+     2.180814
+    ],
+    [
+     41.460761,
+     2.180818
+    ],
+    [
+     41.460731,
+     2.180819
+    ],
+    [
+     41.460699,
+     2.180816
+    ],
+    [
+     41.460665,
+     2.180809
+    ],
+    [
+     41.460646,
+     2.180813
+    ],
+    [
+     41.46062,
+     2.180825
+    ],
+    [
+     41.460606,
+     2.180836
+    ],
+    [
+     41.460594,
+     2.180851
+    ],
+    [
+     41.460583,
+     2.180871
+    ],
+    [
+     41.460575,
+     2.180896
+    ],
+    [
+     41.460571,
+     2.180927
+    ],
+    [
+     41.46057,
+     2.180964
+    ],
+    [
+     41.460568,
+     2.180989
+    ],
+    [
+     41.460563,
+     2.181018
+    ],
+    [
+     41.460556,
+     2.18105
+    ],
+    [
+     41.460546,
+     2.181082
+    ],
+    [
+     41.460532,
+     2.181115
+    ],
+    [
+     41.460513,
+     2.181146
+    ],
+    [
+     41.46049,
+     2.181175
+    ],
+    [
+     41.460434,
+     2.181232
+    ],
+    [
+     41.460372,
+     2.1813
+    ],
+    [
+     41.460294,
+     2.181392
+    ],
+    [
+     41.4595,
+     2.182435
+    ],
+    [
+     41.458913,
+     2.183246
+    ],
+    [
+     41.458613,
+     2.183664
+    ],
+    [
+     41.458423,
+     2.183922
+    ],
+    [
+     41.458229,
+     2.184196
+    ],
+    [
+     41.458158,
+     2.184281
+    ],
+    [
+     41.458038,
+     2.184415
+    ],
+    [
+     41.457964,
+     2.184497
+    ],
+    [
+     41.457857,
+     2.184591
+    ],
+    [
+     41.457771,
+     2.184657
+    ],
+    [
+     41.4577,
+     2.184705
+    ],
+    [
+     41.457617,
+     2.18475
+    ],
+    [
+     41.457545,
+     2.184783
+    ],
+    [
+     41.45737,
+     2.184828
+    ],
+    [
+     41.457311,
+     2.184845
+    ],
+    [
+     41.457254,
+     2.184875
+    ],
+    [
+     41.457207,
+     2.184914
+    ],
+    [
+     41.457177,
+     2.184961
+    ],
+    [
+     41.457152,
+     2.185028
+    ],
+    [
+     41.457138,
+     2.185093
+    ],
+    [
+     41.457122,
+     2.185257
+    ],
+    [
+     41.457111,
+     2.185321
+    ],
+    [
+     41.457095,
+     2.185386
+    ],
+    [
+     41.457009,
+     2.185648
+    ],
+    [
+     41.456955,
+     2.185803
+    ],
+    [
+     41.456896,
+     2.185949
+    ],
+    [
+     41.456835,
+     2.186072
+    ],
+    [
+     41.45675,
+     2.186223
+    ],
+    [
+     41.456678,
+     2.186329
+    ],
+    [
+     41.456568,
+     2.186479
+    ],
+    [
+     41.456424,
+     2.186654
+    ],
+    [
+     41.456291,
+     2.186805
+    ],
+    [
+     41.456164,
+     2.186936
+    ],
+    [
+     41.456034,
+     2.18706
+    ],
+    [
+     41.45585,
+     2.18722
+    ],
+    [
+     41.455683,
+     2.187352
+    ],
+    [
+     41.455486,
+     2.187495
+    ],
+    [
+     41.455406,
+     2.187549
+    ],
+    [
+     41.455252,
+     2.187644
+    ],
+    [
+     41.455165,
+     2.187687
+    ],
+    [
+     41.455079,
+     2.187714
+    ],
+    [
+     41.454988,
+     2.187736
+    ],
+    [
+     41.454842,
+     2.18774
+    ],
+    [
+     41.454696,
+     2.187716
+    ],
+    [
+     41.454575,
+     2.187667
+    ],
+    [
+     41.454478,
+     2.187607
+    ],
+    [
+     41.454387,
+     2.187534
+    ],
+    [
+     41.454325,
+     2.187472
+    ],
+    [
+     41.454266,
+     2.187403
+    ],
+    [
+     41.454182,
+     2.187286
+    ],
+    [
+     41.45404,
+     2.187044
+    ],
+    [
+     41.453996,
+     2.186976
+    ],
+    [
+     41.453944,
+     2.186909
+    ],
+    [
+     41.453899,
+     2.186862
+    ],
+    [
+     41.453851,
+     2.186825
+    ],
+    [
+     41.453799,
+     2.186795
+    ],
+    [
+     41.453746,
+     2.186775
+    ],
+    [
+     41.45369,
+     2.186764
+    ],
+    [
+     41.453634,
+     2.186762
+    ],
+    [
+     41.453579,
+     2.18677
+    ],
+    [
+     41.453301,
+     2.186755
+    ],
+    [
+     41.453229,
+     2.186744
+    ],
+    [
+     41.453158,
+     2.186724
+    ],
+    [
+     41.453089,
+     2.186695
+    ],
+    [
+     41.453053,
+     2.186675
+    ],
+    [
+     41.452969,
+     2.186634
+    ],
+    [
+     41.452883,
+     2.186603
+    ],
+    [
+     41.452795,
+     2.186581
+    ],
+    [
+     41.452706,
+     2.186568
+    ],
+    [
+     41.452617,
+     2.186565
+    ],
+    [
+     41.452527,
+     2.186572
+    ],
+    [
+     41.452448,
+     2.186585
+    ],
+    [
+     41.45242,
+     2.186581
+    ],
+    [
+     41.452397,
+     2.186571
+    ],
+    [
+     41.45236,
+     2.186551
+    ],
+    [
+     41.452316,
+     2.18652
+    ],
+    [
+     41.452296,
+     2.186516
+    ],
+    [
+     41.45227,
+     2.186515
+    ],
+    [
+     41.452255,
+     2.186517
+    ],
+    [
+     41.45224,
+     2.186522
+    ],
+    [
+     41.452225,
+     2.186531
+    ],
+    [
+     41.452212,
+     2.186544
+    ],
+    [
+     41.452201,
+     2.186565
+    ],
+    [
+     41.45219,
+     2.186595
+    ],
+    [
+     41.452181,
+     2.18663
+    ],
+    [
+     41.452177,
+     2.18665
+    ],
+    [
+     41.452176,
+     2.186671
+    ],
+    [
+     41.452176,
+     2.186693
+    ],
+    [
+     41.452179,
+     2.186715
+    ],
+    [
+     41.452182,
+     2.186726
+    ],
+    [
+     41.4522,
+     2.186758
+    ],
+    [
+     41.45221,
+     2.18678
+    ],
+    [
+     41.45222,
+     2.186806
+    ],
+    [
+     41.452227,
+     2.186835
+    ],
+    [
+     41.452232,
+     2.186867
+    ],
+    [
+     41.452231,
+     2.186899
+    ],
+    [
+     41.452224,
+     2.186931
+    ],
+    [
+     41.45198,
+     2.187442
+    ],
+    [
+     41.451826,
+     2.187743
+    ],
+    [
+     41.45176,
+     2.187882
+    ],
+    [
+     41.451746,
+     2.187904
+    ],
+    [
+     41.451726,
+     2.187925
+    ],
+    [
+     41.451714,
+     2.187934
+    ],
+    [
+     41.4517,
+     2.187941
+    ],
+    [
+     41.451683,
+     2.187947
+    ],
+    [
+     41.451664,
+     2.187949
+    ],
+    [
+     41.45119,
+     2.187955
+    ],
+    [
+     41.450756,
+     2.187915
+    ],
+    [
+     41.450472,
+     2.187881
+    ],
+    [
+     41.450166,
+     2.187828
+    ],
+    [
+     41.449764,
+     2.187738
+    ],
+    [
+     41.449531,
+     2.18768
+    ],
+    [
+     41.449227,
+     2.187566
+    ],
+    [
+     41.448722,
+     2.187394
+    ],
+    [
+     41.448699,
+     2.187377
+    ],
+    [
+     41.44868,
+     2.187353
+    ],
+    [
+     41.448667,
+     2.187323
+    ],
+    [
+     41.44866,
+     2.187289
+    ],
+    [
+     41.448663,
+     2.187204
+    ],
+    [
+     41.448669,
+     2.187129
+    ],
+    [
+     41.448804,
+     2.186429
+    ],
+    [
+     41.448831,
+     2.186299
+    ],
+    [
+     41.448849,
+     2.186251
+    ],
+    [
+     41.44888,
+     2.186182
+    ],
+    [
+     41.448903,
+     2.186142
+    ],
+    [
+     41.448929,
+     2.186101
+    ],
+    [
+     41.448979,
+     2.186045
+    ],
+    [
+     41.449032,
+     2.185975
+    ],
+    [
+     41.449105,
+     2.185853
+    ],
+    [
+     41.450078,
+     2.184707
+    ],
+    [
+     41.450174,
+     2.184566
+    ],
+    [
+     41.450185,
+     2.184546
+    ],
+    [
+     41.450191,
+     2.184527
+    ],
+    [
+     41.450194,
+     2.184509
+    ],
+    [
+     41.450193,
+     2.1845
+    ],
+    [
+     41.450137,
+     2.184256
+    ],
+    [
+     41.450093,
+     2.184052
+    ],
+    [
+     41.450081,
+     2.183989
+    ],
+    [
+     41.450065,
+     2.183885
+    ],
+    [
+     41.450048,
+     2.183785
+    ],
+    [
+     41.450027,
+     2.183677
+    ],
+    [
+     41.450016,
+     2.183626
+    ],
+    [
+     41.450003,
+     2.183579
+    ],
+    [
+     41.449989,
+     2.183539
+    ],
+    [
+     41.449952,
+     2.183462
+    ],
+    [
+     41.44991,
+     2.183391
+    ],
+    [
+     41.449862,
+     2.183327
+    ],
+    [
+     41.449817,
+     2.183277
+    ],
+    [
+     41.448897,
+     2.182176
+    ],
+    [
+     41.447913,
+     2.181005
+    ],
+    [
+     41.447865,
+     2.180942
+    ],
+    [
+     41.447812,
+     2.180887
+    ],
+    [
+     41.447754,
+     2.180839
+    ],
+    [
+     41.447363,
+     2.18054
+    ],
+    [
+     41.447025,
+     2.180293
+    ],
+    [
+     41.446982,
+     2.18025
+    ],
+    [
+     41.446965,
+     2.18023
+    ],
+    [
+     41.446324,
+     2.179563
+    ],
+    [
+     41.446279,
+     2.179514
+    ],
+    [
+     41.44623,
+     2.179472
+    ],
+    [
+     41.446177,
+     2.17944
+    ],
+    [
+     41.446142,
+     2.179423
+    ],
+    [
+     41.445907,
+     2.179365
+    ],
+    [
+     41.4458,
+     2.179328
+    ],
+    [
+     41.445695,
+     2.179282
+    ],
+    [
+     41.445625,
+     2.179246
+    ],
+    [
+     41.445119,
+     2.179025
+    ],
+    [
+     41.443628,
+     2.17838
+    ],
+    [
+     41.442382,
+     2.177845
+    ],
+    [
+     41.442107,
+     2.17772
+    ],
+    [
+     41.442019,
+     2.177674
+    ],
+    [
+     41.441922,
+     2.177609
+    ],
+    [
+     41.441827,
+     2.177542
+    ],
+    [
+     41.441721,
+     2.17745
+    ],
+    [
+     41.441044,
+     2.176846
+    ],
+    [
+     41.440245,
+     2.176152
+    ],
+    [
+     41.439251,
+     2.175237
+    ],
+    [
+     41.438643,
+     2.174694
+    ],
+    [
+     41.438632,
+     2.174672
+    ],
+    [
+     41.438627,
+     2.174647
+    ],
+    [
+     41.438627,
+     2.174575
+    ],
+    [
+     41.438619,
+     2.17452
+    ],
+    [
+     41.438605,
+     2.174467
+    ],
+    [
+     41.438583,
+     2.174419
+    ],
+    [
+     41.438556,
+     2.174376
+    ],
+    [
+     41.43853,
+     2.174345
+    ],
+    [
+     41.438496,
+     2.174312
+    ],
+    [
+     41.438459,
+     2.174287
+    ],
+    [
+     41.438418,
+     2.174271
+    ],
+    [
+     41.438377,
+     2.174265
+    ],
+    [
+     41.438335,
+     2.174268
+    ],
+    [
+     41.438295,
+     2.17428
+    ],
+    [
+     41.438249,
+     2.174301
+    ],
+    [
+     41.43822,
+     2.174323
+    ],
+    [
+     41.438204,
+     2.17434
+    ],
+    [
+     41.438191,
+     2.174348
+    ],
+    [
+     41.438176,
+     2.174354
+    ],
+    [
+     41.43816,
+     2.174355
+    ],
+    [
+     41.438146,
+     2.174351
+    ],
+    [
+     41.438133,
+     2.174345
+    ],
+    [
+     41.437773,
+     2.174091
+    ],
+    [
+     41.437636,
+     2.173988
+    ],
+    [
+     41.437477,
+     2.173852
+    ],
+    [
+     41.43738,
+     2.173761
+    ],
+    [
+     41.436768,
+     2.173128
+    ],
+    [
+     41.436614,
+     2.172973
+    ],
+    [
+     41.436487,
+     2.172856
+    ],
+    [
+     41.436397,
+     2.172779
+    ],
+    [
+     41.436125,
+     2.172577
+    ],
+    [
+     41.435687,
+     2.172244
+    ],
+    [
+     41.435444,
+     2.172072
+    ],
+    [
+     41.435396,
+     2.17205
+    ],
+    [
+     41.435366,
+     2.172044
+    ],
+    [
+     41.435335,
+     2.172042
+    ],
+    [
+     41.435311,
+     2.172043
+    ],
+    [
+     41.435268,
+     2.172053
+    ],
+    [
+     41.435229,
+     2.172071
+    ],
+    [
+     41.434787,
+     2.172322
+    ],
+    [
+     41.432702,
+     2.173478
+    ],
+    [
+     41.430683,
+     2.174603
+    ],
+    [
+     41.430631,
+     2.174628
+    ],
+    [
+     41.430614,
+     2.174632
+    ],
+    [
+     41.430553,
+     2.174637
+    ],
+    [
+     41.430498,
+     2.174632
+    ],
+    [
+     41.430452,
+     2.174611
+    ],
+    [
+     41.430432,
+     2.174598
+    ],
+    [
+     41.43041,
+     2.174581
+    ],
+    [
+     41.430389,
+     2.17456
+    ],
+    [
+     41.43036,
+     2.174524
+    ],
+    [
+     41.430344,
+     2.174498
+    ],
+    [
+     41.430327,
+     2.174466
+    ],
+    [
+     41.430305,
+     2.17441
+    ],
+    [
+     41.430293,
+     2.174389
+    ],
+    [
+     41.430269,
+     2.174363
+    ],
+    [
+     41.430241,
+     2.174346
+    ],
+    [
+     41.430204,
+     2.174339
+    ],
+    [
+     41.429498,
+     2.174319
+    ],
+    [
+     41.429172,
+     2.174315
+    ],
+    [
+     41.429071,
+     2.174317
+    ],
+    [
+     41.42899,
+     2.174325
+    ],
+    [
+     41.42897,
+     2.174327
+    ],
+    [
+     41.42887,
+     2.174347
+    ],
+    [
+     41.428758,
+     2.174382
+    ],
+    [
+     41.4286,
+     2.174446
+    ],
+    [
+     41.428445,
+     2.17452
+    ],
+    [
+     41.4283,
+     2.174598
+    ],
+    [
+     41.428151,
+     2.174698
+    ],
+    [
+     41.428034,
+     2.174789
+    ],
+    [
+     41.427944,
+     2.174866
+    ],
+    [
+     41.427296,
+     2.175458
+    ],
+    [
+     41.427224,
+     2.175518
+    ],
+    [
+     41.427149,
+     2.175571
+    ],
+    [
+     41.427109,
+     2.175594
+    ],
+    [
+     41.426654,
+     2.175812
+    ],
+    [
+     41.426405,
+     2.175906
+    ],
+    [
+     41.425756,
+     2.176128
+    ],
+    [
+     41.425467,
+     2.176216
+    ],
+    [
+     41.42543,
+     2.176215
+    ],
+    [
+     41.4254,
+     2.176209
+    ],
+    [
+     41.425365,
+     2.176198
+    ],
+    [
+     41.425347,
+     2.17619
+    ],
+    [
+     41.425331,
+     2.176187
+    ],
+    [
+     41.425306,
+     2.176186
+    ],
+    [
+     41.425291,
+     2.176188
+    ],
+    [
+     41.425275,
+     2.176192
+    ],
+    [
+     41.425259,
+     2.176198
+    ],
+    [
+     41.425242,
+     2.176208
+    ],
+    [
+     41.425224,
+     2.176223
+    ],
+    [
+     41.425203,
+     2.176245
+    ],
+    [
+     41.42418,
+     2.177184
+    ],
+    [
+     41.420508,
+     2.180572
+    ],
+    [
+     41.420416,
+     2.180624
+    ],
+    [
+     41.420322,
+     2.180668
+    ],
+    [
+     41.420225,
+     2.180703
+    ],
+    [
+     41.420158,
+     2.18072
+    ],
+    [
+     41.420127,
+     2.180728
+    ],
+    [
+     41.420028,
+     2.180744
+    ],
+    [
+     41.419928,
+     2.18075
+    ],
+    [
+     41.419828,
+     2.180747
+    ],
+    [
+     41.419729,
+     2.180734
+    ],
+    [
+     41.419666,
+     2.180721
+    ],
+    [
+     41.418871,
+     2.18051
+    ],
+    [
+     41.418607,
+     2.180455
+    ],
+    [
+     41.418294,
+     2.180406
+    ],
+    [
+     41.41798,
+     2.180366
+    ],
+    [
+     41.417666,
+     2.180337
+    ],
+    [
+     41.417351,
+     2.180316
+    ],
+    [
+     41.417093,
+     2.180307
+    ],
+    [
+     41.416389,
+     2.18032
+    ],
+    [
+     41.415907,
+     2.180385
+    ],
+    [
+     41.41586,
+     2.180384
+    ],
+    [
+     41.415814,
+     2.180374
+    ],
+    [
+     41.415769,
+     2.180355
+    ],
+    [
+     41.415728,
+     2.180327
+    ],
+    [
+     41.41569,
+     2.18029
+    ],
+    [
+     41.415656,
+     2.180247
+    ],
+    [
+     41.415639,
+     2.180217
+    ],
+    [
+     41.415244,
+     2.179699
+    ],
+    [
+     41.413238,
+     2.177007
+    ],
+    [
+     41.412846,
+     2.176488
+    ],
+    [
+     41.412616,
+     2.176178
+    ],
+    [
+     41.412175,
+     2.175601
+    ],
+    [
+     41.412139,
+     2.17557
+    ],
+    [
+     41.412102,
+     2.17555
+    ],
+    [
+     41.412063,
+     2.175539
+    ],
+    [
+     41.412023,
+     2.175537
+    ],
+    [
+     41.411984,
+     2.175545
+    ],
+    [
+     41.411946,
+     2.175562
+    ],
+    [
+     41.411912,
+     2.175588
+    ],
+    [
+     41.411881,
+     2.175622
+    ],
+    [
+     41.41159,
+     2.176007
+    ],
+    [
+     41.410577,
+     2.177332
+    ],
+    [
+     41.409692,
+     2.178497
+    ],
+    [
+     41.408933,
+     2.179519
+    ],
+    [
+     41.407893,
+     2.180884
+    ],
+    [
+     41.407869,
+     2.180918
+    ],
+    [
+     41.40784,
+     2.180944
+    ],
+    [
+     41.407808,
+     2.180962
+    ],
+    [
+     41.407774,
+     2.180972
+    ],
+    [
+     41.407739,
+     2.180971
+    ],
+    [
+     41.407705,
+     2.180961
+    ],
+    [
+     41.407673,
+     2.180942
+    ],
+    [
+     41.407645,
+     2.180915
+    ],
+    [
+     41.405571,
+     2.17815
+    ],
+    [
+     41.403198,
+     2.174996
+    ],
+    [
+     41.39961,
+     2.170173
+    ],
+    [
+     41.399556,
+     2.170107
+    ],
+    [
+     41.399498,
+     2.170047
+    ],
+    [
+     41.399436,
+     2.169996
+    ],
+    [
+     41.399361,
+     2.169948
+    ],
+    [
+     41.399317,
+     2.169931
+    ],
+    [
+     41.399275,
+     2.169906
+    ],
+    [
+     41.399237,
+     2.169872
+    ],
+    [
+     41.399202,
+     2.169829
+    ],
+    [
+     41.39918,
+     2.169807
+    ],
+    [
+     41.399154,
+     2.169794
+    ],
+    [
+     41.399126,
+     2.16979
+    ],
+    [
+     41.399099,
+     2.169796
+    ],
+    [
+     41.399074,
+     2.169811
+    ],
+    [
+     41.399059,
+     2.169825
+    ],
+    [
+     41.399042,
+     2.169845
+    ],
+    [
+     41.39902,
+     2.169879
+    ],
+    [
+     41.398993,
+     2.169928
+    ],
+    [
+     41.398929,
+     2.170061
+    ],
+    [
+     41.398915,
+     2.170097
+    ],
+    [
+     41.398892,
+     2.17013
+    ],
+    [
+     41.398399,
+     2.170786
+    ],
+    [
+     41.397388,
+     2.172118
+    ],
+    [
+     41.395736,
+     2.174313
+    ],
+    [
+     41.395396,
+     2.174762
+    ],
+    [
+     41.395381,
+     2.174778
+    ],
+    [
+     41.395349,
+     2.174801
+    ],
+    [
+     41.395326,
+     2.174812
+    ],
+    [
+     41.3953,
+     2.174823
+    ],
+    [
+     41.395268,
+     2.17483
+    ],
+    [
+     41.395232,
+     2.174834
+    ],
+    [
+     41.394952,
+     2.174832
+    ],
+    [
+     41.394866,
+     2.174844
+    ],
+    [
+     41.394781,
+     2.174865
+    ],
+    [
+     41.394698,
+     2.174895
+    ],
+    [
+     41.3946,
+     2.174944
+    ],
+    [
+     41.394557,
+     2.174978
+    ],
+    [
+     41.394518,
+     2.17502
+    ],
+    [
+     41.394483,
+     2.175069
+    ],
+    [
+     41.394455,
+     2.175124
+    ],
+    [
+     41.394416,
+     2.175223
+    ],
+    [
+     41.394395,
+     2.175298
+    ],
+    [
+     41.39438,
+     2.175377
+    ],
+    [
+     41.394373,
+     2.175457
+    ],
+    [
+     41.394374,
+     2.175537
+    ],
+    [
+     41.394381,
+     2.175635
+    ],
+    [
+     41.394379,
+     2.175699
+    ],
+    [
+     41.39437,
+     2.175803
+    ],
+    [
+     41.39434,
+     2.176072
+    ],
+    [
+     41.394334,
+     2.176103
+    ],
+    [
+     41.394321,
+     2.17615
+    ],
+    [
+     41.394311,
+     2.176179
+    ],
+    [
+     41.394297,
+     2.17621
+    ],
+    [
+     41.394281,
+     2.176242
+    ],
+    [
+     41.39426,
+     2.176275
+    ],
+    [
+     41.392419,
+     2.178702
+    ],
+    [
+     41.392279,
+     2.178888
+    ],
+    [
+     41.392262,
+     2.178906
+    ],
+    [
+     41.392248,
+     2.178916
+    ],
+    [
+     41.392231,
+     2.178925
+    ],
+    [
+     41.392211,
+     2.17893
+    ],
+    [
+     41.39219,
+     2.178928
+    ],
+    [
+     41.392166,
+     2.178918
+    ],
+    [
+     41.392142,
+     2.178898
+    ],
+    [
+     41.392117,
+     2.178866
+    ],
+    [
+     41.390672,
+     2.176949
+    ],
+    [
+     41.390603,
+     2.17685
+    ],
+    [
+     41.390523,
+     2.176725
+    ],
+    [
+     41.390484,
+     2.176657
+    ],
+    [
+     41.390448,
+     2.176588
+    ],
+    [
+     41.390418,
+     2.17652
+    ],
+    [
+     41.389549,
+     2.174182
+    ],
+    [
+     41.389419,
+     2.17385
+    ],
+    [
+     41.389389,
+     2.173792
+    ],
+    [
+     41.389357,
+     2.173746
+    ],
+    [
+     41.389305,
+     2.173653
+    ],
+    [
+     41.389259,
+     2.173555
+    ],
+    [
+     41.389232,
+     2.173488
+    ],
+    [
+     41.388929,
+     2.172675
+    ],
+    [
+     41.388886,
+     2.172567
+    ],
+    [
+     41.388849,
+     2.172456
+    ],
+    [
+     41.38882,
+     2.172341
+    ],
+    [
+     41.388801,
+     2.172245
+    ],
+    [
+     41.388771,
+     2.172114
+    ],
+    [
+     41.388735,
+     2.171986
+    ],
+    [
+     41.388721,
+     2.171942
+    ],
+    [
+     41.388216,
+     2.170607
+    ],
+    [
+     41.387894,
+     2.169741
+    ],
+    [
+     41.38746,
+     2.168582
+    ],
+    [
+     41.38734,
+     2.168277
+    ],
+    [
+     41.386669,
+     2.166487
+    ],
+    [
+     41.38663,
+     2.166387
+    ],
+    [
+     41.386596,
+     2.166282
+    ],
+    [
+     41.38656,
+     2.166136
+    ],
+    [
+     41.38653,
+     2.166043
+    ],
+    [
+     41.386504,
+     2.165979
+    ],
+    [
+     41.386162,
+     2.165075
+    ],
+    [
+     41.386118,
+     2.16498
+    ],
+    [
+     41.386068,
+     2.164891
+    ],
+    [
+     41.386012,
+     2.164808
+    ],
+    [
+     41.385971,
+     2.164755
+    ],
+    [
+     41.385929,
+     2.164693
+    ],
+    [
+     41.385875,
+     2.164625
+    ],
+    [
+     41.385413,
+     2.164013
+    ],
+    [
+     41.385381,
+     2.163978
+    ],
+    [
+     41.385345,
+     2.163952
+    ],
+    [
+     41.385306,
+     2.163934
+    ],
+    [
+     41.385265,
+     2.163926
+    ],
+    [
+     41.385239,
+     2.163925
+    ],
+    [
+     41.384215,
+     2.163767
+    ],
+    [
+     41.384191,
+     2.163764
+    ],
+    [
+     41.384168,
+     2.163753
+    ],
+    [
+     41.384149,
+     2.163733
+    ],
+    [
+     41.383615,
+     2.163005
+    ],
+    [
+     41.382167,
+     2.161082
+    ],
+    [
+     41.38214,
+     2.161051
+    ],
+    [
+     41.382118,
+     2.161032
+    ],
+    [
+     41.382091,
+     2.161014
+    ],
+    [
+     41.38206,
+     2.161002
+    ],
+    [
+     41.382027,
+     2.160998
+    ],
+    [
+     41.381991,
+     2.161007
+    ],
+    [
+     41.381954,
+     2.161031
+    ],
+    [
+     41.381915,
+     2.161074
+    ],
+    [
+     41.381315,
+     2.161868
+    ],
+    [
+     41.380378,
+     2.163121
+    ],
+    [
+     41.380338,
+     2.16316
+    ],
+    [
+     41.380294,
+     2.16319
+    ],
+    [
+     41.380248,
+     2.163212
+    ],
+    [
+     41.380199,
+     2.163225
+    ],
+    [
+     41.380176,
+     2.163227
+    ],
+    [
+     41.378881,
+     2.163062
+    ],
+    [
+     41.378591,
+     2.163017
+    ],
+    [
+     41.378552,
+     2.163005
+    ],
+    [
+     41.378516,
+     2.162984
+    ],
+    [
+     41.378482,
+     2.162954
+    ],
+    [
+     41.378473,
+     2.162944
+    ],
+    [
+     41.377656,
+     2.161859
+    ],
+    [
+     41.377086,
+     2.161097
+    ],
+    [
+     41.37705,
+     2.161068
+    ],
+    [
+     41.377012,
+     2.161047
+    ],
+    [
+     41.376971,
+     2.161035
+    ],
+    [
+     41.376929,
+     2.161032
+    ],
+    [
+     41.376888,
+     2.161039
+    ],
+    [
+     41.376848,
+     2.161055
+    ],
+    [
+     41.376811,
+     2.161081
+    ],
+    [
+     41.376789,
+     2.161101
+    ],
+    [
+     41.376507,
+     2.161473
+    ],
+    [
+     41.375903,
+     2.16226
+    ],
+    [
+     41.375261,
+     2.16313
+    ],
+    [
+     41.375241,
+     2.163152
+    ],
+    [
+     41.375229,
+     2.163162
+    ],
+    [
+     41.375202,
+     2.163179
+    ],
+    [
+     41.375187,
+     2.163184
+    ],
+    [
+     41.37501,
+     2.163185
+    ],
+    [
+     41.374986,
+     2.163193
+    ],
+    [
+     41.374971,
+     2.163202
+    ],
+    [
+     41.374954,
+     2.163215
+    ],
+    [
+     41.374937,
+     2.163234
+    ],
+    [
+     41.374921,
+     2.16326
+    ],
+    [
+     41.374908,
+     2.163293
+    ],
+    [
+     41.374898,
+     2.163335
+    ],
+    [
+     41.374893,
+     2.163386
+    ],
+    [
+     41.374891,
+     2.163835
+    ],
+    [
+     41.374892,
+     2.165165
+    ],
+    [
+     41.374888,
+     2.167648
+    ],
+    [
+     41.374895,
+     2.167692
+    ],
+    [
+     41.374906,
+     2.167736
+    ],
+    [
+     41.374923,
+     2.167784
+    ],
+    [
+     41.374949,
+     2.167827
+    ],
+    [
+     41.374984,
+     2.16786
+    ],
+    [
+     41.375031,
+     2.167873
+    ],
+    [
+     41.375091,
+     2.167859
+    ],
+    [
+     41.375165,
+     2.16781
+    ],
+    [
+     41.375254,
+     2.167718
+    ],
+    [
+     41.375381,
+     2.167555
+    ],
+    [
+     41.375502,
+     2.167392
+    ],
+    [
+     41.376456,
+     2.166121
+    ]
+   ]
+  }
+ ]
+}

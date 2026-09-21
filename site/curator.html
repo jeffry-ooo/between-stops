@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Curator — PTT</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="curator.css?v=1">
+</head>
+<body>
+
+<div class="site-shell">
+<header class="topnav">
+  <a class="topnav-brand" href="index.html">PTT</a>
+  <div class="cur-citypick">
+    <select id="citySelect" aria-label="City to curate"></select>
+    <span class="cur-counts" id="counts"></span>
+  </div>
+  <nav class="topnav-links">
+    <a href="index.html">Cities</a>
+    <span class="cur-tag">Curator (internal)</span>
+  </nav>
+</header>
+
+<div class="cur-app">
+
+  <aside class="cur-list">
+    <input type="search" id="search" placeholder="Search sights…" class="cur-search">
+    <div class="cur-filters">
+      <label><input type="checkbox" id="fCurated"> Curated only</label>
+      <label><input type="checkbox" id="fUncurated"> Uncurated only</label>
+      <label><input type="checkbox" id="fNoWiki"> Has wikidata</label>
+    </div>
+    <ol class="cur-rows" id="rows"></ol>
+  </aside>
+
+  <main class="cur-map-wrap">
+    <div id="map"></div>
+    <div class="cur-legend">
+      <span><i class="dot raw"></i> uncurated</span>
+      <span><i class="dot curated"></i> curated</span>
+      <span><i class="dot must"></i> must-see</span>
+      <span><i class="dot gem"></i> hidden gem</span>
+      <span><i class="dot stopdot"></i> bus stop</span>
+    </div>
+  </main>
+
+  <aside class="cur-edit" id="editPanel">
+    <div class="cur-empty" id="editEmpty">Select a sight on the left or click a marker on the map.</div>
+    <form id="editForm" hidden>
+      <h3 id="editRawName"></h3>
+      <div class="cur-tagdump" id="editTags"></div>
+      <div class="cur-nearest" id="editNearest"></div>
+
+      <label class="cur-field">
+        Display name
+        <input type="text" id="fName">
+      </label>
+      <label class="cur-field">
+        Description (one line)
+        <textarea id="fDesc" rows="3"></textarea>
+      </label>
+      <label class="cur-field">
+        Category
+        <select id="fCategory">
+          <option value="landmark">landmark</option>
+          <option value="museum">museum</option>
+          <option value="church">church</option>
+          <option value="park">park</option>
+          <option value="castle">castle</option>
+          <option value="viewpoint">viewpoint</option>
+          <option value="attraction">attraction</option>
+          <option value="historic">historic</option>
+          <option value="market">market</option>
+          <option value="beach">beach</option>
+          <option value="stadium">stadium</option>
+        </select>
+      </label>
+      <div class="cur-checks">
+        <label><input type="checkbox" id="fMustSee"> Must-see</label>
+        <label><input type="checkbox" id="fGem"> Hidden gem</label>
+      </div>
+
+      <div class="cur-actions">
+        <button type="submit" class="cur-btn cur-btn-primary" id="btnSave">Save to draft</button>
+        <button type="button" class="cur-btn" id="btnRemove">Remove from draft</button>
+      </div>
+    </form>
+
+    <details class="cur-export" open>
+      <summary>Export (<span id="draftCount">0</span> in draft)</summary>
+      <p class="cur-hint">Paste into <code>scripts/cities/&lt;slug&gt;.py</code>, replacing CURATED / MUST_SEE / GEMS.</p>
+      <textarea id="exportBox" readonly rows="10"></textarea>
+      <button type="button" class="cur-btn" id="btnCopy">Copy</button>
+      <button type="button" class="cur-btn" id="btnClear">Clear draft</button>
+    </details>
+  </aside>
+
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="curator.js?v=1"></script>
+</body>
+</html>

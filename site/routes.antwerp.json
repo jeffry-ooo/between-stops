@@ -1,0 +1,5564 @@
+{
+ "city": {
+  "slug": "antwerp",
+  "name": "Antwerp",
+  "country": "Belgium",
+  "operator": "De Lijn",
+  "operator_url": "https://www.delijn.be",
+  "tour_price_eur": 25,
+  "ticket_note": "one De Lijn ticket also covers the trams"
+ },
+ "generated_from": {
+  "gtfs_publisher": "De Lijn",
+  "gtfs_version": "20260601_20260930_003000",
+  "gtfs_valid_from": "20260601",
+  "gtfs_valid_to": "20260930",
+  "pois": "OpenStreetMap via Overpass API (ODbL)"
+ },
+ "bbox": {
+  "south": 51.19,
+  "west": 4.38,
+  "north": 51.25,
+  "east": 4.45
+ },
+ "walk_radius_m": 300,
+ "service_hours": 18,
+ "min_trips_per_day": 80,
+ "scoring": "score = sum of POI weights (must-see sights count 2.5x) + 1.5 x distinct 700 m district cells those POIs fall in, so both geographic spread and headline sights can outrank raw count",
+ "stats": {
+  "bus_routes": 2040,
+  "bbox_stops": 507,
+  "bbox_bus_stops": 342,
+  "pois_total": 43,
+  "pois_bus_reachable": 21
+ },
+ "all_pois": [
+  {
+   "id": "way/232768394",
+   "name": "AMUZ (St. Augustine's Church)",
+   "osm_name": "Sint-Augustinuskerk",
+   "description": "Deconsecrated baroque church turned concert hall for early music.",
+   "category": "church",
+   "must_see": false,
+   "lat": 51.216285,
+   "lon": 4.402009,
+   "wikidata": "Q23580548",
+   "website": null,
+   "nearest_stop_m": 193,
+   "nearest_bus_stop_m": 193,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/348421822",
+   "name": "Antwerp Central Station",
+   "osm_name": "Antwerpen-Centraal",
+   "description": "The 'railway cathedral' — a stone-and-iron dome over four levels of platforms.",
+   "category": "landmark",
+   "must_see": true,
+   "lat": 51.215995,
+   "lon": 4.421101,
+   "wikidata": "Q800398",
+   "website": "https://www.belgiantrain.be/station-information/antwerpen/antwerpen-centraal",
+   "nearest_stop_m": 50,
+   "nearest_bus_stop_m": 80,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/5088713",
+   "name": "Antwerp Zoo",
+   "osm_name": "Zoo Antwerpen",
+   "description": "Founded 1843, right beside Central Station — one of the oldest zoos in the world.",
+   "category": "attraction",
+   "must_see": false,
+   "lat": 51.216258,
+   "lon": 4.42357,
+   "wikidata": "Q220003",
+   "website": "https://www.zooantwerpen.be/",
+   "nearest_stop_m": 168,
+   "nearest_bus_stop_m": 216,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/40102689",
+   "name": "Boerentoren",
+   "osm_name": "Boerentoren",
+   "description": "Europe's first skyscraper (1932), an art-deco slab over the Meir.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 51.218828,
+   "lon": 4.403942,
+   "wikidata": "Q59487",
+   "website": null,
+   "nearest_stop_m": 69,
+   "nearest_bus_stop_m": 165,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/25047062",
+   "name": "Bourla Theatre",
+   "osm_name": "Bourlaschouwburg",
+   "description": "1834 neoclassical playhouse, the last surviving continental theatre of its type.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 51.215982,
+   "lon": 4.407334,
+   "wikidata": "Q2154112",
+   "website": "https://www.bourlaschouwburg.nu",
+   "nearest_stop_m": 163,
+   "nearest_bus_stop_m": 380,
+   "bus_reachable": false
+  },
+  {
+   "id": "node/2396084415",
+   "name": "Brewers' House",
+   "osm_name": "Brouwershuis",
+   "description": "16th-century water house that pumped the city's brewing water, with machinery intact.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 51.227476,
+   "lon": 4.403253,
+   "wikidata": "Q19921779",
+   "website": null,
+   "nearest_stop_m": 114,
+   "nearest_bus_stop_m": 114,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/26495164",
+   "name": "Cathedral of Our Lady",
+   "osm_name": "Onze-Lieve-Vrouwekathedraal",
+   "description": "Belgium's tallest cathedral — 123m of Brabantine Gothic, with four Rubens altarpieces inside.",
+   "category": "church",
+   "must_see": true,
+   "lat": 51.220289,
+   "lon": 4.401337,
+   "wikidata": "Q5901",
+   "website": null,
+   "nearest_stop_m": 177,
+   "nearest_bus_stop_m": 177,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/22966134",
+   "name": "City Hall",
+   "osm_name": "Stadhuis Antwerpen",
+   "description": "1560s Renaissance city hall on the Grote Markt, a UNESCO-listed civic landmark.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 51.221308,
+   "lon": 4.399156,
+   "wikidata": "Q2005868",
+   "website": null,
+   "nearest_stop_m": 336,
+   "nearest_bus_stop_m": 336,
+   "bus_reachable": false
+  },
+  {
+   "id": "node/5584340700",
+   "name": "DIVA",
+   "osm_name": "DIVA",
+   "description": "Museum of diamonds, silver and jewellery, in a townhouse off the Grote Markt.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 51.221115,
+   "lon": 4.398277,
+   "wikidata": "Q51885460",
+   "website": "https://www.divaantwerp.be",
+   "nearest_stop_m": 354,
+   "nearest_bus_stop_m": 354,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/439689724",
+   "name": "De Koninck City Brewery",
+   "osm_name": "Stadsbrouwerij De Koninck",
+   "description": "The bolleke brewery, with a tasting room and food hall in the old stables.",
+   "category": "attraction",
+   "must_see": false,
+   "lat": 51.199656,
+   "lon": 4.415566,
+   "wikidata": "Q2684279",
+   "website": "https://www.dekoninck.be/",
+   "nearest_stop_m": 42,
+   "nearest_bus_stop_m": 42,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/4887095963",
+   "name": "Diamond District",
+   "osm_name": "Diamantkwartier",
+   "description": "Four streets behind the station through which most of the world's rough diamonds pass.",
+   "category": "attraction",
+   "must_see": false,
+   "lat": 51.214427,
+   "lon": 4.417644,
+   "wikidata": "Q4777485",
+   "website": null,
+   "nearest_stop_m": 142,
+   "nearest_bus_stop_m": 142,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/1629898273",
+   "name": "FOMU (Photo Museum)",
+   "osm_name": "Fotomuseum Antwerpen",
+   "description": "One of Europe's serious photography museums, with a 3-million-image collection.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 51.209033,
+   "lon": 4.387625,
+   "wikidata": "Q2635059",
+   "website": null,
+   "nearest_stop_m": 358,
+   "nearest_bus_stop_m": 378,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/26495372",
+   "name": "Grote Markt",
+   "osm_name": "Grote Markt",
+   "description": "The guildhall-lined main square, with the Brabo fountain flinging a severed hand at its centre.",
+   "category": "landmark",
+   "must_see": true,
+   "lat": 51.221173,
+   "lon": 4.400373,
+   "wikidata": "Q947295",
+   "website": null,
+   "nearest_stop_m": 262,
+   "nearest_bus_stop_m": 288,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/39889176",
+   "name": "Handelsbeurs",
+   "osm_name": "Handelsbeurs",
+   "description": "The world's first purpose-built commodity exchange, reopened after a long restoration.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 51.219339,
+   "lon": 4.406153,
+   "wikidata": "Q2127864",
+   "website": "https://dehandelsbeurs.be/",
+   "nearest_stop_m": 66,
+   "nearest_bus_stop_m": 326,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/20413275",
+   "name": "Hendrik Conscienceplein",
+   "osm_name": "Hendrik Conscienceplein",
+   "description": "Antwerp's most complete baroque square, car-free and lit by gas lamps.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 51.220962,
+   "lon": 4.404172,
+   "wikidata": "Q2515193",
+   "website": null,
+   "nearest_stop_m": 65,
+   "nearest_bus_stop_m": 310,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/29067925",
+   "name": "Het Steen",
+   "osm_name": "Het Steen",
+   "description": "The 13th-century riverside castle — Antwerp's oldest building, now the visitor centre.",
+   "category": "castle",
+   "must_see": true,
+   "lat": 51.222782,
+   "lon": 4.397384,
+   "wikidata": "Q1014126",
+   "website": null,
+   "nearest_stop_m": 386,
+   "nearest_bus_stop_m": 540,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/4358044",
+   "name": "Koning Albertpark",
+   "osm_name": "Koning Albertpark",
+   "description": "Green wedge along the southern ring, good for a breather between museums.",
+   "category": "park",
+   "must_see": false,
+   "lat": 51.199875,
+   "lon": 4.412902,
+   "wikidata": "Q33100208",
+   "website": null,
+   "nearest_stop_m": 140,
+   "nearest_bus_stop_m": 140,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/10489546",
+   "name": "Koningin Astridplein",
+   "osm_name": "Koningin Astridplein",
+   "description": "The square in front of Central Station, gateway to the zoo and the diamond quarter.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 51.218163,
+   "lon": 4.421058,
+   "wikidata": "Q584539",
+   "website": null,
+   "nearest_stop_m": 23,
+   "nearest_bus_stop_m": 23,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/25381858",
+   "name": "Law Courts",
+   "osm_name": "Justitiepaleis Antwerpen",
+   "description": "Richard Rogers' 'sails' over the southern approach — a modern city gate.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 51.203805,
+   "lon": 4.387553,
+   "wikidata": "Q1842648",
+   "website": null,
+   "nearest_stop_m": 65,
+   "nearest_bus_stop_m": 314,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/29067886",
+   "name": "Loodswezen",
+   "osm_name": "Loodswezen",
+   "description": "Neo-Gothic pilotage building on the quay, a Scheldt-front landmark.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 51.228079,
+   "lon": 4.401119,
+   "wikidata": "Q56550292",
+   "website": null,
+   "nearest_stop_m": 91,
+   "nearest_bus_stop_m": 277,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/47359481",
+   "name": "M HKA",
+   "osm_name": "M HKA - Museum van Hedendaagse Kunst Antwerpen",
+   "description": "Antwerp's contemporary art museum, in a converted grain silo on the Zuid waterfront.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 51.211448,
+   "lon": 4.389706,
+   "wikidata": "Q1573755",
+   "website": "https://www.muhka.be/",
+   "nearest_stop_m": 376,
+   "nearest_bus_stop_m": 376,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/25364883",
+   "name": "MAS | Museum aan de Stroom",
+   "osm_name": "Museum aan de Stroom",
+   "description": "Ten stacked red-sandstone boxes; the free rooftop spiral is the best view in Antwerp.",
+   "category": "museum",
+   "must_see": true,
+   "lat": 51.228937,
+   "lon": 4.404731,
+   "wikidata": "Q104723730",
+   "website": "https://www.mas.be/",
+   "nearest_stop_m": 129,
+   "nearest_bus_stop_m": 204,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/5226910595",
+   "name": "Maagdenhuis",
+   "osm_name": "Maagdenhuis",
+   "description": "Former foundling girls' orphanage, now a small museum of Flemish masters and food bowls.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 51.214357,
+   "lon": 4.405394,
+   "wikidata": "Q2491109",
+   "website": "https://www.maagdenhuis.be/",
+   "nearest_stop_m": 88,
+   "nearest_bus_stop_m": 361,
+   "bus_reachable": false
+  },
+  {
+   "id": "node/1782364853",
+   "name": "MoMu (Fashion Museum)",
+   "osm_name": "MoMu",
+   "description": "Belgium's fashion museum — home turf of the Antwerp Six, reopened in 2021.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 51.217296,
+   "lon": 4.399598,
+   "wikidata": "Q2799943",
+   "website": "https://www.momu.be/",
+   "nearest_stop_m": 128,
+   "nearest_bus_stop_m": 128,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/4403124",
+   "name": "Park Spoor Noord",
+   "osm_name": "Park Spoor Noord",
+   "description": "A 24-hectare park laid over a demolished railway yard — the city's favourite new green space.",
+   "category": "park",
+   "must_see": false,
+   "lat": 51.230082,
+   "lon": 4.425514,
+   "wikidata": "Q2685872",
+   "website": null,
+   "nearest_stop_m": 184,
+   "nearest_bus_stop_m": 184,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/3428464",
+   "name": "Plantin-Moretus Museum",
+   "osm_name": "Plantin-Moretusmuseum",
+   "description": "UNESCO-listed printing house with the two oldest surviving printing presses in the world.",
+   "category": "museum",
+   "must_see": true,
+   "lat": 51.218494,
+   "lon": 4.398007,
+   "wikidata": "Q595802",
+   "website": "https://www.museumplantinmoretus.be/",
+   "nearest_stop_m": 237,
+   "nearest_bus_stop_m": 250,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/10989958",
+   "name": "Port House",
+   "osm_name": "Havenhuis",
+   "description": "Zaha Hadid's glass diamond balanced on a replica Hanseatic fire station.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 51.241119,
+   "lon": 4.407353,
+   "wikidata": "Q23930610",
+   "website": "https://www.portofantwerpbruges.com",
+   "nearest_stop_m": 109,
+   "nearest_bus_stop_m": 913,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/1093070549",
+   "name": "Red Star Line Museum",
+   "osm_name": "Red Star Line Museum",
+   "description": "In the sheds where two million emigrants were deloused before sailing to New York.",
+   "category": "museum",
+   "must_see": true,
+   "lat": 51.233322,
+   "lon": 4.403403,
+   "wikidata": "Q23090950",
+   "website": "https://www.redstarline.be/",
+   "nearest_stop_m": 228,
+   "nearest_bus_stop_m": 698,
+   "bus_reachable": false
+  },
+  {
+   "id": "node/13242992274",
+   "name": "Royal Museum of Fine Arts (KMSKA)",
+   "osm_name": "Koninklijk Museum voor Schone Kunsten Antwerpen",
+   "description": "Reopened in 2022 after eleven years — Van Eyck, Memling, Ensor and Rubens at full scale.",
+   "category": "museum",
+   "must_see": true,
+   "lat": 51.208593,
+   "lon": 4.394631,
+   "wikidata": "Q1471477",
+   "website": "https://www.kmska.be/",
+   "nearest_stop_m": 97,
+   "nearest_bus_stop_m": 97,
+   "bus_reachable": true
+  },
+  {
+   "id": "relation/902468",
+   "name": "Royal Palace (Paleis op de Meir)",
+   "osm_name": "Paleis op de Meir",
+   "description": "Napoleon's Antwerp residence on the shopping street, with a chocolate salon downstairs.",
+   "category": "castle",
+   "must_see": false,
+   "lat": 51.217841,
+   "lon": 4.408479,
+   "wikidata": "Q775797",
+   "website": "https://www.paleisopdemeir.be",
+   "nearest_stop_m": 122,
+   "nearest_bus_stop_m": 461,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/1411265135",
+   "name": "Rubens House",
+   "osm_name": "Rubenshuis",
+   "description": "The painter's own home and studio, with an Italianate portico he designed himself.",
+   "category": "museum",
+   "must_see": true,
+   "lat": 51.216984,
+   "lon": 4.409656,
+   "wikidata": "Q775644",
+   "website": "https://www.rubenshuis.be/",
+   "nearest_stop_m": 238,
+   "nearest_bus_stop_m": 354,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/496711282",
+   "name": "Ruihuis",
+   "osm_name": "Ruihuis",
+   "description": "Entrance to the Ruien — the covered medieval canals running under the old town.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 51.221081,
+   "lon": 4.398382,
+   "wikidata": null,
+   "website": "https://www.deruien.be",
+   "nearest_stop_m": 346,
+   "nearest_bus_stop_m": 346,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/203141347",
+   "name": "Sint-Felixpakhuis",
+   "osm_name": "Stadsarchief Sint-Felix pakhuis",
+   "description": "Vast 1860s warehouse split by a covered street; now the city archive.",
+   "category": "historic",
+   "must_see": false,
+   "lat": 51.227593,
+   "lon": 4.407806,
+   "wikidata": "Q33100130",
+   "website": null,
+   "nearest_stop_m": 51,
+   "nearest_bus_stop_m": 51,
+   "bus_reachable": true
+  },
+  {
+   "id": "node/2413530148",
+   "name": "Snijders&Rockox House",
+   "osm_name": "Snijders & Rockoxhuis",
+   "description": "The patrician home of Rubens' patron, hung as a 17th-century collector would have had it.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 51.221728,
+   "lon": 4.40608,
+   "wikidata": "Q2662909",
+   "website": "https://www.snijdersrockoxhuis.be",
+   "nearest_stop_m": 68,
+   "nearest_bus_stop_m": 460,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/232914449",
+   "name": "St. Andrew's Church",
+   "osm_name": "Sint-Andrieskerk",
+   "description": "Parish church of the old Sint-Andries quarter, with a memorial to Mary, Queen of Scots.",
+   "category": "church",
+   "must_see": false,
+   "lat": 51.216483,
+   "lon": 4.397999,
+   "wikidata": "Q2802159",
+   "website": null,
+   "nearest_stop_m": 94,
+   "nearest_bus_stop_m": 94,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/147447606",
+   "name": "St. Anna Pedestrian Tunnel",
+   "osm_name": "Sint-Annatunnel",
+   "description": "1933 tunnel under the Scheldt, reached by the original wooden escalators.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 51.219683,
+   "lon": 4.39214,
+   "wikidata": "Q691988",
+   "website": null,
+   "nearest_stop_m": 326,
+   "nearest_bus_stop_m": 326,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/39886923",
+   "name": "St. Charles Borromeo Church",
+   "osm_name": "Sint-Carolus Borromeuskerk",
+   "description": "Baroque church whose façade Rubens helped design; the ceiling paintings burned in 1718.",
+   "category": "church",
+   "must_see": false,
+   "lat": 51.220964,
+   "lon": 4.404783,
+   "wikidata": "Q1415440",
+   "website": null,
+   "nearest_stop_m": 69,
+   "nearest_bus_stop_m": 336,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/232926614",
+   "name": "St. George's Church",
+   "osm_name": "Sint-Joriskerk",
+   "description": "Neo-Gothic parish church on the line of the old city walls.",
+   "category": "church",
+   "must_see": false,
+   "lat": 51.21259,
+   "lon": 4.404666,
+   "wikidata": "Q2278872",
+   "website": "http://www.sint-jorisparochie.be/",
+   "nearest_stop_m": 95,
+   "nearest_bus_stop_m": 271,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/40092556",
+   "name": "St. James' Church",
+   "osm_name": "Sint-Jacobskerk",
+   "description": "Rubens' burial place, and the richest church interior in the city.",
+   "category": "church",
+   "must_see": false,
+   "lat": 51.220097,
+   "lon": 4.410528,
+   "wikidata": "Q1083704",
+   "website": null,
+   "nearest_stop_m": 105,
+   "nearest_bus_stop_m": 388,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/116149697",
+   "name": "St. Paul's Church",
+   "osm_name": "Sint-Pauluskerk",
+   "description": "Gothic Dominican church with a startling baroque calvary garden tucked beside it.",
+   "category": "church",
+   "must_see": false,
+   "lat": 51.223944,
+   "lon": 4.401381,
+   "wikidata": "Q2272511",
+   "website": null,
+   "nearest_stop_m": 105,
+   "nearest_bus_stop_m": 423,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/4344313",
+   "name": "Stadspark",
+   "osm_name": "Stadspark",
+   "description": "Romantic 19th-century park on the line of the old Spanish ramparts.",
+   "category": "park",
+   "must_see": false,
+   "lat": 51.212505,
+   "lon": 4.414066,
+   "wikidata": "Q21771395",
+   "website": null,
+   "nearest_stop_m": 149,
+   "nearest_bus_stop_m": 149,
+   "bus_reachable": true
+  },
+  {
+   "id": "way/179882624",
+   "name": "Vleeshuis",
+   "osm_name": "Vleeshuis",
+   "description": "The butchers' guildhall of 1504, striped like streaky bacon; now a music museum.",
+   "category": "museum",
+   "must_see": false,
+   "lat": 51.222688,
+   "lon": 4.399246,
+   "wikidata": "Q2801959",
+   "website": "https://www.museumvleeshuis.be/",
+   "nearest_stop_m": 291,
+   "nearest_bus_stop_m": 472,
+   "bus_reachable": false
+  },
+  {
+   "id": "way/191782199",
+   "name": "Zuiderpershuis",
+   "osm_name": "Zuiderpershuis",
+   "description": "Neo-Gothic hydraulic power station of 1882, now a world-music venue.",
+   "category": "landmark",
+   "must_see": false,
+   "lat": 51.21177,
+   "lon": 4.391001,
+   "wikidata": "Q4530905",
+   "website": null,
+   "nearest_stop_m": 338,
+   "nearest_bus_stop_m": 338,
+   "bus_reachable": false
+  }
+ ],
+ "unreachable_pois": [
+  {
+   "name": "Hendrik Conscienceplein",
+   "description": "Antwerp's most complete baroque square, car-free and lit by gas lamps.",
+   "category": "landmark",
+   "lat": 51.220962,
+   "lon": 4.404172,
+   "nearest_bus_stop_m": 310
+  },
+  {
+   "name": "Law Courts",
+   "description": "Richard Rogers' 'sails' over the southern approach — a modern city gate.",
+   "category": "landmark",
+   "lat": 51.203805,
+   "lon": 4.387553,
+   "nearest_bus_stop_m": 314
+  },
+  {
+   "name": "Handelsbeurs",
+   "description": "The world's first purpose-built commodity exchange, reopened after a long restoration.",
+   "category": "historic",
+   "lat": 51.219339,
+   "lon": 4.406153,
+   "nearest_bus_stop_m": 326
+  },
+  {
+   "name": "St. Anna Pedestrian Tunnel",
+   "description": "1933 tunnel under the Scheldt, reached by the original wooden escalators.",
+   "category": "landmark",
+   "lat": 51.219683,
+   "lon": 4.39214,
+   "nearest_bus_stop_m": 326
+  },
+  {
+   "name": "City Hall",
+   "description": "1560s Renaissance city hall on the Grote Markt, a UNESCO-listed civic landmark.",
+   "category": "historic",
+   "lat": 51.221308,
+   "lon": 4.399156,
+   "nearest_bus_stop_m": 336
+  },
+  {
+   "name": "St. Charles Borromeo Church",
+   "description": "Baroque church whose façade Rubens helped design; the ceiling paintings burned in 1718.",
+   "category": "church",
+   "lat": 51.220964,
+   "lon": 4.404783,
+   "nearest_bus_stop_m": 336
+  },
+  {
+   "name": "Zuiderpershuis",
+   "description": "Neo-Gothic hydraulic power station of 1882, now a world-music venue.",
+   "category": "landmark",
+   "lat": 51.21177,
+   "lon": 4.391001,
+   "nearest_bus_stop_m": 338
+  },
+  {
+   "name": "Ruihuis",
+   "description": "Entrance to the Ruien — the covered medieval canals running under the old town.",
+   "category": "museum",
+   "lat": 51.221081,
+   "lon": 4.398382,
+   "nearest_bus_stop_m": 346
+  },
+  {
+   "name": "DIVA",
+   "description": "Museum of diamonds, silver and jewellery, in a townhouse off the Grote Markt.",
+   "category": "museum",
+   "lat": 51.221115,
+   "lon": 4.398277,
+   "nearest_bus_stop_m": 354
+  },
+  {
+   "name": "Rubens House",
+   "description": "The painter's own home and studio, with an Italianate portico he designed himself.",
+   "category": "museum",
+   "lat": 51.216984,
+   "lon": 4.409656,
+   "nearest_bus_stop_m": 354
+  },
+  {
+   "name": "Maagdenhuis",
+   "description": "Former foundling girls' orphanage, now a small museum of Flemish masters and food bowls.",
+   "category": "museum",
+   "lat": 51.214357,
+   "lon": 4.405394,
+   "nearest_bus_stop_m": 361
+  },
+  {
+   "name": "M HKA",
+   "description": "Antwerp's contemporary art museum, in a converted grain silo on the Zuid waterfront.",
+   "category": "museum",
+   "lat": 51.211448,
+   "lon": 4.389706,
+   "nearest_bus_stop_m": 376
+  },
+  {
+   "name": "FOMU (Photo Museum)",
+   "description": "One of Europe's serious photography museums, with a 3-million-image collection.",
+   "category": "museum",
+   "lat": 51.209033,
+   "lon": 4.387625,
+   "nearest_bus_stop_m": 378
+  },
+  {
+   "name": "Bourla Theatre",
+   "description": "1834 neoclassical playhouse, the last surviving continental theatre of its type.",
+   "category": "historic",
+   "lat": 51.215982,
+   "lon": 4.407334,
+   "nearest_bus_stop_m": 380
+  },
+  {
+   "name": "St. James' Church",
+   "description": "Rubens' burial place, and the richest church interior in the city.",
+   "category": "church",
+   "lat": 51.220097,
+   "lon": 4.410528,
+   "nearest_bus_stop_m": 388
+  },
+  {
+   "name": "St. Paul's Church",
+   "description": "Gothic Dominican church with a startling baroque calvary garden tucked beside it.",
+   "category": "church",
+   "lat": 51.223944,
+   "lon": 4.401381,
+   "nearest_bus_stop_m": 423
+  },
+  {
+   "name": "Snijders&Rockox House",
+   "description": "The patrician home of Rubens' patron, hung as a 17th-century collector would have had it.",
+   "category": "museum",
+   "lat": 51.221728,
+   "lon": 4.40608,
+   "nearest_bus_stop_m": 460
+  },
+  {
+   "name": "Royal Palace (Paleis op de Meir)",
+   "description": "Napoleon's Antwerp residence on the shopping street, with a chocolate salon downstairs.",
+   "category": "castle",
+   "lat": 51.217841,
+   "lon": 4.408479,
+   "nearest_bus_stop_m": 461
+  },
+  {
+   "name": "Vleeshuis",
+   "description": "The butchers' guildhall of 1504, striped like streaky bacon; now a music museum.",
+   "category": "museum",
+   "lat": 51.222688,
+   "lon": 4.399246,
+   "nearest_bus_stop_m": 472
+  },
+  {
+   "name": "Het Steen",
+   "description": "The 13th-century riverside castle — Antwerp's oldest building, now the visitor centre.",
+   "category": "castle",
+   "lat": 51.222782,
+   "lon": 4.397384,
+   "nearest_bus_stop_m": 540
+  },
+  {
+   "name": "Red Star Line Museum",
+   "description": "In the sheds where two million emigrants were deloused before sailing to New York.",
+   "category": "museum",
+   "lat": 51.233322,
+   "lon": 4.403403,
+   "nearest_bus_stop_m": 698
+  },
+  {
+   "name": "Port House",
+   "description": "Zaha Hadid's glass diamond balanced on a replica Hanseatic fire station.",
+   "category": "landmark",
+   "lat": 51.241119,
+   "lon": 4.407353,
+   "nearest_bus_stop_m": 913
+  }
+ ],
+ "ranking": [
+  {
+   "line": "17",
+   "variants": [
+    "17"
+   ],
+   "trips_per_day": 171.0,
+   "frequent_enough": true,
+   "score": 23.0,
+   "poi_count": 11,
+   "must_see_count": 2,
+   "districts": 6,
+   "spread_km": 3.34,
+   "bbox_stops": 54,
+   "pois": [
+    "Antwerp Central Station",
+    "Antwerp Zoo",
+    "Brewers' House",
+    "De Koninck City Brewery",
+    "Diamond District",
+    "Koning Albertpark",
+    "Koningin Astridplein",
+    "Loodswezen",
+    "MAS | Museum aan de Stroom",
+    "Sint-Felixpakhuis",
+    "Stadspark"
+   ]
+  },
+  {
+   "line": "18",
+   "variants": [
+    "18",
+    "18a",
+    "18b",
+    "18c"
+   ],
+   "trips_per_day": 126.0,
+   "frequent_enough": true,
+   "score": 18.5,
+   "poi_count": 8,
+   "must_see_count": 4,
+   "districts": 3,
+   "spread_km": 1.45,
+   "bbox_stops": 24,
+   "pois": [
+    "AMUZ (St. Augustine's Church)",
+    "Boerentoren",
+    "Cathedral of Our Lady",
+    "Grote Markt",
+    "MoMu (Fashion Museum)",
+    "Plantin-Moretus Museum",
+    "Royal Museum of Fine Arts (KMSKA)",
+    "St. Andrew's Church"
+   ]
+  },
+  {
+   "line": "22",
+   "variants": [
+    "22"
+   ],
+   "trips_per_day": 132.0,
+   "frequent_enough": true,
+   "score": 18.0,
+   "poi_count": 9,
+   "must_see_count": 3,
+   "districts": 3,
+   "spread_km": 2.52,
+   "bbox_stops": 50,
+   "pois": [
+    "AMUZ (St. Augustine's Church)",
+    "Boerentoren",
+    "Cathedral of Our Lady",
+    "Grote Markt",
+    "Koning Albertpark",
+    "MoMu (Fashion Museum)",
+    "Plantin-Moretus Museum",
+    "St. Andrew's Church",
+    "St. George's Church"
+   ]
+  },
+  {
+   "line": "X19",
+   "variants": [
+    "X19"
+   ],
+   "trips_per_day": 59.1,
+   "frequent_enough": false,
+   "score": 12.5,
+   "poi_count": 5,
+   "must_see_count": 0,
+   "districts": 5,
+   "spread_km": 2.11,
+   "bbox_stops": 14,
+   "pois": [
+    "De Koninck City Brewery",
+    "Diamond District",
+    "Koning Albertpark",
+    "Koningin Astridplein",
+    "Stadspark"
+   ]
+  },
+  {
+   "line": "13",
+   "variants": [
+    "13"
+   ],
+   "trips_per_day": 88.5,
+   "frequent_enough": true,
+   "score": 11.5,
+   "poi_count": 4,
+   "must_see_count": 1,
+   "districts": 4,
+   "spread_km": 1.73,
+   "bbox_stops": 37,
+   "pois": [
+    "Diamond District",
+    "Royal Museum of Fine Arts (KMSKA)",
+    "St. George's Church",
+    "Stadspark"
+   ]
+  },
+  {
+   "line": "14",
+   "variants": [
+    "14"
+   ],
+   "trips_per_day": 90.1,
+   "frequent_enough": true,
+   "score": 11.5,
+   "poi_count": 4,
+   "must_see_count": 1,
+   "districts": 4,
+   "spread_km": 1.73,
+   "bbox_stops": 37,
+   "pois": [
+    "Diamond District",
+    "Royal Museum of Fine Arts (KMSKA)",
+    "St. George's Church",
+    "Stadspark"
+   ]
+  },
+  {
+   "line": "P5",
+   "variants": [
+    "P5"
+   ],
+   "trips_per_day": 346.5,
+   "frequent_enough": true,
+   "score": 11.5,
+   "poi_count": 4,
+   "must_see_count": 1,
+   "districts": 4,
+   "spread_km": 1.73,
+   "bbox_stops": 37,
+   "pois": [
+    "Diamond District",
+    "Royal Museum of Fine Arts (KMSKA)",
+    "St. George's Church",
+    "Stadspark"
+   ]
+  },
+  {
+   "line": "23",
+   "variants": [
+    "23"
+   ],
+   "trips_per_day": 117.5,
+   "frequent_enough": true,
+   "score": 10.0,
+   "poi_count": 4,
+   "must_see_count": 1,
+   "districts": 3,
+   "spread_km": 1.6,
+   "bbox_stops": 53,
+   "pois": [
+    "Antwerp Central Station",
+    "Antwerp Zoo",
+    "Koningin Astridplein",
+    "Park Spoor Noord"
+   ]
+  },
+  {
+   "line": "20",
+   "variants": [
+    "20",
+    "20a",
+    "20b"
+   ],
+   "trips_per_day": 116.3,
+   "frequent_enough": true,
+   "score": 8.5,
+   "poi_count": 4,
+   "must_see_count": 1,
+   "districts": 2,
+   "spread_km": 0.48,
+   "bbox_stops": 28,
+   "pois": [
+    "Antwerp Central Station",
+    "Antwerp Zoo",
+    "Diamond District",
+    "Koningin Astridplein"
+   ]
+  },
+  {
+   "line": "21",
+   "variants": [
+    "21"
+   ],
+   "trips_per_day": 126.7,
+   "frequent_enough": true,
+   "score": 8.5,
+   "poi_count": 4,
+   "must_see_count": 1,
+   "districts": 2,
+   "spread_km": 0.48,
+   "bbox_stops": 34,
+   "pois": [
+    "Antwerp Central Station",
+    "Antwerp Zoo",
+    "Diamond District",
+    "Koningin Astridplein"
+   ]
+  },
+  {
+   "line": "32",
+   "variants": [
+    "32"
+   ],
+   "trips_per_day": 170.2,
+   "frequent_enough": true,
+   "score": 8.5,
+   "poi_count": 4,
+   "must_see_count": 1,
+   "districts": 2,
+   "spread_km": 0.48,
+   "bbox_stops": 27,
+   "pois": [
+    "Antwerp Central Station",
+    "Antwerp Zoo",
+    "Diamond District",
+    "Koningin Astridplein"
+   ]
+  },
+  {
+   "line": "40",
+   "variants": [
+    "40"
+   ],
+   "trips_per_day": 133.2,
+   "frequent_enough": true,
+   "score": 5.0,
+   "poi_count": 2,
+   "must_see_count": 0,
+   "districts": 2,
+   "spread_km": 0.27,
+   "bbox_stops": 15,
+   "pois": [
+    "Antwerp Zoo",
+    "Koningin Astridplein"
+   ]
+  },
+  {
+   "line": "416",
+   "variants": [
+    "416"
+   ],
+   "trips_per_day": 17.3,
+   "frequent_enough": false,
+   "score": 5.0,
+   "poi_count": 2,
+   "must_see_count": 0,
+   "districts": 2,
+   "spread_km": 0.27,
+   "bbox_stops": 12,
+   "pois": [
+    "Antwerp Zoo",
+    "Koningin Astridplein"
+   ]
+  },
+  {
+   "line": "418",
+   "variants": [
+    "418"
+   ],
+   "trips_per_day": 3.3,
+   "frequent_enough": false,
+   "score": 5.0,
+   "poi_count": 2,
+   "must_see_count": 0,
+   "districts": 2,
+   "spread_km": 0.27,
+   "bbox_stops": 11,
+   "pois": [
+    "Antwerp Zoo",
+    "Koningin Astridplein"
+   ]
+  },
+  {
+   "line": "X41",
+   "variants": [
+    "X41"
+   ],
+   "trips_per_day": 116.6,
+   "frequent_enough": true,
+   "score": 5.0,
+   "poi_count": 2,
+   "must_see_count": 0,
+   "districts": 2,
+   "spread_km": 0.27,
+   "bbox_stops": 11,
+   "pois": [
+    "Antwerp Zoo",
+    "Koningin Astridplein"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "line": "17",
+   "variants": [
+    "17"
+   ],
+   "trips_per_day": 171.0,
+   "route_id": "10170",
+   "shape_id": "1017762",
+   "headsign": "Edegem UZA",
+   "long_name": "Brouwersvliet - Centraal Station - UZA",
+   "color": "#EF7D00",
+   "url": "https://www.delijn.be/nl/lijnen/1017/?richtingCode=0",
+   "score": 23.0,
+   "marginal_score": 23.0,
+   "new_pois": [
+    "Antwerp Central Station",
+    "Antwerp Zoo",
+    "Brewers' House",
+    "De Koninck City Brewery",
+    "Diamond District",
+    "Koning Albertpark",
+    "Koningin Astridplein",
+    "Loodswezen",
+    "MAS | Museum aan de Stroom",
+    "Sint-Felixpakhuis",
+    "Stadspark"
+   ],
+   "poi_count": 11,
+   "districts": 6,
+   "spread_km": 3.34,
+   "stops": [
+    {
+     "stop_id": "102054",
+     "stop_name": "Antwerpen Felixarchief",
+     "lat": 51.227216,
+     "lon": 4.408215,
+     "pois": [
+      {
+       "name": "Sint-Felixpakhuis",
+       "walk_m": 51,
+       "description": "Vast 1860s warehouse split by a covered street; now the city archive.",
+       "category": "historic",
+       "lat": 51.227593,
+       "lon": 4.407806
+      }
+     ]
+    },
+    {
+     "stop_id": "105730",
+     "stop_name": "Antwerpen Van Schoonbekeplein",
+     "lat": 51.2271,
+     "lon": 4.40478,
+     "pois": [
+      {
+       "name": "Brewers' House",
+       "walk_m": 114,
+       "description": "16th-century water house that pumped the city's brewing water, with machinery intact.",
+       "category": "landmark",
+       "lat": 51.227476,
+       "lon": 4.403253
+      },
+      {
+       "name": "MAS | Museum aan de Stroom",
+       "walk_m": 204,
+       "description": "Ten stacked red-sandstone boxes; the free rooftop spiral is the best view in Antwerp.",
+       "category": "museum",
+       "lat": 51.228937,
+       "lon": 4.404731
+      },
+      {
+       "name": "Loodswezen",
+       "walk_m": 277,
+       "description": "Neo-Gothic pilotage building on the quay, a Scheldt-front landmark.",
+       "category": "landmark",
+       "lat": 51.228079,
+       "lon": 4.401119
+      }
+     ]
+    },
+    {
+     "stop_id": "102330",
+     "stop_name": "Antwerpen Felixarchief",
+     "lat": 51.22686,
+     "lon": 4.40905,
+     "pois": []
+    },
+    {
+     "stop_id": "104565",
+     "stop_name": "Antwerpen Hessenbrug",
+     "lat": 51.22534,
+     "lon": 4.40957,
+     "pois": []
+    },
+    {
+     "stop_id": "102935",
+     "stop_name": "Antwerpen Rodestraat",
+     "lat": 51.22466,
+     "lon": 4.41358,
+     "pois": []
+    },
+    {
+     "stop_id": "101135",
+     "stop_name": "Antwerpen Sint-Jansplein",
+     "lat": 51.22454,
+     "lon": 4.41627,
+     "pois": []
+    },
+    {
+     "stop_id": "103810",
+     "stop_name": "Antwerpen Roosevelt perron Osy",
+     "lat": 51.22027,
+     "lon": 4.41765,
+     "pois": []
+    },
+    {
+     "stop_id": "102313",
+     "stop_name": "Antwerpen Centraal Station perron 11",
+     "lat": 51.21669,
+     "lon": 4.42042,
+     "pois": [
+      {
+       "name": "Antwerp Central Station",
+       "walk_m": 91,
+       "description": "The 'railway cathedral' — a stone-and-iron dome over four levels of platforms.",
+       "category": "landmark",
+       "lat": 51.215995,
+       "lon": 4.421101
+      },
+      {
+       "name": "Koningin Astridplein",
+       "walk_m": 170,
+       "description": "The square in front of Central Station, gateway to the zoo and the diamond quarter.",
+       "category": "landmark",
+       "lat": 51.218163,
+       "lon": 4.421058
+      },
+      {
+       "name": "Antwerp Zoo",
+       "walk_m": 225,
+       "description": "Founded 1843, right beside Central Station — one of the oldest zoos in the world.",
+       "category": "attraction",
+       "lat": 51.216258,
+       "lon": 4.42357
+      }
+     ]
+    },
+    {
+     "stop_id": "102314",
+     "stop_name": "Antwerpen Lange Kievitstraat",
+     "lat": 51.21326,
+     "lon": 4.42076,
+     "pois": [
+      {
+       "name": "Diamond District",
+       "walk_m": 253,
+       "description": "Four streets behind the station through which most of the world's rough diamonds pass.",
+       "category": "attraction",
+       "lat": 51.214427,
+       "lon": 4.417644
+      }
+     ]
+    },
+    {
+     "stop_id": "104630",
+     "stop_name": "Antwerpen Mercatorstraat",
+     "lat": 51.21023,
+     "lon": 4.42198,
+     "pois": []
+    },
+    {
+     "stop_id": "103940",
+     "stop_name": "Antwerpen Lange Leemstraat",
+     "lat": 51.20617,
+     "lon": 4.41843,
+     "pois": []
+    },
+    {
+     "stop_id": "102760",
+     "stop_name": "Antwerpen Harmonie",
+     "lat": 51.20137,
+     "lon": 4.41238,
+     "pois": [
+      {
+       "name": "De Koninck City Brewery",
+       "walk_m": 293,
+       "description": "The bolleke brewery, with a tasting room and food hall in the old stables.",
+       "category": "attraction",
+       "lat": 51.199656,
+       "lon": 4.415566
+      }
+     ]
+    },
+    {
+     "stop_id": "102812",
+     "stop_name": "Antwerpen Provinciehuis",
+     "lat": 51.19926,
+     "lon": 4.41115,
+     "pois": [
+      {
+       "name": "Koning Albertpark",
+       "walk_m": 140,
+       "description": "Green wedge along the southern ring, good for a breather between museums.",
+       "category": "park",
+       "lat": 51.199875,
+       "lon": 4.412902
+      }
+     ]
+    },
+    {
+     "stop_id": "104801",
+     "stop_name": "Antwerpen Markgravelei",
+     "lat": 51.19638,
+     "lon": 4.40949,
+     "pois": []
+    },
+    {
+     "stop_id": "101955",
+     "stop_name": "Antwerpen Desguinlei",
+     "lat": 51.19371,
+     "lon": 4.40798,
+     "pois": []
+    },
+    {
+     "stop_id": "101806",
+     "stop_name": "Antwerpen G. Le Grellelaan",
+     "lat": 51.19012,
+     "lon": 4.40509,
+     "pois": []
+    }
+   ],
+   "shape": [
+    [
+     51.227163,
+     4.408221
+    ],
+    [
+     51.227121,
+     4.40709
+    ],
+    [
+     51.227071,
+     4.40632
+    ],
+    [
+     51.227061,
+     4.406061
+    ],
+    [
+     51.227051,
+     4.405901
+    ],
+    [
+     51.227041,
+     4.405471
+    ],
+    [
+     51.227041,
+     4.405211
+    ],
+    [
+     51.227041,
+     4.40496
+    ],
+    [
+     51.227047,
+     4.404773
+    ],
+    [
+     51.227061,
+     4.40441
+    ],
+    [
+     51.227091,
+     4.403801
+    ],
+    [
+     51.227101,
+     4.40344
+    ],
+    [
+     51.227051,
+     4.403451
+    ],
+    [
+     51.227001,
+     4.403461
+    ],
+    [
+     51.226901,
+     4.403461
+    ],
+    [
+     51.226891,
+     4.403931
+    ],
+    [
+     51.226881,
+     4.40427
+    ],
+    [
+     51.226861,
+     4.404561
+    ],
+    [
+     51.226842,
+     4.40494
+    ],
+    [
+     51.226821,
+     4.40519
+    ],
+    [
+     51.226821,
+     4.405377
+    ],
+    [
+     51.226821,
+     4.405441
+    ],
+    [
+     51.226851,
+     4.406121
+    ],
+    [
+     51.226881,
+     4.40711
+    ],
+    [
+     51.226891,
+     4.407341
+    ],
+    [
+     51.226901,
+     4.407471
+    ],
+    [
+     51.226921,
+     4.40793
+    ],
+    [
+     51.226921,
+     4.408341
+    ],
+    [
+     51.226921,
+     4.408771
+    ],
+    [
+     51.226927,
+     4.409048
+    ],
+    [
+     51.226931,
+     4.40919
+    ],
+    [
+     51.226961,
+     4.409551
+    ],
+    [
+     51.226851,
+     4.409641
+    ],
+    [
+     51.226751,
+     4.409651
+    ],
+    [
+     51.226501,
+     4.409681
+    ],
+    [
+     51.226361,
+     4.409701
+    ],
+    [
+     51.225902,
+     4.40978
+    ],
+    [
+     51.225822,
+     4.40978
+    ],
+    [
+     51.225781,
+     4.40976
+    ],
+    [
+     51.225731,
+     4.40973
+    ],
+    [
+     51.225631,
+     4.40968
+    ],
+    [
+     51.225571,
+     4.409611
+    ],
+    [
+     51.225231,
+     4.409681
+    ],
+    [
+     51.22517,
+     4.40967
+    ],
+    [
+     51.225121,
+     4.409661
+    ],
+    [
+     51.225121,
+     4.40986
+    ],
+    [
+     51.225131,
+     4.410421
+    ],
+    [
+     51.225121,
+     4.410861
+    ],
+    [
+     51.224931,
+     4.412341
+    ],
+    [
+     51.224891,
+     4.412611
+    ],
+    [
+     51.22471,
+     4.413601
+    ],
+    [
+     51.224652,
+     4.413921
+    ],
+    [
+     51.224621,
+     4.414101
+    ],
+    [
+     51.224521,
+     4.41514
+    ],
+    [
+     51.224531,
+     4.41525
+    ],
+    [
+     51.224561,
+     4.415471
+    ],
+    [
+     51.224561,
+     4.415561
+    ],
+    [
+     51.224582,
+     4.415933
+    ],
+    [
+     51.224581,
+     4.41594
+    ],
+    [
+     51.224601,
+     4.416311
+    ],
+    [
+     51.224621,
+     4.416821
+    ],
+    [
+     51.224641,
+     4.41719
+    ],
+    [
+     51.224261,
+     4.417321
+    ],
+    [
+     51.224081,
+     4.417391
+    ],
+    [
+     51.223881,
+     4.417461
+    ],
+    [
+     51.223761,
+     4.417501
+    ],
+    [
+     51.223521,
+     4.417591
+    ],
+    [
+     51.223131,
+     4.417731
+    ],
+    [
+     51.222981,
+     4.417791
+    ],
+    [
+     51.222091,
+     4.418131
+    ],
+    [
+     51.221821,
+     4.41824
+    ],
+    [
+     51.221761,
+     4.41826
+    ],
+    [
+     51.221691,
+     4.41827
+    ],
+    [
+     51.221621,
+     4.41826
+    ],
+    [
+     51.221531,
+     4.41824
+    ],
+    [
+     51.220255,
+     4.417738
+    ],
+    [
+     51.220031,
+     4.41765
+    ],
+    [
+     51.219981,
+     4.41763
+    ],
+    [
+     51.219931,
+     4.41761
+    ],
+    [
+     51.219881,
+     4.41759
+    ],
+    [
+     51.219841,
+     4.417581
+    ],
+    [
+     51.219791,
+     4.417561
+    ],
+    [
+     51.219741,
+     4.417541
+    ],
+    [
+     51.219591,
+     4.417481
+    ],
+    [
+     51.219491,
+     4.417451
+    ],
+    [
+     51.219361,
+     4.417401
+    ],
+    [
+     51.219311,
+     4.41738
+    ],
+    [
+     51.219261,
+     4.41736
+    ],
+    [
+     51.219211,
+     4.41734
+    ],
+    [
+     51.219161,
+     4.41732
+    ],
+    [
+     51.219112,
+     4.4173
+    ],
+    [
+     51.219061,
+     4.41728
+    ],
+    [
+     51.219032,
+     4.417271
+    ],
+    [
+     51.219001,
+     4.417261
+    ],
+    [
+     51.218961,
+     4.417241
+    ],
+    [
+     51.218721,
+     4.417151
+    ],
+    [
+     51.218521,
+     4.41708
+    ],
+    [
+     51.218211,
+     4.416961
+    ],
+    [
+     51.217741,
+     4.41677
+    ],
+    [
+     51.217671,
+     4.417241
+    ],
+    [
+     51.217601,
+     4.417701
+    ],
+    [
+     51.217441,
+     4.41915
+    ],
+    [
+     51.217252,
+     4.42006
+    ],
+    [
+     51.217151,
+     4.420221
+    ],
+    [
+     51.217071,
+     4.420281
+    ],
+    [
+     51.216791,
+     4.42041
+    ],
+    [
+     51.216641,
+     4.42045
+    ],
+    [
+     51.216631,
+     4.42045
+    ],
+    [
+     51.216351,
+     4.42043
+    ],
+    [
+     51.215911,
+     4.420391
+    ],
+    [
+     51.215411,
+     4.4204
+    ],
+    [
+     51.215291,
+     4.42042
+    ],
+    [
+     51.215151,
+     4.42045
+    ],
+    [
+     51.214911,
+     4.42053
+    ],
+    [
+     51.214661,
+     4.420611
+    ],
+    [
+     51.214501,
+     4.420651
+    ],
+    [
+     51.214341,
+     4.420681
+    ],
+    [
+     51.214201,
+     4.420701
+    ],
+    [
+     51.213951,
+     4.420741
+    ],
+    [
+     51.21327,
+     4.420853
+    ],
+    [
+     51.213231,
+     4.42086
+    ],
+    [
+     51.213031,
+     4.4209
+    ],
+    [
+     51.212861,
+     4.420941
+    ],
+    [
+     51.212672,
+     4.421001
+    ],
+    [
+     51.212311,
+     4.421131
+    ],
+    [
+     51.212101,
+     4.421211
+    ],
+    [
+     51.211641,
+     4.421391
+    ],
+    [
+     51.211361,
+     4.421501
+    ],
+    [
+     51.211132,
+     4.42159
+    ],
+    [
+     51.210941,
+     4.42167
+    ],
+    [
+     51.210751,
+     4.42176
+    ],
+    [
+     51.210581,
+     4.42185
+    ],
+    [
+     51.210411,
+     4.42196
+    ],
+    [
+     51.210261,
+     4.42207
+    ],
+    [
+     51.210152,
+     4.422155
+    ],
+    [
+     51.210131,
+     4.42217
+    ],
+    [
+     51.209551,
+     4.42262
+    ],
+    [
+     51.209391,
+     4.42274
+    ],
+    [
+     51.209261,
+     4.42285
+    ],
+    [
+     51.209091,
+     4.422561
+    ],
+    [
+     51.208821,
+     4.42219
+    ],
+    [
+     51.208291,
+     4.421471
+    ],
+    [
+     51.208042,
+     4.42111
+    ],
+    [
+     51.207901,
+     4.420901
+    ],
+    [
+     51.207481,
+     4.420281
+    ],
+    [
+     51.207261,
+     4.41996
+    ],
+    [
+     51.207281,
+     4.41979
+    ],
+    [
+     51.207261,
+     4.419591
+    ],
+    [
+     51.207211,
+     4.419451
+    ],
+    [
+     51.207161,
+     4.419341
+    ],
+    [
+     51.207101,
+     4.419251
+    ],
+    [
+     51.207031,
+     4.41916
+    ],
+    [
+     51.206951,
+     4.4191
+    ],
+    [
+     51.206651,
+     4.418981
+    ],
+    [
+     51.206551,
+     4.418931
+    ],
+    [
+     51.206491,
+     4.418881
+    ],
+    [
+     51.206401,
+     4.41877
+    ],
+    [
+     51.20617,
+     4.418425
+    ],
+    [
+     51.205781,
+     4.417841
+    ],
+    [
+     51.204961,
+     4.416671
+    ],
+    [
+     51.204351,
+     4.415841
+    ],
+    [
+     51.203981,
+     4.415321
+    ],
+    [
+     51.203841,
+     4.415121
+    ],
+    [
+     51.203521,
+     4.414641
+    ],
+    [
+     51.203111,
+     4.414061
+    ],
+    [
+     51.202571,
+     4.413291
+    ],
+    [
+     51.202431,
+     4.41307
+    ],
+    [
+     51.202241,
+     4.412771
+    ],
+    [
+     51.202132,
+     4.412701
+    ],
+    [
+     51.201972,
+     4.412641
+    ],
+    [
+     51.201857,
+     4.412569
+    ],
+    [
+     51.201823,
+     4.41256
+    ],
+    [
+     51.201731,
+     4.41249
+    ],
+    [
+     51.201631,
+     4.41244
+    ],
+    [
+     51.201491,
+     4.412441
+    ],
+    [
+     51.201351,
+     4.412391
+    ],
+    [
+     51.201296,
+     4.412365
+    ],
+    [
+     51.201221,
+     4.412331
+    ],
+    [
+     51.200971,
+     4.41218
+    ],
+    [
+     51.200841,
+     4.41204
+    ],
+    [
+     51.200211,
+     4.41169
+    ],
+    [
+     51.199631,
+     4.411401
+    ],
+    [
+     51.199391,
+     4.41129
+    ],
+    [
+     51.199238,
+     4.411217
+    ],
+    [
+     51.198992,
+     4.411101
+    ],
+    [
+     51.198791,
+     4.410991
+    ],
+    [
+     51.198451,
+     4.41084
+    ],
+    [
+     51.198381,
+     4.4108
+    ],
+    [
+     51.198321,
+     4.41076
+    ],
+    [
+     51.198141,
+     4.410621
+    ],
+    [
+     51.198081,
+     4.410571
+    ],
+    [
+     51.198031,
+     4.410531
+    ],
+    [
+     51.197991,
+     4.410501
+    ],
+    [
+     51.197951,
+     4.410471
+    ],
+    [
+     51.197921,
+     4.410451
+    ],
+    [
+     51.197881,
+     4.410431
+    ],
+    [
+     51.197821,
+     4.410411
+    ],
+    [
+     51.197741,
+     4.410401
+    ],
+    [
+     51.197662,
+     4.4104
+    ],
+    [
+     51.197601,
+     4.41041
+    ],
+    [
+     51.197531,
+     4.41043
+    ],
+    [
+     51.197441,
+     4.41028
+    ],
+    [
+     51.197371,
+     4.410201
+    ],
+    [
+     51.197291,
+     4.410141
+    ],
+    [
+     51.197031,
+     4.410001
+    ],
+    [
+     51.196901,
+     4.409921
+    ],
+    [
+     51.196511,
+     4.409671
+    ],
+    [
+     51.196411,
+     4.409601
+    ],
+    [
+     51.196365,
+     4.409567
+    ],
+    [
+     51.196261,
+     4.409491
+    ],
+    [
+     51.196161,
+     4.409401
+    ],
+    [
+     51.195601,
+     4.409141
+    ],
+    [
+     51.195251,
+     4.409071
+    ],
+    [
+     51.195191,
+     4.409051
+    ],
+    [
+     51.194961,
+     4.40896
+    ],
+    [
+     51.194671,
+     4.408841
+    ],
+    [
+     51.194541,
+     4.408781
+    ],
+    [
+     51.194471,
+     4.408741
+    ],
+    [
+     51.194451,
+     4.408671
+    ],
+    [
+     51.194411,
+     4.408581
+    ],
+    [
+     51.194351,
+     4.408461
+    ],
+    [
+     51.194301,
+     4.40839
+    ],
+    [
+     51.194261,
+     4.40836
+    ],
+    [
+     51.194211,
+     4.40833
+    ],
+    [
+     51.193841,
+     4.408141
+    ],
+    [
+     51.193693,
+     4.408068
+    ],
+    [
+     51.193451,
+     4.407951
+    ],
+    [
+     51.193221,
+     4.40784
+    ],
+    [
+     51.192951,
+     4.407721
+    ],
+    [
+     51.192821,
+     4.407651
+    ],
+    [
+     51.192611,
+     4.407541
+    ],
+    [
+     51.192291,
+     4.40734
+    ],
+    [
+     51.191931,
+     4.407091
+    ],
+    [
+     51.191831,
+     4.407011
+    ],
+    [
+     51.191651,
+     4.40686
+    ],
+    [
+     51.191392,
+     4.406591
+    ],
+    [
+     51.191201,
+     4.406391
+    ],
+    [
+     51.191082,
+     4.406271
+    ],
+    [
+     51.190561,
+     4.405691
+    ],
+    [
+     51.190471,
+     4.405601
+    ],
+    [
+     51.190221,
+     4.40533
+    ],
+    [
+     51.190156,
+     4.405266
+    ],
+    [
+     51.190121,
+     4.405231
+    ],
+    [
+     51.189861,
+     4.404951
+    ],
+    [
+     51.189731,
+     4.404811
+    ],
+    [
+     51.189621,
+     4.4047
+    ],
+    [
+     51.189521,
+     4.4046
+    ],
+    [
+     51.189441,
+     4.404521
+    ],
+    [
+     51.189101,
+     4.404171
+    ],
+    [
+     51.188992,
+     4.40406
+    ],
+    [
+     51.188851,
+     4.40397
+    ],
+    [
+     51.188751,
+     4.40391
+    ],
+    [
+     51.188671,
+     4.40387
+    ],
+    [
+     51.188471,
+     4.403821
+    ],
+    [
+     51.188321,
+     4.403801
+    ],
+    [
+     51.188122,
+     4.403791
+    ],
+    [
+     51.187851,
+     4.403841
+    ],
+    [
+     51.187751,
+     4.403861
+    ],
+    [
+     51.187691,
+     4.403881
+    ],
+    [
+     51.187611,
+     4.403911
+    ],
+    [
+     51.187541,
+     4.403941
+    ],
+    [
+     51.187481,
+     4.403971
+    ],
+    [
+     51.187401,
+     4.404021
+    ],
+    [
+     51.187331,
+     4.404071
+    ],
+    [
+     51.187261,
+     4.404131
+    ],
+    [
+     51.187072,
+     4.404271
+    ],
+    [
+     51.186951,
+     4.404351
+    ],
+    [
+     51.186711,
+     4.404521
+    ],
+    [
+     51.186491,
+     4.404671
+    ],
+    [
+     51.186441,
+     4.40454
+    ],
+    [
+     51.186404,
+     4.40444
+    ],
+    [
+     51.186321,
+     4.40422
+    ],
+    [
+     51.185051,
+     4.400791
+    ],
+    [
+     51.184862,
+     4.40027
+    ],
+    [
+     51.184761,
+     4.399961
+    ],
+    [
+     51.184661,
+     4.399671
+    ],
+    [
+     51.184501,
+     4.39927
+    ],
+    [
+     51.183861,
+     4.397671
+    ],
+    [
+     51.183807,
+     4.397531
+    ],
+    [
+     51.183741,
+     4.39736
+    ],
+    [
+     51.183691,
+     4.39723
+    ],
+    [
+     51.183591,
+     4.396961
+    ],
+    [
+     51.183441,
+     4.396581
+    ],
+    [
+     51.183161,
+     4.395841
+    ],
+    [
+     51.182571,
+     4.39426
+    ],
+    [
+     51.182481,
+     4.39434
+    ],
+    [
+     51.182219,
+     4.394549
+    ],
+    [
+     51.182192,
+     4.394571
+    ],
+    [
+     51.182021,
+     4.394701
+    ],
+    [
+     51.181941,
+     4.394761
+    ],
+    [
+     51.181921,
+     4.394681
+    ],
+    [
+     51.181371,
+     4.392821
+    ],
+    [
+     51.181701,
+     4.392231
+    ],
+    [
+     51.181621,
+     4.39214
+    ],
+    [
+     51.181391,
+     4.39187
+    ],
+    [
+     51.181319,
+     4.391783
+    ],
+    [
+     51.181021,
+     4.391421
+    ],
+    [
+     51.180711,
+     4.39105
+    ],
+    [
+     51.180662,
+     4.391
+    ],
+    [
+     51.180611,
+     4.39095
+    ],
+    [
+     51.180571,
+     4.39093
+    ],
+    [
+     51.180521,
+     4.39094
+    ],
+    [
+     51.180461,
+     4.39097
+    ],
+    [
+     51.180422,
+     4.39099
+    ],
+    [
+     51.180301,
+     4.39106
+    ],
+    [
+     51.180011,
+     4.39124
+    ],
+    [
+     51.179821,
+     4.39136
+    ],
+    [
+     51.179711,
+     4.39142
+    ],
+    [
+     51.179611,
+     4.39148
+    ],
+    [
+     51.179591,
+     4.39149
+    ],
+    [
+     51.179436,
+     4.391582
+    ],
+    [
+     51.179372,
+     4.39162
+    ],
+    [
+     51.179221,
+     4.3917
+    ],
+    [
+     51.178981,
+     4.39183
+    ],
+    [
+     51.178911,
+     4.39187
+    ],
+    [
+     51.178801,
+     4.39193
+    ],
+    [
+     51.178291,
+     4.39222
+    ],
+    [
+     51.178121,
+     4.39232
+    ],
+    [
+     51.178021,
+     4.39238
+    ],
+    [
+     51.177842,
+     4.39248
+    ],
+    [
+     51.177751,
+     4.39253
+    ],
+    [
+     51.177411,
+     4.39272
+    ],
+    [
+     51.177231,
+     4.39282
+    ],
+    [
+     51.177141,
+     4.39287
+    ],
+    [
+     51.176761,
+     4.39309
+    ],
+    [
+     51.176712,
+     4.39312
+    ],
+    [
+     51.176571,
+     4.39319
+    ],
+    [
+     51.176461,
+     4.39323
+    ],
+    [
+     51.176312,
+     4.39327
+    ],
+    [
+     51.176281,
+     4.39328
+    ],
+    [
+     51.176111,
+     4.39332
+    ],
+    [
+     51.176091,
+     4.39332
+    ],
+    [
+     51.176061,
+     4.39333
+    ],
+    [
+     51.175611,
+     4.39344
+    ],
+    [
+     51.175444,
+     4.39348
+    ],
+    [
+     51.175352,
+     4.393501
+    ],
+    [
+     51.175101,
+     4.393551
+    ],
+    [
+     51.174921,
+     4.393591
+    ],
+    [
+     51.174781,
+     4.393631
+    ],
+    [
+     51.174621,
+     4.393691
+    ],
+    [
+     51.174121,
+     4.393911
+    ],
+    [
+     51.173991,
+     4.393971
+    ],
+    [
+     51.173881,
+     4.394021
+    ],
+    [
+     51.173742,
+     4.394071
+    ],
+    [
+     51.173701,
+     4.394081
+    ],
+    [
+     51.173601,
+     4.394101
+    ],
+    [
+     51.173451,
+     4.394111
+    ],
+    [
+     51.173301,
+     4.394091
+    ],
+    [
+     51.173182,
+     4.394061
+    ],
+    [
+     51.173111,
+     4.394041
+    ],
+    [
+     51.173061,
+     4.394031
+    ],
+    [
+     51.172991,
+     4.394021
+    ],
+    [
+     51.172891,
+     4.39401
+    ],
+    [
+     51.172711,
+     4.39401
+    ],
+    [
+     51.172521,
+     4.39402
+    ],
+    [
+     51.172401,
+     4.39404
+    ],
+    [
+     51.172261,
+     4.39407
+    ],
+    [
+     51.172091,
+     4.39413
+    ],
+    [
+     51.171921,
+     4.39421
+    ],
+    [
+     51.171731,
+     4.39431
+    ],
+    [
+     51.171491,
+     4.39444
+    ],
+    [
+     51.170921,
+     4.39476
+    ],
+    [
+     51.170791,
+     4.39483
+    ],
+    [
+     51.170692,
+     4.394881
+    ],
+    [
+     51.170571,
+     4.394931
+    ],
+    [
+     51.170471,
+     4.394961
+    ],
+    [
+     51.170351,
+     4.395001
+    ],
+    [
+     51.170241,
+     4.395041
+    ],
+    [
+     51.170005,
+     4.395138
+    ],
+    [
+     51.169851,
+     4.395201
+    ],
+    [
+     51.169831,
+     4.395041
+    ],
+    [
+     51.169791,
+     4.394781
+    ],
+    [
+     51.169761,
+     4.394601
+    ],
+    [
+     51.169731,
+     4.39441
+    ],
+    [
+     51.169631,
+     4.393811
+    ],
+    [
+     51.169621,
+     4.393741
+    ],
+    [
+     51.169782,
+     4.39241
+    ],
+    [
+     51.169811,
+     4.39214
+    ],
+    [
+     51.169861,
+     4.391691
+    ],
+    [
+     51.169931,
+     4.391001
+    ],
+    [
+     51.168061,
+     4.39003
+    ],
+    [
+     51.167702,
+     4.390259
+    ],
+    [
+     51.166791,
+     4.39084
+    ],
+    [
+     51.166701,
+     4.39086
+    ],
+    [
+     51.166551,
+     4.39091
+    ],
+    [
+     51.166372,
+     4.39098
+    ],
+    [
+     51.166331,
+     4.390997
+    ],
+    [
+     51.164331,
+     4.391831
+    ],
+    [
+     51.164241,
+     4.391871
+    ],
+    [
+     51.164141,
+     4.391911
+    ],
+    [
+     51.163023,
+     4.392367
+    ],
+    [
+     51.162741,
+     4.392481
+    ],
+    [
+     51.162861,
+     4.394051
+    ],
+    [
+     51.162882,
+     4.394271
+    ],
+    [
+     51.162921,
+     4.394791
+    ],
+    [
+     51.162961,
+     4.39517
+    ],
+    [
+     51.163019,
+     4.395627
+    ],
+    [
+     51.163021,
+     4.39565
+    ],
+    [
+     51.163141,
+     4.396691
+    ],
+    [
+     51.163191,
+     4.39711
+    ],
+    [
+     51.163301,
+     4.398071
+    ],
+    [
+     51.163371,
+     4.398631
+    ],
+    [
+     51.163801,
+     4.400441
+    ],
+    [
+     51.163591,
+     4.400481
+    ],
+    [
+     51.163325,
+     4.400514
+    ],
+    [
+     51.163191,
+     4.400531
+    ],
+    [
+     51.162741,
+     4.401221
+    ],
+    [
+     51.162562,
+     4.401491
+    ],
+    [
+     51.162571,
+     4.4024
+    ],
+    [
+     51.162571,
+     4.40249
+    ],
+    [
+     51.162551,
+     4.402681
+    ],
+    [
+     51.162491,
+     4.402801
+    ],
+    [
+     51.161851,
+     4.40323
+    ],
+    [
+     51.161542,
+     4.40366
+    ],
+    [
+     51.161841,
+     4.4049
+    ],
+    [
+     51.161851,
+     4.40498
+    ],
+    [
+     51.161878,
+     4.40526
+    ],
+    [
+     51.161892,
+     4.4054
+    ],
+    [
+     51.162031,
+     4.40665
+    ],
+    [
+     51.162151,
+     4.40703
+    ],
+    [
+     51.162741,
+     4.407761
+    ],
+    [
+     51.162861,
+     4.40815
+    ],
+    [
+     51.162871,
+     4.409011
+    ],
+    [
+     51.162761,
+     4.409381
+    ],
+    [
+     51.162701,
+     4.409551
+    ],
+    [
+     51.162187,
+     4.410034
+    ],
+    [
+     51.162041,
+     4.410171
+    ],
+    [
+     51.161381,
+     4.410791
+    ],
+    [
+     51.160762,
+     4.41121
+    ],
+    [
+     51.160261,
+     4.41151
+    ],
+    [
+     51.160091,
+     4.41165
+    ],
+    [
+     51.160022,
+     4.41173
+    ],
+    [
+     51.159751,
+     4.412011
+    ],
+    [
+     51.159567,
+     4.412228
+    ],
+    [
+     51.159176,
+     4.41269
+    ],
+    [
+     51.158541,
+     4.413441
+    ],
+    [
+     51.158321,
+     4.41294
+    ],
+    [
+     51.158301,
+     4.41273
+    ],
+    [
+     51.158191,
+     4.41258
+    ],
+    [
+     51.157811,
+     4.412441
+    ],
+    [
+     51.157661,
+     4.412321
+    ],
+    [
+     51.15752,
+     4.412242
+    ],
+    [
+     51.157466,
+     4.412184
+    ],
+    [
+     51.157414,
+     4.412088
+    ],
+    [
+     51.15741,
+     4.411646
+    ]
+   ]
+  },
+  {
+   "line": "18",
+   "variants": [
+    "18",
+    "18a",
+    "18b",
+    "18c"
+   ],
+   "trips_per_day": 126.0,
+   "route_id": "11801",
+   "shape_id": "1180361",
+   "headsign": "Antwerpen Groenplaats",
+   "long_name": "Aartselaar - Antwerpen Groenplaats",
+   "color": "#FFCC00",
+   "url": "https://www.delijn.be/nl/lijnen/1180/?richtingCode=1",
+   "score": 18.5,
+   "marginal_score": 18.5,
+   "new_pois": [
+    "AMUZ (St. Augustine's Church)",
+    "Boerentoren",
+    "Cathedral of Our Lady",
+    "Grote Markt",
+    "MoMu (Fashion Museum)",
+    "Plantin-Moretus Museum",
+    "Royal Museum of Fine Arts (KMSKA)",
+    "St. Andrew's Church"
+   ],
+   "poi_count": 8,
+   "districts": 3,
+   "spread_km": 1.45,
+   "stops": [
+    {
+     "stop_id": "102862",
+     "stop_name": "Antwerpen Camille Huysmanslaan",
+     "lat": 51.1911,
+     "lon": 4.38876,
+     "pois": []
+    },
+    {
+     "stop_id": "104405",
+     "stop_name": "Antwerpen Station Zuid",
+     "lat": 51.19738,
+     "lon": 4.3898,
+     "pois": []
+    },
+    {
+     "stop_id": "107180",
+     "stop_name": "Antwerpen Brederodestraat",
+     "lat": 51.20167,
+     "lon": 4.39165,
+     "pois": []
+    },
+    {
+     "stop_id": "107065",
+     "stop_name": "Antwerpen Troonplaats",
+     "lat": 51.20391,
+     "lon": 4.39214,
+     "pois": []
+    },
+    {
+     "stop_id": "103041",
+     "stop_name": "Antwerpen Graaf Van Hoornestraat",
+     "lat": 51.20629,
+     "lon": 4.39262,
+     "pois": []
+    },
+    {
+     "stop_id": "104346",
+     "stop_name": "Antwerpen Museum",
+     "lat": 51.20936,
+     "lon": 4.39396,
+     "pois": [
+      {
+       "name": "Royal Museum of Fine Arts (KMSKA)",
+       "walk_m": 97,
+       "description": "Reopened in 2022 after eleven years — Van Eyck, Memling, Ensor and Rubens at full scale.",
+       "category": "museum",
+       "lat": 51.208593,
+       "lon": 4.394631
+      }
+     ]
+    },
+    {
+     "stop_id": "102535",
+     "stop_name": "Antwerpen Tropisch Instituut",
+     "lat": 51.21299,
+     "lon": 4.39768,
+     "pois": []
+    },
+    {
+     "stop_id": "105435",
+     "stop_name": "Antwerpen Sint-Andries",
+     "lat": 51.21617,
+     "lon": 4.39925,
+     "pois": [
+      {
+       "name": "St. Andrew's Church",
+       "walk_m": 94,
+       "description": "Parish church of the old Sint-Andries quarter, with a memorial to Mary, Queen of Scots.",
+       "category": "church",
+       "lat": 51.216483,
+       "lon": 4.397999
+      },
+      {
+       "name": "MoMu (Fashion Museum)",
+       "walk_m": 128,
+       "description": "Belgium's fashion museum — home turf of the Antwerp Six, reopened in 2021.",
+       "category": "museum",
+       "lat": 51.217296,
+       "lon": 4.399598
+      },
+      {
+       "name": "AMUZ (St. Augustine's Church)",
+       "walk_m": 193,
+       "description": "Deconsecrated baroque church turned concert hall for early music.",
+       "category": "church",
+       "lat": 51.216285,
+       "lon": 4.402009
+      }
+     ]
+    },
+    {
+     "stop_id": "102675",
+     "stop_name": "Antwerpen Groenplaats",
+     "lat": 51.2187,
+     "lon": 4.40158,
+     "pois": [
+      {
+       "name": "Boerentoren",
+       "walk_m": 165,
+       "description": "Europe's first skyscraper (1932), an art-deco slab over the Meir.",
+       "category": "historic",
+       "lat": 51.218828,
+       "lon": 4.403942
+      },
+      {
+       "name": "Cathedral of Our Lady",
+       "walk_m": 177,
+       "description": "Belgium's tallest cathedral — 123m of Brabantine Gothic, with four Rubens altarpieces inside.",
+       "category": "church",
+       "lat": 51.220289,
+       "lon": 4.401337
+      },
+      {
+       "name": "Plantin-Moretus Museum",
+       "walk_m": 250,
+       "description": "UNESCO-listed printing house with the two oldest surviving printing presses in the world.",
+       "category": "museum",
+       "lat": 51.218494,
+       "lon": 4.398007
+      },
+      {
+       "name": "Grote Markt",
+       "walk_m": 288,
+       "description": "The guildhall-lined main square, with the Brabo fountain flinging a severed hand at its centre.",
+       "category": "landmark",
+       "lat": 51.221173,
+       "lon": 4.400373
+      }
+     ]
+    }
+   ],
+   "shape": [
+    [
+     51.117249,
+     4.393839
+    ],
+    [
+     51.11747,
+     4.393695
+    ],
+    [
+     51.117666,
+     4.393728
+    ],
+    [
+     51.117954,
+     4.393616
+    ],
+    [
+     51.117947,
+     4.393576
+    ],
+    [
+     51.117961,
+     4.39357
+    ],
+    [
+     51.118411,
+     4.39344
+    ],
+    [
+     51.118532,
+     4.393412
+    ],
+    [
+     51.118831,
+     4.39334
+    ],
+    [
+     51.119141,
+     4.393301
+    ],
+    [
+     51.119391,
+     4.393311
+    ],
+    [
+     51.119601,
+     4.393351
+    ],
+    [
+     51.119881,
+     4.393411
+    ],
+    [
+     51.120031,
+     4.393441
+    ],
+    [
+     51.120191,
+     4.393481
+    ],
+    [
+     51.120491,
+     4.39354
+    ],
+    [
+     51.120831,
+     4.39362
+    ],
+    [
+     51.121221,
+     4.3937
+    ],
+    [
+     51.121481,
+     4.39375
+    ],
+    [
+     51.121652,
+     4.39375
+    ],
+    [
+     51.121771,
+     4.393731
+    ],
+    [
+     51.121892,
+     4.393691
+    ],
+    [
+     51.122041,
+     4.393611
+    ],
+    [
+     51.122231,
+     4.393511
+    ],
+    [
+     51.122421,
+     4.393311
+    ],
+    [
+     51.122621,
+     4.393041
+    ],
+    [
+     51.122811,
+     4.39275
+    ],
+    [
+     51.122882,
+     4.39264
+    ],
+    [
+     51.122971,
+     4.3925
+    ],
+    [
+     51.123089,
+     4.392323
+    ],
+    [
+     51.123171,
+     4.3922
+    ],
+    [
+     51.123452,
+     4.39178
+    ],
+    [
+     51.123591,
+     4.39157
+    ],
+    [
+     51.123612,
+     4.39154
+    ],
+    [
+     51.123641,
+     4.39149
+    ],
+    [
+     51.123831,
+     4.391171
+    ],
+    [
+     51.123942,
+     4.390951
+    ],
+    [
+     51.124032,
+     4.390761
+    ],
+    [
+     51.124231,
+     4.390291
+    ],
+    [
+     51.124371,
+     4.389921
+    ],
+    [
+     51.124471,
+     4.389681
+    ],
+    [
+     51.124491,
+     4.389641
+    ],
+    [
+     51.124561,
+     4.389511
+    ],
+    [
+     51.124631,
+     4.38943
+    ],
+    [
+     51.124741,
+     4.38936
+    ],
+    [
+     51.124841,
+     4.38931
+    ],
+    [
+     51.124971,
+     4.38926
+    ],
+    [
+     51.125141,
+     4.38921
+    ],
+    [
+     51.125291,
+     4.38918
+    ],
+    [
+     51.125481,
+     4.38917
+    ],
+    [
+     51.125611,
+     4.38918
+    ],
+    [
+     51.125658,
+     4.389185
+    ],
+    [
+     51.125711,
+     4.38919
+    ],
+    [
+     51.125871,
+     4.38922
+    ],
+    [
+     51.126011,
+     4.38926
+    ],
+    [
+     51.126061,
+     4.38928
+    ],
+    [
+     51.126231,
+     4.389351
+    ],
+    [
+     51.126431,
+     4.389451
+    ],
+    [
+     51.126671,
+     4.389561
+    ],
+    [
+     51.127181,
+     4.389791
+    ],
+    [
+     51.128031,
+     4.39015
+    ],
+    [
+     51.128321,
+     4.39028
+    ],
+    [
+     51.128571,
+     4.39039
+    ],
+    [
+     51.128741,
+     4.39046
+    ],
+    [
+     51.128891,
+     4.39049
+    ],
+    [
+     51.129021,
+     4.39048
+    ],
+    [
+     51.129161,
+     4.39044
+    ],
+    [
+     51.129321,
+     4.39036
+    ],
+    [
+     51.129481,
+     4.390271
+    ],
+    [
+     51.129632,
+     4.390171
+    ],
+    [
+     51.130122,
+     4.389801
+    ],
+    [
+     51.130181,
+     4.389751
+    ],
+    [
+     51.130381,
+     4.389591
+    ],
+    [
+     51.130531,
+     4.389471
+    ],
+    [
+     51.130661,
+     4.389391
+    ],
+    [
+     51.130761,
+     4.389341
+    ],
+    [
+     51.130845,
+     4.389311
+    ],
+    [
+     51.130871,
+     4.389301
+    ],
+    [
+     51.131041,
+     4.38925
+    ],
+    [
+     51.131172,
+     4.3892
+    ],
+    [
+     51.131311,
+     4.38914
+    ],
+    [
+     51.131451,
+     4.3891
+    ],
+    [
+     51.131721,
+     4.38906
+    ],
+    [
+     51.131821,
+     4.38904
+    ],
+    [
+     51.131941,
+     4.389
+    ],
+    [
+     51.132151,
+     4.38891
+    ],
+    [
+     51.132331,
+     4.38882
+    ],
+    [
+     51.132411,
+     4.388781
+    ],
+    [
+     51.132473,
+     4.388748
+    ],
+    [
+     51.132791,
+     4.388581
+    ],
+    [
+     51.132931,
+     4.388511
+    ],
+    [
+     51.133051,
+     4.388441
+    ],
+    [
+     51.133171,
+     4.388361
+    ],
+    [
+     51.133471,
+     4.388151
+    ],
+    [
+     51.133912,
+     4.387871
+    ],
+    [
+     51.134491,
+     4.38749
+    ],
+    [
+     51.134591,
+     4.38768
+    ],
+    [
+     51.134671,
+     4.38785
+    ],
+    [
+     51.134751,
+     4.38803
+    ],
+    [
+     51.134891,
+     4.38835
+    ],
+    [
+     51.134981,
+     4.38857
+    ],
+    [
+     51.135051,
+     4.38877
+    ],
+    [
+     51.135111,
+     4.38895
+    ],
+    [
+     51.135135,
+     4.389029
+    ],
+    [
+     51.135211,
+     4.38928
+    ],
+    [
+     51.135281,
+     4.3895
+    ],
+    [
+     51.135351,
+     4.38967
+    ],
+    [
+     51.135431,
+     4.389821
+    ],
+    [
+     51.135511,
+     4.389941
+    ],
+    [
+     51.135881,
+     4.390511
+    ],
+    [
+     51.136051,
+     4.390781
+    ],
+    [
+     51.136231,
+     4.391081
+    ],
+    [
+     51.136541,
+     4.391601
+    ],
+    [
+     51.136671,
+     4.3918
+    ],
+    [
+     51.136751,
+     4.39191
+    ],
+    [
+     51.136831,
+     4.39202
+    ],
+    [
+     51.136941,
+     4.39214
+    ],
+    [
+     51.137241,
+     4.39242
+    ],
+    [
+     51.137264,
+     4.392443
+    ],
+    [
+     51.137761,
+     4.392931
+    ],
+    [
+     51.137831,
+     4.393001
+    ],
+    [
+     51.138881,
+     4.39403
+    ],
+    [
+     51.138971,
+     4.39412
+    ],
+    [
+     51.139312,
+     4.39444
+    ],
+    [
+     51.139591,
+     4.394721
+    ],
+    [
+     51.139681,
+     4.394801
+    ],
+    [
+     51.139821,
+     4.394861
+    ],
+    [
+     51.139942,
+     4.394891
+    ],
+    [
+     51.140071,
+     4.394901
+    ],
+    [
+     51.140221,
+     4.394891
+    ],
+    [
+     51.140351,
+     4.394861
+    ],
+    [
+     51.140491,
+     4.394811
+    ],
+    [
+     51.140841,
+     4.394661
+    ],
+    [
+     51.140971,
+     4.39462
+    ],
+    [
+     51.141121,
+     4.39459
+    ],
+    [
+     51.141251,
+     4.39458
+    ],
+    [
+     51.141511,
+     4.39459
+    ],
+    [
+     51.141681,
+     4.39461
+    ],
+    [
+     51.141801,
+     4.39463
+    ],
+    [
+     51.141931,
+     4.39466
+    ],
+    [
+     51.142071,
+     4.394731
+    ],
+    [
+     51.142101,
+     4.394752
+    ],
+    [
+     51.142211,
+     4.394831
+    ],
+    [
+     51.142621,
+     4.395181
+    ],
+    [
+     51.142771,
+     4.395301
+    ],
+    [
+     51.142911,
+     4.395391
+    ],
+    [
+     51.143042,
+     4.395461
+    ],
+    [
+     51.143151,
+     4.3955
+    ],
+    [
+     51.143271,
+     4.39553
+    ],
+    [
+     51.143411,
+     4.39555
+    ],
+    [
+     51.143551,
+     4.39556
+    ],
+    [
+     51.143711,
+     4.39557
+    ],
+    [
+     51.143891,
+     4.39559
+    ],
+    [
+     51.143919,
+     4.395595
+    ],
+    [
+     51.144491,
+     4.395681
+    ],
+    [
+     51.144801,
+     4.395731
+    ],
+    [
+     51.144802,
+     4.395631
+    ],
+    [
+     51.145781,
+     4.39549
+    ],
+    [
+     51.146041,
+     4.39544
+    ],
+    [
+     51.146271,
+     4.39538
+    ],
+    [
+     51.146491,
+     4.39529
+    ],
+    [
+     51.146701,
+     4.39515
+    ],
+    [
+     51.146871,
+     4.395021
+    ],
+    [
+     51.147611,
+     4.394371
+    ],
+    [
+     51.147941,
+     4.394071
+    ],
+    [
+     51.147981,
+     4.394041
+    ],
+    [
+     51.148091,
+     4.393971
+    ],
+    [
+     51.148211,
+     4.393911
+    ],
+    [
+     51.148451,
+     4.393801
+    ],
+    [
+     51.148467,
+     4.393797
+    ],
+    [
+     51.148661,
+     4.393731
+    ],
+    [
+     51.148871,
+     4.393701
+    ],
+    [
+     51.149011,
+     4.393691
+    ],
+    [
+     51.149371,
+     4.39366
+    ],
+    [
+     51.149611,
+     4.39368
+    ],
+    [
+     51.149851,
+     4.39377
+    ],
+    [
+     51.150431,
+     4.394171
+    ],
+    [
+     51.150611,
+     4.394261
+    ],
+    [
+     51.151011,
+     4.394331
+    ],
+    [
+     51.152441,
+     4.394161
+    ],
+    [
+     51.152591,
+     4.394121
+    ],
+    [
+     51.152701,
+     4.394141
+    ],
+    [
+     51.153001,
+     4.394121
+    ],
+    [
+     51.153121,
+     4.394111
+    ],
+    [
+     51.153222,
+     4.394111
+    ],
+    [
+     51.153511,
+     4.394111
+    ],
+    [
+     51.153791,
+     4.39429
+    ],
+    [
+     51.154201,
+     4.395141
+    ],
+    [
+     51.154471,
+     4.395641
+    ],
+    [
+     51.155451,
+     4.396571
+    ],
+    [
+     51.156471,
+     4.3971
+    ],
+    [
+     51.156577,
+     4.397137
+    ],
+    [
+     51.157431,
+     4.397441
+    ],
+    [
+     51.157601,
+     4.397561
+    ],
+    [
+     51.157811,
+     4.397771
+    ],
+    [
+     51.157871,
+     4.39784
+    ],
+    [
+     51.157941,
+     4.39793
+    ],
+    [
+     51.158041,
+     4.39807
+    ],
+    [
+     51.159081,
+     4.39964
+    ],
+    [
+     51.159111,
+     4.39975
+    ],
+    [
+     51.159121,
+     4.399851
+    ],
+    [
+     51.159131,
+     4.400041
+    ],
+    [
+     51.159231,
+     4.400001
+    ],
+    [
+     51.159291,
+     4.399981
+    ],
+    [
+     51.159713,
+     4.39986
+    ],
+    [
+     51.159882,
+     4.399811
+    ],
+    [
+     51.160042,
+     4.399771
+    ],
+    [
+     51.160601,
+     4.39961
+    ],
+    [
+     51.161521,
+     4.39935
+    ],
+    [
+     51.161741,
+     4.399281
+    ],
+    [
+     51.161901,
+     4.399221
+    ],
+    [
+     51.162021,
+     4.399181
+    ],
+    [
+     51.162121,
+     4.399141
+    ],
+    [
+     51.162231,
+     4.399101
+    ],
+    [
+     51.162351,
+     4.399051
+    ],
+    [
+     51.162396,
+     4.399032
+    ],
+    [
+     51.162451,
+     4.399011
+    ],
+    [
+     51.162691,
+     4.398921
+    ],
+    [
+     51.162811,
+     4.398881
+    ],
+    [
+     51.162891,
+     4.398851
+    ],
+    [
+     51.163161,
+     4.398741
+    ],
+    [
+     51.163371,
+     4.398631
+    ],
+    [
+     51.163641,
+     4.398511
+    ],
+    [
+     51.163691,
+     4.398491
+    ],
+    [
+     51.163841,
+     4.398421
+    ],
+    [
+     51.163981,
+     4.39835
+    ],
+    [
+     51.164111,
+     4.39827
+    ],
+    [
+     51.164232,
+     4.39818
+    ],
+    [
+     51.164321,
+     4.39811
+    ],
+    [
+     51.164391,
+     4.39805
+    ],
+    [
+     51.164461,
+     4.39799
+    ],
+    [
+     51.164521,
+     4.39793
+    ],
+    [
+     51.164731,
+     4.39775
+    ],
+    [
+     51.165191,
+     4.39735
+    ],
+    [
+     51.165261,
+     4.39729
+    ],
+    [
+     51.165331,
+     4.39723
+    ],
+    [
+     51.165498,
+     4.397081
+    ],
+    [
+     51.165511,
+     4.39707
+    ],
+    [
+     51.166491,
+     4.39621
+    ],
+    [
+     51.166541,
+     4.39617
+    ],
+    [
+     51.167021,
+     4.395741
+    ],
+    [
+     51.167251,
+     4.395541
+    ],
+    [
+     51.167332,
+     4.395461
+    ],
+    [
+     51.167391,
+     4.395411
+    ],
+    [
+     51.167471,
+     4.395341
+    ],
+    [
+     51.167551,
+     4.395271
+    ],
+    [
+     51.168001,
+     4.394841
+    ],
+    [
+     51.168081,
+     4.394771
+    ],
+    [
+     51.168142,
+     4.394721
+    ],
+    [
+     51.168251,
+     4.394651
+    ],
+    [
+     51.168351,
+     4.394601
+    ],
+    [
+     51.168382,
+     4.394591
+    ],
+    [
+     51.168421,
+     4.394581
+    ],
+    [
+     51.168501,
+     4.394571
+    ],
+    [
+     51.168581,
+     4.394571
+    ],
+    [
+     51.168622,
+     4.394571
+    ],
+    [
+     51.168751,
+     4.39457
+    ],
+    [
+     51.169201,
+     4.39458
+    ],
+    [
+     51.169471,
+     4.39459
+    ],
+    [
+     51.169761,
+     4.394601
+    ],
+    [
+     51.169791,
+     4.394781
+    ],
+    [
+     51.169831,
+     4.395041
+    ],
+    [
+     51.169851,
+     4.395201
+    ],
+    [
+     51.17004,
+     4.395124
+    ],
+    [
+     51.170241,
+     4.395041
+    ],
+    [
+     51.170351,
+     4.395001
+    ],
+    [
+     51.170471,
+     4.394961
+    ],
+    [
+     51.170571,
+     4.394931
+    ],
+    [
+     51.170692,
+     4.394881
+    ],
+    [
+     51.170791,
+     4.39483
+    ],
+    [
+     51.170921,
+     4.39476
+    ],
+    [
+     51.171491,
+     4.39444
+    ],
+    [
+     51.171731,
+     4.39431
+    ],
+    [
+     51.171921,
+     4.39421
+    ],
+    [
+     51.172091,
+     4.39413
+    ],
+    [
+     51.172261,
+     4.39407
+    ],
+    [
+     51.172401,
+     4.39404
+    ],
+    [
+     51.172521,
+     4.39402
+    ],
+    [
+     51.172711,
+     4.39401
+    ],
+    [
+     51.172891,
+     4.39401
+    ],
+    [
+     51.172991,
+     4.394021
+    ],
+    [
+     51.173061,
+     4.394031
+    ],
+    [
+     51.173111,
+     4.394041
+    ],
+    [
+     51.173182,
+     4.394061
+    ],
+    [
+     51.173301,
+     4.394091
+    ],
+    [
+     51.173451,
+     4.394111
+    ],
+    [
+     51.173601,
+     4.394101
+    ],
+    [
+     51.173701,
+     4.394081
+    ],
+    [
+     51.173742,
+     4.394071
+    ],
+    [
+     51.173881,
+     4.394021
+    ],
+    [
+     51.173991,
+     4.393971
+    ],
+    [
+     51.174121,
+     4.393911
+    ],
+    [
+     51.174171,
+     4.394021
+    ],
+    [
+     51.174231,
+     4.394131
+    ],
+    [
+     51.174268,
+     4.394179
+    ],
+    [
+     51.174302,
+     4.39422
+    ],
+    [
+     51.175301,
+     4.39541
+    ],
+    [
+     51.175341,
+     4.39546
+    ],
+    [
+     51.175472,
+     4.395611
+    ],
+    [
+     51.175631,
+     4.395811
+    ],
+    [
+     51.175741,
+     4.395961
+    ],
+    [
+     51.175791,
+     4.396041
+    ],
+    [
+     51.175841,
+     4.396131
+    ],
+    [
+     51.175881,
+     4.396211
+    ],
+    [
+     51.175921,
+     4.3963
+    ],
+    [
+     51.175961,
+     4.3964
+    ],
+    [
+     51.176039,
+     4.396616
+    ],
+    [
+     51.176041,
+     4.39662
+    ],
+    [
+     51.176131,
+     4.396871
+    ],
+    [
+     51.176221,
+     4.397101
+    ],
+    [
+     51.176391,
+     4.39754
+    ],
+    [
+     51.176531,
+     4.397891
+    ],
+    [
+     51.176621,
+     4.398101
+    ],
+    [
+     51.176701,
+     4.398271
+    ],
+    [
+     51.176791,
+     4.398441
+    ],
+    [
+     51.176911,
+     4.39866
+    ],
+    [
+     51.177041,
+     4.39886
+    ],
+    [
+     51.177152,
+     4.399021
+    ],
+    [
+     51.177131,
+     4.399071
+    ],
+    [
+     51.177121,
+     4.399121
+    ],
+    [
+     51.177121,
+     4.399171
+    ],
+    [
+     51.177131,
+     4.399221
+    ],
+    [
+     51.177151,
+     4.399271
+    ],
+    [
+     51.177171,
+     4.399301
+    ],
+    [
+     51.177201,
+     4.399321
+    ],
+    [
+     51.177231,
+     4.399331
+    ],
+    [
+     51.177251,
+     4.399331
+    ],
+    [
+     51.177281,
+     4.399321
+    ],
+    [
+     51.177311,
+     4.399301
+    ],
+    [
+     51.177331,
+     4.399271
+    ],
+    [
+     51.177351,
+     4.399221
+    ],
+    [
+     51.177361,
+     4.399171
+    ],
+    [
+     51.177361,
+     4.399121
+    ],
+    [
+     51.177351,
+     4.399071
+    ],
+    [
+     51.177341,
+     4.399041
+    ],
+    [
+     51.177474,
+     4.398819
+    ],
+    [
+     51.177691,
+     4.39846
+    ],
+    [
+     51.177831,
+     4.39824
+    ],
+    [
+     51.177961,
+     4.39804
+    ],
+    [
+     51.178101,
+     4.39785
+    ],
+    [
+     51.178261,
+     4.39766
+    ],
+    [
+     51.178391,
+     4.397521
+    ],
+    [
+     51.178531,
+     4.397371
+    ],
+    [
+     51.178691,
+     4.397211
+    ],
+    [
+     51.178851,
+     4.397051
+    ],
+    [
+     51.179032,
+     4.396881
+    ],
+    [
+     51.179241,
+     4.396711
+    ],
+    [
+     51.179671,
+     4.396371
+    ],
+    [
+     51.179831,
+     4.396251
+    ],
+    [
+     51.180021,
+     4.396111
+    ],
+    [
+     51.180261,
+     4.395941
+    ],
+    [
+     51.180551,
+     4.395741
+    ],
+    [
+     51.181101,
+     4.395371
+    ],
+    [
+     51.181462,
+     4.395111
+    ],
+    [
+     51.181701,
+     4.394941
+    ],
+    [
+     51.181861,
+     4.394821
+    ],
+    [
+     51.181941,
+     4.394761
+    ],
+    [
+     51.182021,
+     4.394701
+    ],
+    [
+     51.182192,
+     4.394571
+    ],
+    [
+     51.182419,
+     4.394389
+    ],
+    [
+     51.182481,
+     4.39434
+    ],
+    [
+     51.182571,
+     4.39426
+    ],
+    [
+     51.182651,
+     4.39419
+    ],
+    [
+     51.182881,
+     4.39404
+    ],
+    [
+     51.183171,
+     4.39386
+    ],
+    [
+     51.183261,
+     4.39383
+    ],
+    [
+     51.183401,
+     4.39379
+    ],
+    [
+     51.183491,
+     4.39377
+    ],
+    [
+     51.183561,
+     4.39375
+    ],
+    [
+     51.183631,
+     4.39372
+    ],
+    [
+     51.183701,
+     4.39371
+    ],
+    [
+     51.183731,
+     4.39369
+    ],
+    [
+     51.183771,
+     4.39361
+    ],
+    [
+     51.183801,
+     4.39352
+    ],
+    [
+     51.183831,
+     4.39339
+    ],
+    [
+     51.183871,
+     4.393191
+    ],
+    [
+     51.183911,
+     4.392981
+    ],
+    [
+     51.183924,
+     4.392914
+    ],
+    [
+     51.183961,
+     4.392721
+    ],
+    [
+     51.184051,
+     4.392321
+    ],
+    [
+     51.184141,
+     4.39191
+    ],
+    [
+     51.184162,
+     4.391821
+    ],
+    [
+     51.184181,
+     4.391731
+    ],
+    [
+     51.184201,
+     4.391651
+    ],
+    [
+     51.184231,
+     4.391571
+    ],
+    [
+     51.184271,
+     4.391491
+    ],
+    [
+     51.184321,
+     4.391411
+    ],
+    [
+     51.184704,
+     4.390994
+    ],
+    [
+     51.184781,
+     4.390911
+    ],
+    [
+     51.184821,
+     4.390871
+    ],
+    [
+     51.184881,
+     4.390811
+    ],
+    [
+     51.184951,
+     4.390741
+    ],
+    [
+     51.185021,
+     4.390691
+    ],
+    [
+     51.185081,
+     4.390661
+    ],
+    [
+     51.185281,
+     4.390621
+    ],
+    [
+     51.185681,
+     4.390541
+    ],
+    [
+     51.186124,
+     4.390424
+    ],
+    [
+     51.186662,
+     4.390281
+    ],
+    [
+     51.187062,
+     4.390141
+    ],
+    [
+     51.187261,
+     4.390071
+    ],
+    [
+     51.187911,
+     4.389791
+    ],
+    [
+     51.188521,
+     4.389561
+    ],
+    [
+     51.188735,
+     4.389479
+    ],
+    [
+     51.189441,
+     4.389211
+    ],
+    [
+     51.190081,
+     4.388961
+    ],
+    [
+     51.190481,
+     4.388811
+    ],
+    [
+     51.191081,
+     4.388591
+    ],
+    [
+     51.191491,
+     4.388441
+    ],
+    [
+     51.191741,
+     4.388341
+    ],
+    [
+     51.191831,
+     4.388301
+    ],
+    [
+     51.191971,
+     4.388241
+    ],
+    [
+     51.192151,
+     4.388201
+    ],
+    [
+     51.192411,
+     4.388141
+    ],
+    [
+     51.192611,
+     4.388131
+    ],
+    [
+     51.192791,
+     4.388161
+    ],
+    [
+     51.192961,
+     4.388251
+    ],
+    [
+     51.193091,
+     4.388331
+    ],
+    [
+     51.193251,
+     4.38847
+    ],
+    [
+     51.193431,
+     4.38866
+    ],
+    [
+     51.193581,
+     4.388811
+    ],
+    [
+     51.193691,
+     4.388881
+    ],
+    [
+     51.193782,
+     4.388891
+    ],
+    [
+     51.193881,
+     4.388921
+    ],
+    [
+     51.194022,
+     4.388941
+    ],
+    [
+     51.194171,
+     4.388911
+    ],
+    [
+     51.194342,
+     4.388841
+    ],
+    [
+     51.194451,
+     4.388751
+    ],
+    [
+     51.194571,
+     4.388631
+    ],
+    [
+     51.194681,
+     4.388491
+    ],
+    [
+     51.194951,
+     4.38811
+    ],
+    [
+     51.195191,
+     4.38781
+    ],
+    [
+     51.195231,
+     4.387751
+    ],
+    [
+     51.195371,
+     4.387551
+    ],
+    [
+     51.195441,
+     4.387671
+    ],
+    [
+     51.195501,
+     4.38778
+    ],
+    [
+     51.195571,
+     4.3879
+    ],
+    [
+     51.195651,
+     4.388051
+    ],
+    [
+     51.195751,
+     4.388221
+    ],
+    [
+     51.195971,
+     4.388521
+    ],
+    [
+     51.196211,
+     4.38876
+    ],
+    [
+     51.196431,
+     4.389001
+    ],
+    [
+     51.196572,
+     4.389131
+    ],
+    [
+     51.196812,
+     4.389311
+    ],
+    [
+     51.196861,
+     4.38935
+    ],
+    [
+     51.197021,
+     4.38947
+    ],
+    [
+     51.197393,
+     4.389699
+    ],
+    [
+     51.197411,
+     4.389711
+    ],
+    [
+     51.197551,
+     4.389791
+    ],
+    [
+     51.197861,
+     4.389951
+    ],
+    [
+     51.197971,
+     4.39001
+    ],
+    [
+     51.198072,
+     4.39006
+    ],
+    [
+     51.198401,
+     4.390201
+    ],
+    [
+     51.198511,
+     4.390341
+    ],
+    [
+     51.198721,
+     4.390591
+    ],
+    [
+     51.198841,
+     4.39074
+    ],
+    [
+     51.198941,
+     4.39084
+    ],
+    [
+     51.199061,
+     4.390951
+    ],
+    [
+     51.199111,
+     4.390981
+    ],
+    [
+     51.199191,
+     4.391021
+    ],
+    [
+     51.199332,
+     4.391051
+    ],
+    [
+     51.199555,
+     4.391094
+    ],
+    [
+     51.199613,
+     4.391104
+    ],
+    [
+     51.19967,
+     4.391118
+    ],
+    [
+     51.199681,
+     4.391121
+    ],
+    [
+     51.199726,
+     4.391131
+    ],
+    [
+     51.199783,
+     4.391143
+    ],
+    [
+     51.200091,
+     4.39121
+    ],
+    [
+     51.200901,
+     4.391431
+    ],
+    [
+     51.201101,
+     4.391451
+    ],
+    [
+     51.201341,
+     4.391491
+    ],
+    [
+     51.201683,
+     4.391561
+    ],
+    [
+     51.201781,
+     4.391581
+    ],
+    [
+     51.202721,
+     4.391791
+    ],
+    [
+     51.203021,
+     4.391861
+    ],
+    [
+     51.203211,
+     4.391891
+    ],
+    [
+     51.203401,
+     4.391951
+    ],
+    [
+     51.203571,
+     4.39198
+    ],
+    [
+     51.203601,
+     4.39199
+    ],
+    [
+     51.203761,
+     4.39201
+    ],
+    [
+     51.203845,
+     4.392027
+    ],
+    [
+     51.204481,
+     4.392161
+    ],
+    [
+     51.205011,
+     4.392281
+    ],
+    [
+     51.205171,
+     4.392301
+    ],
+    [
+     51.205351,
+     4.39233
+    ],
+    [
+     51.205501,
+     4.39237
+    ],
+    [
+     51.205631,
+     4.3924
+    ],
+    [
+     51.205731,
+     4.39242
+    ],
+    [
+     51.205861,
+     4.392451
+    ],
+    [
+     51.206091,
+     4.392501
+    ],
+    [
+     51.206331,
+     4.392561
+    ],
+    [
+     51.2064,
+     4.392578
+    ],
+    [
+     51.206451,
+     4.392591
+    ],
+    [
+     51.206921,
+     4.39269
+    ],
+    [
+     51.207151,
+     4.39274
+    ],
+    [
+     51.208081,
+     4.392931
+    ],
+    [
+     51.208141,
+     4.392891
+    ],
+    [
+     51.208211,
+     4.392851
+    ],
+    [
+     51.208271,
+     4.392811
+    ],
+    [
+     51.208341,
+     4.392741
+    ],
+    [
+     51.208351,
+     4.392681
+    ],
+    [
+     51.208371,
+     4.392641
+    ],
+    [
+     51.208571,
+     4.392891
+    ],
+    [
+     51.209101,
+     4.393541
+    ],
+    [
+     51.209399,
+     4.393912
+    ],
+    [
+     51.209631,
+     4.394201
+    ],
+    [
+     51.209841,
+     4.39446
+    ],
+    [
+     51.210061,
+     4.394731
+    ],
+    [
+     51.210581,
+     4.395381
+    ],
+    [
+     51.210991,
+     4.395901
+    ],
+    [
+     51.211081,
+     4.396011
+    ],
+    [
+     51.211191,
+     4.396151
+    ],
+    [
+     51.211361,
+     4.39636
+    ],
+    [
+     51.211831,
+     4.39695
+    ],
+    [
+     51.211911,
+     4.39704
+    ],
+    [
+     51.211972,
+     4.3971
+    ],
+    [
+     51.212052,
+     4.397161
+    ],
+    [
+     51.212171,
+     4.397221
+    ],
+    [
+     51.212641,
+     4.39745
+    ],
+    [
+     51.212801,
+     4.39753
+    ],
+    [
+     51.212956,
+     4.397602
+    ],
+    [
+     51.213871,
+     4.39803
+    ],
+    [
+     51.214081,
+     4.398131
+    ],
+    [
+     51.214541,
+     4.398351
+    ],
+    [
+     51.215251,
+     4.398711
+    ],
+    [
+     51.215391,
+     4.398781
+    ],
+    [
+     51.215831,
+     4.399011
+    ],
+    [
+     51.216179,
+     4.399185
+    ],
+    [
+     51.216331,
+     4.399261
+    ],
+    [
+     51.216681,
+     4.39944
+    ],
+    [
+     51.216791,
+     4.399501
+    ],
+    [
+     51.216891,
+     4.399571
+    ],
+    [
+     51.216991,
+     4.399641
+    ],
+    [
+     51.217091,
+     4.399721
+    ],
+    [
+     51.217491,
+     4.400031
+    ],
+    [
+     51.217761,
+     4.400241
+    ],
+    [
+     51.217781,
+     4.40036
+    ],
+    [
+     51.217791,
+     4.40045
+    ],
+    [
+     51.217711,
+     4.401011
+    ],
+    [
+     51.217541,
+     4.402391
+    ],
+    [
+     51.217801,
+     4.402441
+    ],
+    [
+     51.217881,
+     4.402451
+    ],
+    [
+     51.218051,
+     4.402481
+    ],
+    [
+     51.218371,
+     4.40254
+    ],
+    [
+     51.218411,
+     4.402231
+    ],
+    [
+     51.218421,
+     4.402121
+    ],
+    [
+     51.218481,
+     4.402041
+    ],
+    [
+     51.218531,
+     4.401951
+    ],
+    [
+     51.218571,
+     4.40183
+    ],
+    [
+     51.218611,
+     4.40166
+    ],
+    [
+     51.218671,
+     4.401391
+    ],
+    [
+     51.218691,
+     4.401301
+    ],
+    [
+     51.218693,
+     4.401285
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+[
+ {
+  "slug": "barcelona",
+  "name": "Barcelona",
+  "country": "Spain",
+  "operator": "TMB",
+  "status": "live",
+  "file": "routes.barcelona.json",
+  "loops": 4,
+  "sights": 43
+ },
+ {
+  "slug": "budapest",
+  "name": "Budapest",
+  "country": "Hungary",
+  "operator": "BKK",
+  "status": "coming_soon",
+  "probe_reach_pct": 96.7,
+  "probe_viable": true
+ },
+ {
+  "slug": "copenhagen",
+  "name": "Copenhagen",
+  "country": "Denmark",
+  "operator": "Movia",
+  "status": "coming_soon",
+  "probe_reach_pct": 78.9,
+  "probe_viable": true
+ },
+ {
+  "slug": "dublin",
+  "name": "Dublin",
+  "country": "Ireland",
+  "operator": "Dublin Bus",
+  "status": "coming_soon",
+  "probe_reach_pct": 100.0,
+  "probe_viable": true
+ },
+ {
+  "slug": "krakow",
+  "name": "Kraków",
+  "country": "Poland",
+  "operator": "MPK Kraków",
+  "status": "coming_soon",
+  "probe_reach_pct": 74.5,
+  "probe_viable": true
+ },
+ {
+  "slug": "london",
+  "name": "London",
+  "country": "United Kingdom",
+  "operator": "TfL (contracted bus operators)",
+  "status": "coming_soon",
+  "probe_reach_pct": 95.1,
+  "probe_viable": true
+ },
+ {
+  "slug": "madrid",
+  "name": "Madrid",
+  "country": "Spain",
+  "operator": "EMT Madrid",
+  "status": "coming_soon",
+  "probe_reach_pct": 95.0,
+  "probe_viable": true
+ },
+ {
+  "slug": "munich",
+  "name": "Munich",
+  "country": "Germany",
+  "operator": "MVG",
+  "status": "coming_soon",
+  "probe_reach_pct": 84.3,
+  "probe_viable": true
+ },
+ {
+  "slug": "paris",
+  "name": "Paris",
+  "country": "France",
+  "operator": "RATP",
+  "status": "coming_soon",
+  "probe_reach_pct": 99.4,
+  "probe_viable": true
+ },
+ {
+  "slug": "porto",
+  "name": "Porto",
+  "country": "Portugal",
+  "operator": "STCP",
+  "status": "coming_soon",
+  "probe_reach_pct": 100.0,
+  "probe_viable": false
+ },
+ {
+  "slug": "prague",
+  "name": "Prague",
+  "country": "Czechia",
+  "operator": "PID",
+  "status": "coming_soon",
+  "probe_reach_pct": 64.5,
+  "probe_viable": false
+ },
+ {
+  "slug": "rome",
+  "name": "Rome",
+  "country": "Italy",
+  "operator": "ATAC",
+  "status": "coming_soon",
+  "probe_reach_pct": 98.2,
+  "probe_viable": true
+ },
+ {
+  "slug": "stockholm",
+  "name": "Stockholm",
+  "country": "Sweden",
+  "operator": "SL",
+  "status": "coming_soon",
+  "probe_reach_pct": 81.3,
+  "probe_viable": false
+ }
+]
