@@ -9,7 +9,7 @@ every:                             ## build every city end to end, then refresh 
 	$(MAKE) --no-print-directory manifest
 
 data/$(CITY)/gtfs.zip:
-	./scripts/fetch_gtfs.sh $(CITY)
+	bash scripts/fetch_gtfs.sh $(CITY)
 
 data/$(CITY)/pois.json:
 	python3 scripts/fetch_pois.py --city $(CITY)
