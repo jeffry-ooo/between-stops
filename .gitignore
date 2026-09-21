@@ -1,0 +1,10 @@
+data/**/*.zip
+data/**/osm_pois.raw.json
+__pycache__/
+*.pyc
+.DS_Store
+_site/
+.env
+.env.*
+data/**/pois.probe.json
+site/curator-data/
