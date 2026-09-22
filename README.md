@@ -13,9 +13,40 @@ files from `site/` with `python3 scripts/prepare_pages.py` and deploys `_site/`
 to GitHub Pages. The local curator and its large data bundles are not deployed.
 Hosting uses the free GitHub Pages address and standard Actions runner.
 
-This workflow does not download or refresh transit feeds. Refresh scheduling
-is a separate next step. To publish updated routes, rebuild them locally and
-commit the generated route JSON and city manifest.
+The same workflow refreshes Barcelona daily at **03:17 UTC**, on pushes to
+`main`, and on manual runs. It downloads the public MobilityData GTFS mirror,
+checks ZIP integrity, required tables, validity through the next seven days,
+bus-only route/trip/stop references, geometry and sight coverage, then rebuilds
+and commits the compact JSON before deploying. No API key or paid service is needed.
+
+The existing bus lines, sights, descriptions and fares are preserved. Trip
+selection and frequency averages use service in the next seven days. These
+remain approximate timetable summaries, not real-time arrivals or guarantees
+that the illustrated trip runs at the visitor's chosen time.
+
+A failed download, validation, test or build stops deployment; the last successful
+Pages release stays live. A concurrent source change makes the snapshot push
+fail rather than overwrite newer work. See Actions for the failure and enable
+GitHub Actions failure emails in your personal notification settings. The city
+page shows the last successful check and warns after three days or feed expiry.
+
+GitHub schedules are best effort and public-repository schedules can be disabled
+after 60 days without activity. Check Actions if freshness becomes overdue;
+manual Run workflow is always available. No raw feed or growing daily artifact
+archive is committed; Pages artifacts expire after one day.
+
+Local verification:
+
+```sh
+python3 -m unittest discover -s tests -v
+python3 scripts/refresh_data.py                 # download, validate, rebuild
+python3 scripts/refresh_data.py --feed /path/to/gtfs.zip  # offline rebuild
+python3 scripts/prepare_pages.py
+```
+
+OSM candidate refresh and editorial changes remain manual (`make pois`), pending
+a review flow that can show additions/removals without replacing curated sights.
+Only Barcelona is refreshed automatically in this first version.
 
 In repository Settings → Pages, the source must be **GitHub Actions**.
 To retry a deployment, use Actions → Deploy GitHub Pages → Run workflow.
