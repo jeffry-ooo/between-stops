@@ -3,6 +3,8 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "17 3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,9 +17,9 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
     environment:
@@ -25,9 +27,22 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+      - name: Test refresh safeguards
+        run: python3 -m unittest discover -s tests -v
+      - name: Refresh and validate Barcelona
+        run: python3 scripts/refresh_data.py
       - uses: actions/configure-pages@v5
       - name: Prepare public site
         run: python3 scripts/prepare_pages.py
+      - name: Save validated timetable snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/routes.barcelona.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh Barcelona bus timetable"
+            git push origin HEAD:main
+          fi
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
