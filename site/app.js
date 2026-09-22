@@ -355,7 +355,17 @@ async function loadCity(slug) {
 
   const g = DATA.generated_from;
   const fmt = (d) => (d && d.length === 8 ? `${d.slice(6, 8)}/${d.slice(4, 6)}/${d.slice(0, 4)}` : d);
+  const refreshed = g.refreshed_at ? new Date(g.refreshed_at) : null;
+  const ageDays = refreshed ? (Date.now() - refreshed.getTime()) / 86400000 : Infinity;
+  const today = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Madrid' }).format(new Date()).replaceAll('-', '');
+  const expired = g.gtfs_valid_to && g.gtfs_valid_to < today;
+  const freshness = refreshed && Number.isFinite(refreshed.getTime())
+    ? `Timetable checked ${esc(refreshed.toLocaleDateString())}. `
+    : 'Timetable refresh date unavailable. ';
+  const warning = expired ? 'Timetable expired. Check the operator before travelling. '
+    : ageDays > 3 ? 'Timetable refresh is overdue. Check the operator before travelling. ' : '';
   $('foot').innerHTML =
+    `<strong>${esc(warning)}</strong>${freshness}Scheduled service, not live arrivals. ` +
     `Routes and stops from the <strong>${esc(g.gtfs_publisher)}</strong> GTFS feed` +
     (g.gtfs_valid_from ? ` (valid ${fmt(g.gtfs_valid_from)}&ndash;${fmt(g.gtfs_valid_to)})` : '') +
     `. Sights from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, ODbL. ` +

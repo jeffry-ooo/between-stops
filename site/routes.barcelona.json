@@ -13,7 +13,12 @@
   "gtfs_version": "084410042026002",
   "gtfs_valid_from": "20260410",
   "gtfs_valid_to": "20261205",
-  "pois": "OpenStreetMap via Overpass API (ODbL)"
+  "pois": "OpenStreetMap via Overpass API (ODbL)",
+  "refreshed_at": "2026-09-22T09:36:02+00:00",
+  "gtfs_source": "https://storage.googleapis.com/mdb-latest/es-barcelona-transports-metropolitans-de-barcelona-tmb-gtfs-2359.zip",
+  "gtfs_sha256": "9ee7bae4e3ad8ba3d70b804f44894d386082192f074c6dc277b05c4bd1929dcb",
+  "service_window_start": "2026-09-22",
+  "service_window_end": "2026-09-28"
  },
  "bbox": {
   "south": 41.35,
@@ -23,12 +28,12 @@
  },
  "walk_radius_m": 300,
  "service_hours": 18,
- "min_trips_per_day": 120,
+ "min_trips_per_day": 70,
  "scoring": "score = sum of POI weights (must-see sights count 2.5x) + 1.5 x distinct 700 m district cells those POIs fall in, so both geographic spread and headline sights can outrank raw count",
  "stats": {
   "bus_routes": 105,
   "bbox_stops": 2185,
-  "bbox_bus_stops": 1638,
+  "bbox_bus_stops": 1636,
   "pois_total": 45,
   "pois_bus_reachable": 43
  },
@@ -733,7 +738,7 @@
    "variants": [
     "59"
    ],
-   "trips_per_day": 137.6,
+   "trips_per_day": 132.6,
    "frequent_enough": true,
    "score": 36.5,
    "poi_count": 17,
@@ -766,7 +771,7 @@
    "variants": [
     "120"
    ],
-   "trips_per_day": 38.7,
+   "trips_per_day": 37.7,
    "frequent_enough": false,
    "score": 33.0,
    "poi_count": 15,
@@ -797,7 +802,7 @@
    "variants": [
     "47"
    ],
-   "trips_per_day": 172.5,
+   "trips_per_day": 163.3,
    "frequent_enough": true,
    "score": 30.0,
    "poi_count": 12,
@@ -825,7 +830,7 @@
    "variants": [
     "V17"
    ],
-   "trips_per_day": 138.7,
+   "trips_per_day": 129.6,
    "frequent_enough": true,
    "score": 27.5,
    "poi_count": 11,
@@ -852,7 +857,7 @@
    "variants": [
     "V15"
    ],
-   "trips_per_day": 159.8,
+   "trips_per_day": 150.6,
    "frequent_enough": true,
    "score": 27.5,
    "poi_count": 11,
@@ -879,7 +884,7 @@
    "variants": [
     "H16"
    ],
-   "trips_per_day": 208.5,
+   "trips_per_day": 199.4,
    "frequent_enough": true,
    "score": 26.0,
    "poi_count": 11,
@@ -906,7 +911,7 @@
    "variants": [
     "D50"
    ],
-   "trips_per_day": 186.1,
+   "trips_per_day": 175.4,
    "frequent_enough": true,
    "score": 20.0,
    "poi_count": 8,
@@ -930,7 +935,7 @@
    "variants": [
     "55"
    ],
-   "trips_per_day": 129.9,
+   "trips_per_day": 119.7,
    "frequent_enough": true,
    "score": 19.5,
    "poi_count": 9,
@@ -955,7 +960,7 @@
    "variants": [
     "150"
    ],
-   "trips_per_day": 120.6,
+   "trips_per_day": 122.3,
    "frequent_enough": true,
    "score": 19.5,
    "poi_count": 9,
@@ -980,7 +985,7 @@
    "variants": [
     "19"
    ],
-   "trips_per_day": 126.0,
+   "trips_per_day": 117.3,
    "frequent_enough": true,
    "score": 15.5,
    "poi_count": 5,
@@ -1001,7 +1006,7 @@
    "variants": [
     "13"
    ],
-   "trips_per_day": 65.9,
+   "trips_per_day": 61.1,
    "frequent_enough": false,
    "score": 15.5,
    "poi_count": 8,
@@ -1025,7 +1030,7 @@
    "variants": [
     "D20"
    ],
-   "trips_per_day": 241.9,
+   "trips_per_day": 229.0,
    "frequent_enough": true,
    "score": 15.0,
    "poi_count": 6,
@@ -1047,7 +1052,7 @@
    "variants": [
     "22"
    ],
-   "trips_per_day": 245.1,
+   "trips_per_day": 231.0,
    "frequent_enough": true,
    "score": 15.0,
    "poi_count": 6,
@@ -1069,7 +1074,7 @@
    "variants": [
     "24"
    ],
-   "trips_per_day": 267.1,
+   "trips_per_day": 256.9,
    "frequent_enough": true,
    "score": 15.0,
    "poi_count": 6,
@@ -1091,7 +1096,7 @@
    "variants": [
     "H14"
    ],
-   "trips_per_day": 158.9,
+   "trips_per_day": 149.4,
    "frequent_enough": true,
    "score": 14.5,
    "poi_count": 7,
@@ -1116,9 +1121,10 @@
    "variants": [
     "59"
    ],
-   "trips_per_day": 137.6,
+   "trips_per_day": 132.6,
    "route_id": "2.59.2860",
    "shape_id": "2.59.84.1.1",
+   "trip_id": "2.59.84.3228347.2860",
    "headsign": "Pl. Reina Maria Cristina",
    "long_name": "Poblenou / Pl. Reina Maria Cristina",
    "color": "#DA291C",
@@ -2873,9 +2879,10 @@
    "variants": [
     "150"
    ],
-   "trips_per_day": 120.6,
+   "trips_per_day": 122.3,
    "route_id": "2.150.2993",
    "shape_id": "2.150.66.1.1",
+   "trip_id": "2.150.66.3177319.2993",
    "headsign": "Castell de Montjuïc",
    "long_name": "Pl. Espanya / Castell de Montjuïc",
    "color": "#DA291C",
@@ -4685,15 +4692,16 @@
    "variants": [
     "V17"
    ],
-   "trips_per_day": 138.7,
+   "trips_per_day": 129.6,
    "route_id": "2.217.3080",
    "shape_id": "2.217.113.1.2",
+   "trip_id": "2.217.113.3191539.3080",
    "headsign": "Port Vell",
    "long_name": "Port Vell / Vall d'Hebron",
    "color": "#6AB023",
    "url": "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/V17",
    "score": 27.5,
-   "marginal_score": 18.5,
+   "marginal_score": 27.5,
    "new_pois": [
     "Arc de Triomf",
     "Casa Amatller",
@@ -6962,15 +6970,16 @@
    "variants": [
     "D50"
    ],
-   "trips_per_day": 186.1,
+   "trips_per_day": 175.4,
    "route_id": "2.250.3051",
    "shape_id": "2.250.133.1.2",
+   "trip_id": "2.250.133.3185084.3051",
    "headsign": "Paral·lel",
    "long_name": "Paral·lel / Ciutat Meridiana",
    "color": "#93107E",
    "url": "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/D50",
    "score": 20.0,
-   "marginal_score": 9.0,
+   "marginal_score": 20.0,
    "new_pois": [
     "MACBA",
     "Mercat de Sant Antoni",
