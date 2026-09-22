@@ -78,7 +78,7 @@ def log(msg):
     print(msg, file=sys.stderr, flush=True)
 
 
-def service_calendar(zf):
+def service_calendar(zf, start_date=None):
     """Active dates per service_id, honouring calendar.txt, calendar_dates.txt or both.
 
     De Lijn ships only calendar_dates; TMB ships a four-row calendar plus 26k
@@ -112,9 +112,13 @@ def service_calendar(zf):
             else:
                 days[sid].discard(day)
 
+    if start_date:
+        end_date = start_date + dt.timedelta(days=6)
+        days = {sid: {d for d in dates if start_date <= d <= end_date}
+                for sid, dates in days.items()}
     counts = {sid: len(d) for sid, d in days.items()}
     all_days = set().union(*days.values()) if days else set()
-    return counts, max(len(all_days), 1)
+    return counts, 7 if start_date else max(len(all_days), 1)
 
 
 def trip_multiplier(zf):
@@ -145,6 +149,9 @@ def main():
                      help="write a compact reachability summary to "
                           "data/<city>/probe_result.json instead of the full "
                           "site output, and skip updating site/cities.json")
+    ap.add_argument("--lines", help="Comma-separated editorial bus lines to preserve")
+    ap.add_argument("--service-date", type=dt.date.fromisoformat,
+                    help="Use service in the seven days starting on this ISO date")
     args = ap.parse_args()
     city = cities.load(args.city)
     slug = city["slug"]
@@ -274,11 +281,15 @@ def main():
         }
     log(f"trips.txt: {n_all} trips, {len(trip_meta)} are bus trips touching the bbox")
 
+    service_days, n_days = service_calendar(zf, args.service_date)
+    if args.service_date:
+        trip_meta = {tid: meta for tid, meta in trip_meta.items()
+                     if service_days.get(meta["service_id"], 0)}
+
     for tid in list(trip_stops):
         if tid not in trip_meta:
             del trip_stops[tid]
 
-    service_days, n_days = service_calendar(zf)
     freq_mult = trip_multiplier(zf)
     log(f"calendar: {len(service_days)} services over {n_days} dates"
         + (f"; {len(freq_mult)} frequency-defined trips" if freq_mult else ""))
@@ -400,6 +411,16 @@ def main():
                            new_pois=[n for n in best["pois"] if n not in covered]))
         covered.update(best["pois"])
         eligible = [e for e in eligible if e["line"] != best["line"]]
+    if args.lines:
+        by_line = {s["line"]: s for s in scored}
+        chosen, covered = [], set()
+        for line in args.lines.split(","):
+            if line not in by_line or by_line[line]["trips_per_day"] <= 0:
+                raise ValueError(f"Selected bus line {line} has no active service/sights")
+            s = by_line[line]
+            chosen.append(dict(s, marginal_score=s["score"],
+                               new_pois=[n for n in s["pois"] if n not in covered]))
+            covered.update(s["pois"])
     log(f"picked {[c['line'] for c in chosen]} covering {len(covered)} distinct sights")
 
     want_shapes = set()
@@ -453,7 +474,7 @@ def main():
         want_shapes.add(meta["shape_id"])
         itineraries.append({
             "line": line, "variants": s["variants"], "trips_per_day": s["trips_per_day"],
-            "route_id": meta["route_id"], "shape_id": meta["shape_id"],
+            "route_id": meta["route_id"], "shape_id": meta["shape_id"], "trip_id": best_tid,
             "headsign": meta["headsign"] or rm["long_name"], "long_name": rm["long_name"],
             "color": "#" + rm["color"], "url": rm["url"],
             "score": s["score"], "marginal_score": s["marginal_score"],
