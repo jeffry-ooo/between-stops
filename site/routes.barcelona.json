@@ -14,11 +14,11 @@
   "gtfs_valid_from": "20260410",
   "gtfs_valid_to": "20261205",
   "pois": "OpenStreetMap via Overpass API (ODbL)",
-  "refreshed_at": "2026-09-25T08:52:11+00:00",
+  "refreshed_at": "2026-09-26T08:38:36+00:00",
   "gtfs_source": "https://storage.googleapis.com/mdb-latest/es-barcelona-transports-metropolitans-de-barcelona-tmb-gtfs-2359.zip",
   "gtfs_sha256": "9ee7bae4e3ad8ba3d70b804f44894d386082192f074c6dc277b05c4bd1929dcb",
-  "service_window_start": "2026-09-25",
-  "service_window_end": "2026-10-01"
+  "service_window_start": "2026-09-26",
+  "service_window_end": "2026-10-02"
  },
  "bbox": {
   "south": 41.35,
